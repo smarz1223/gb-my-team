@@ -1,0 +1,412 @@
+"""
+gb-my-team: build.py
+
+Reads data/data.json (written by fetch_data.py) and writes index.html.
+All page logic lives here. Never edit index.html by hand: change this file
+and rebuild. See SPEC.md sections 10 and 11.
+"""
+
+import json
+import os
+import html
+
+DATA_PATH = os.path.join("data", "data.json")
+OUT_PATH = "index.html"
+
+PAGE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light">
+<title>__TITLE__</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏀</text></svg>">
+<style>
+:root{
+  --maple:#efd9b4; --maple2:#e4c492; --wood-text:#4a2c0c; --line:#ffffff;
+  --paint:#3d6fb6; --paint-dk:#24508f; --orange:#d9651e;
+  --page:#fbf8f2; --card:#ffffff; --grid:#e3ddd2; --head:#f6f1e7;
+  --text:#2b2620; --muted:#7a7166; --mine:#e8f0fb; --warn:#c0392b;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--page);color:var(--text);
+  font:13px/1.4 "Segoe UI",Calibri,Arial,sans-serif}
+.bar{background:var(--maple);border-bottom:3px solid var(--orange);
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:10px 16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--wood-text)}
+.brand h1{margin:0;font-size:20px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.brand .sub{font-size:12px;color:#7a5326}
+.pages{display:flex;gap:6px}
+.pages button{border:1.5px solid var(--wood-text);background:transparent;color:var(--wood-text);
+  border-radius:6px;padding:5px 14px;font:600 13px "Segoe UI",sans-serif;cursor:pointer}
+.pages button.on{background:var(--wood-text);color:var(--maple)}
+.court{display:block;width:100%;height:30px}
+.warnbar{background:#fdecea;border-left:5px solid var(--warn);color:#7d1f15;
+  margin:10px 16px 0;padding:8px 12px;border-radius:0}
+.warnbar b{display:block;margin-bottom:2px}
+.warnbar ul{margin:0;padding-left:18px}
+.wrap{padding:10px 16px 24px}
+.panel{background:var(--card);border:1px solid var(--grid);border-radius:8px;
+  padding:8px 10px;margin-bottom:10px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.cg{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.cg .lab{color:var(--muted);font-size:12px;margin-right:2px}
+.chip{border:1px solid #cfc6b6;background:#fff;color:var(--text);border-radius:5px;
+  padding:2px 9px;font:12px "Segoe UI",sans-serif;cursor:pointer}
+.chip.on{background:var(--paint);border-color:var(--paint-dk);color:#fff}
+.chip.clear{border-style:dashed;color:var(--muted)}
+details.lines{background:var(--card);border:1px solid var(--grid);border-radius:8px;
+  margin-bottom:10px;padding:6px 10px}
+details.lines summary{cursor:pointer;font-weight:600;color:var(--wood-text)}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--grid);border-radius:8px}
+table{border-collapse:separate;border-spacing:0;width:100%;white-space:nowrap}
+th,td{border-right:1px solid var(--grid);border-bottom:1px solid var(--grid);
+  padding:4px 7px;text-align:right}
+th{background:var(--head);font-weight:600;position:sticky;top:0;z-index:2;cursor:pointer;user-select:none}
+th.gh{cursor:default;text-align:center;color:var(--wood-text);border-bottom:2px solid var(--maple2)}
+th .ar{color:var(--muted);font-size:10px}
+td.l,th.l{text-align:left}
+td.sticky,th.sticky{position:sticky;left:0;background:var(--card);z-index:1}
+th.sticky{z-index:3;background:var(--head)}
+tr.mine td{background:var(--mine)}
+tr.mine td.sticky{background:var(--mine)}
+td.dim{color:#b3aba0}
+.tag{display:inline-block;font-size:10.5px;font-weight:700;border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:1px}
+.tag.inj{background:#fbe1dd;color:#9b2a1c}
+.tag.gtd{background:#fdf0d5;color:#8a5a00}
+.tag.cut{background:#ece8e1;color:#6b6358}
+.tag.mine{background:var(--paint);color:#fff}
+.tag.wv{background:#ece8e1;color:#6b6358}
+.why{color:var(--muted);font-size:11px;margin-left:6px}
+.star{color:var(--orange)}
+.note{color:var(--muted)}
+.note.bad{color:var(--warn);font-weight:600}
+.up{color:#2f7d47}.dn{color:var(--warn)}
+.foot{color:var(--muted);font-size:12px;margin-top:10px}
+.lt td,.lt th{padding:3px 8px}
+.lt{width:auto}
+@media (max-width:640px){.brand h1{font-size:16px}.wrap{padding:8px}}
+</style>
+</head>
+<body>
+<div class="bar">
+  <div class="brand">
+    <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#d9651e" stroke="#4a2c0c" stroke-width="1.6"/><path d="M2 16h28M16 2v28M6 6c5 5 5 15 0 20M26 6c-5 5-5 15 0 20" fill="none" stroke="#4a2c0c" stroke-width="1.4"/></svg>
+    <div><h1 id="mast"></h1><div class="sub" id="sub"></div></div>
+  </div>
+  <div class="pages"><button id="pg-team" class="on">My Team</button><button id="pg-wire">Waiver Wire</button></div>
+</div>
+<svg class="court" viewBox="0 0 1000 30" preserveAspectRatio="none" aria-hidden="true">
+  <rect width="1000" height="30" fill="#e4c492"/>
+  <rect x="0" y="5" width="110" height="20" fill="#3d6fb6"/><rect x="890" y="5" width="110" height="20" fill="#3d6fb6"/>
+  <path d="M110 0 A120 60 0 0 1 110 30" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <path d="M890 0 A120 60 0 0 0 890 30" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <line x1="500" y1="0" x2="500" y2="30" stroke="#fff" stroke-width="2.5"/>
+  <circle cx="500" cy="15" r="13" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <path d="M0 2.5H1000M0 27.5H1000" stroke="#fff" stroke-width="2"/>
+</svg>
+<div id="warn"></div>
+<div class="wrap">
+  <div id="controls"></div>
+  <div id="linesbox"></div>
+  <div class="tw"><table id="tbl"></table></div>
+  <div class="foot" id="foot"></div>
+</div>
+<script>
+const D = __DATA__;
+const STATS = ["PTS","REB","AST","ST","BLK","TO"];
+const LENSES = ["forme","season","l30","l14"];
+const LLAB = {forme:"For me", season:"Season", l30:"L30", l14:"L14"};
+const POSORD = {G:0, F:1, C:2};
+const S = {
+  page:"team",
+  team:{view:"rep", mode:"pos", win:"season", as:"raw",
+        pos:new Set(["G","F","C"]), status:new Set(["Active","Injured"]), flags:new Set(),
+        sort:null, dir:-1},
+  wire:{pos:"ALL", win:"l30", show:"pg", as:"raw", mine:true, disq:false, sort:"ppg", dir:-1}
+};
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const f1 = v => v == null ? "" : (Math.round(v*10)/10).toFixed(1);
+const f0 = v => v == null ? "" : String(Math.round(v));
+const sg1 = v => v == null ? "" : (v > 0 ? "+" : "") + f1(v);
+const sg0 = v => v == null ? "" : (v > 0 ? "+" : "") + f0(v);
+const pct = v => v == null ? "" : f0(v) + "%";
+
+/* ---------- color scales ---------- */
+const RED=[248,105,107], WHITE=[255,255,255], GREEN=[99,190,123];
+const mix=(a,b,t)=>a.map((x,i)=>Math.round(x+(b[i]-x)*t));
+const rgb=c=>`rgb(${c[0]},${c[1]},${c[2]})`;
+function seqColor(v, vals, rev){
+  if (v==null || vals.length<2) return "";
+  const s=[...vals].sort((a,b)=>a-b), lo=s[0], hi=s[s.length-1];
+  const mid=s.length%2 ? s[(s.length-1)/2] : (s[s.length/2-1]+s[s.length/2])/2;
+  if (hi===lo) return "";
+  let c;
+  if (v<=mid) c = mix(RED, WHITE, mid===lo ? 1 : (v-lo)/(mid-lo));
+  else c = mix(WHITE, GREEN, hi===mid ? 0 : (v-mid)/(hi-mid));
+  if (rev) c = v<=mid ? mix(GREEN, WHITE, mid===lo?1:(v-lo)/(mid-lo)) : mix(WHITE, RED, hi===mid?0:(v-mid)/(hi-mid));
+  return rgb(c);
+}
+function divColor(v, vals){
+  if (v==null) return "";
+  const m=Math.max(...vals.map(Math.abs), 0);
+  if (!m) return "";
+  return rgb(v<0 ? mix(WHITE, RED, -v/m) : mix(WHITE, GREEN, v/m));
+}
+
+/* ---------- generic table ---------- */
+function drawTable(cols, rows, st, defaultSort){
+  // sort
+  const col = cols.find(c=>c.k===st.sort);
+  rows = rows.slice();
+  if (col){
+    rows.sort((a,b)=>{
+      const x=col.sv?col.sv(a):col.v(a), y=col.sv?col.sv(b):col.v(b);
+      if (x==null && y==null) return 0; if (x==null) return 1; if (y==null) return -1;
+      return (typeof x==="string" ? x.localeCompare(y) : x-y) * st.dir;
+    });
+  } else if (defaultSort) rows.sort(defaultSort);
+  // scales
+  const scaleVals = {};
+  cols.forEach(c=>{ if (c.scale) scaleVals[c.k] = rows.filter(r=>!(c.skip&&c.skip(r))).map(c.v).filter(v=>v!=null); });
+  // header (with optional group row)
+  let h = "";
+  if (cols.some(c=>c.g)){
+    h += "<tr>"; let i=0;
+    while (i<cols.length){
+      const g=cols[i].g||""; let n=1;
+      while (i+n<cols.length && (cols[i+n].g||"")===g) n++;
+      h += `<th class="gh${i===0?" sticky":""}" colspan="${n}">${esc(g)}</th>`; i+=n;
+    }
+    h += "</tr>";
+  }
+  h += "<tr>"+cols.map(c=>{
+    const ar = st.sort===c.k ? `<span class="ar">${st.dir<0?" ▼":" ▲"}</span>` : "";
+    return `<th data-k="${c.k}" class="${c.l?"l ":""}${c.sticky?"sticky":""}" title="${esc(c.tip||"")}">${esc(c.h)}${ar}</th>`;
+  }).join("")+"</tr>";
+  let b = rows.map(r=>{
+    const tds = cols.map(c=>{
+      const v=c.v(r); let bg="";
+      if (c.scale && !(c.skip&&c.skip(r))){
+        bg = c.scale==="div" ? divColor(v, scaleVals[c.k]) : seqColor(v, scaleVals[c.k], c.rev && c.rev());
+      }
+      const cls=[c.l?"l":"", c.sticky?"sticky":"", c.dim&&c.dim(r)?"dim":""].join(" ").trim();
+      const style = bg && !(c.dim&&c.dim(r)) ? ` style="background:${bg}"` : "";
+      return `<td class="${cls}"${style}>${c.f?c.f(v,r):esc(v??"")}</td>`;
+    }).join("");
+    return `<tr class="${r._mine?"mine":""}">${tds}</tr>`;
+  }).join("");
+  if (!rows.length) b = `<tr><td class="l" colspan="${cols.length}">No rows match these filters.</td></tr>`;
+  $("tbl").innerHTML = `<thead>${h}</thead><tbody>${b}</tbody>`;
+  $("tbl").querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k;
+    if (st.sort===k) st.dir=-st.dir; else { st.sort=k; st.dir = cols.find(c=>c.k===k).l ? 1 : -1; }
+    render();
+  });
+}
+
+/* ---------- shared bits ---------- */
+function tagHtml(t){
+  if (!t) return "";
+  const cls = (t==="O"||t==="INJ"||t==="SUSP") ? "inj" : "gtd";
+  return `<span class="tag ${cls}">${esc(t)}</span>`;
+}
+function statVal(st, s, gp, perGame, asPts){
+  if (!st || !gp) return null;
+  let v = st[s] * (asPts ? D.meta.weights[s] : 1);
+  return perGame ? v/gp : v;
+}
+function chips(label, opts, isOn, onClick){
+  const html = opts.map(([val,lab])=>`<button class="chip${isOn(val)?" on":""}" data-v="${esc(val)}">${esc(lab)}</button>`).join("");
+  return {label, html, onClick};
+}
+function drawControls(groups, extra){
+  const box=$("controls");
+  box.innerHTML = `<div class="panel">${groups.map((g,i)=>`<div class="cg" data-i="${i}"><span class="lab">${esc(g.label)}</span>${g.html}</div>`).join("")}${extra||""}</div>`;
+  box.querySelectorAll(".cg").forEach(el=>{
+    const g=groups[+el.dataset.i];
+    el.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{ g.onClick(b.dataset.v); render(); });
+  });
+}
+
+/* ---------- My Team ---------- */
+function teamRows(){
+  const T=S.team, src = T.mode==="pos" ? D.rows.pos : D.rows.all;
+  return src.filter(r=>{
+    const p=D.players[r.p];
+    const posOk = T.mode==="pos" ? T.pos.has(r.pos) : p.pos.some(x=>T.pos.has(x));
+    if (!posOk || !T.status.has(p.status)) return false;
+    for (const f of T.flags) if (!r.flags.includes(f)) return false;
+    return true;
+  });
+}
+function playerCell(r){
+  const p=D.players[r.p];
+  let t = esc(p.name) + tagHtml(p.tag);
+  if (p.status==="Cut") t += `<span class="tag cut">Cut</span>`;
+  return t;
+}
+function notesCell(r){
+  return r.notes.map(n=>`<span class="note${(n==="Replace?"||n==="Poor performer")?" bad":""}">${esc(n)}</span>`).join(", ");
+}
+function trendCell(v, thr){
+  if (v==null) return "";
+  const a = v>thr ? `<span class="up">▲</span> ` : v<-thr ? `<span class="dn">▼</span> ` : "";
+  return a + sg0(v*100) + "%";
+}
+function drawTeam(){
+  const T=S.team;
+  const groups=[
+    chips("View",[["rep","vs Replacement"],["stat","Stat line"]],v=>T.view===v,v=>{T.view=v;T.sort=null;}),
+    chips("Compare to",[["pos","Position"],["all","All players"]],v=>T.mode===v,v=>T.mode=v),
+  ];
+  if (T.view==="stat"){
+    groups.push(chips("Window",LENSES.map(l=>[l,LLAB[l]]),v=>T.win===v,v=>T.win=v));
+    groups.push(chips("Stats as",[["raw","Raw"],["pts","Fantasy pts"]],v=>T.as===v,v=>T.as=v));
+  }
+  groups.push(chips("Position",[["G","G"],["F","F"],["C","C"]],v=>T.pos.has(v),v=>{T.pos.has(v)?T.pos.delete(v):T.pos.add(v);}));
+  groups.push(chips("Status",[["Active","Active"],["Injured","Injured"],["Cut","Cut"]],v=>T.status.has(v),v=>{T.status.has(v)?T.status.delete(v):T.status.add(v);}));
+  groups.push(chips("Flags",[["Poor performer","Poor performer"],["Replace?","Replace?"]],v=>T.flags.has(v),v=>{T.flags.has(v)?T.flags.delete(v):T.flags.add(v);}));
+  groups.push(chips("",[["x","Clear slicers"]],()=>false,()=>{T.pos=new Set(["G","F","C"]);T.status=new Set(["Active","Injured"]);T.flags=new Set();}));
+  drawControls(groups);
+  $("controls").querySelectorAll('.chip[data-v="x"]').forEach(b=>b.classList.add("clear"));
+  drawLines();
+
+  const base=[
+    {k:"name",h:"Player",l:1,sticky:1,v:r=>D.players[r.p].name,f:(v,r)=>playerCell(r)},
+    {k:"pos",h:"Pos",l:1,v:r=>r.pos,sv:r=>POSORD[r.pos.split(",")[0]]},
+    {k:"notes",h:"Notes",l:1,v:r=>r.notes.join(", "),f:(v,r)=>notesCell(r)},
+  ];
+  const defSort=(a,b)=>{
+    const pa=POSORD[a.pos.split(",")[0]], pb=POSORD[b.pos.split(",")[0]];
+    if (pa!==pb) return pa-pb;
+    const x=a.c.season?a.c.season.ppg:-1e9, y=b.c.season?b.c.season.ppg:-1e9;
+    return y-x;
+  };
+  let cols;
+  if (T.view==="rep"){
+    cols=[...base];
+    LENSES.forEach(l=>{
+      const g=LLAB[l], dim = l==="forme" ? (r=>r.small) : null;
+      const get = (r,f)=>r.c[l]?r.c[l][f]:null;
+      cols.push({k:l+"gp",g,h:"GP",v:r=>get(r,"gp"),f:f0,dim});
+      cols.push({k:l+"ppg",g,h:"PPG",v:r=>get(r,"ppg"),f:f1,scale:"seq",dim});
+      cols.push({k:l+"fp",g,h:"Total FP",v:r=>get(r,"fp"),f:f1,dim});
+      cols.push({k:l+"gap",g,h:"+/- PPG",v:r=>get(r,"gap"),f:sg1,scale:"div",dim,tip:"PPG minus the replacement line"});
+      cols.push({k:l+"pts",g,h:"+/- Pts",v:r=>get(r,"pts"),f:sg0,scale:"div",dim,tip:"+/- PPG x GP"});
+    });
+    const mp=r=>{const w=D.players[r.p].w.season; return w?w.mpg:null;};
+    cols.push({k:"pt",g:"Trend",h:"PPG L30 vs Szn",v:r=>r.pt,f:v=>trendCell(v,D.meta.ppg_trend_pct)});
+    cols.push({k:"mpg",g:"Trend",h:"MPG Szn",v:mp,f:f1,scale:"seq"});
+    cols.push({k:"mt",g:"Trend",h:"MPG L14 vs Szn",v:r=>r.mt,f:v=>trendCell(v,D.meta.mpg_trend_pct)});
+  } else {
+    const w=T.win, asPts=T.as==="pts";
+    const d=r=>D.players[r.p].w[w];
+    cols=[...base,
+      {k:"gp",h:"GP",v:r=>d(r)?d(r).gp:null,f:f0},
+      {k:"mpg",h:"MPG",v:r=>d(r)?d(r).mpg:null,f:f1,scale:"seq"},
+      {k:"ppg",h:"PPG",v:r=>d(r)?d(r).fp/d(r).gp:null,f:f1,scale:"seq"},
+      {k:"fp",h:"Total FP",v:r=>d(r)?d(r).fp:null,f:f1},
+      ...STATS.map(s=>({k:s,h:s+"/G",v:r=>d(r)?statVal(d(r).st,s,d(r).gp,true,asPts):null,f:f1,scale:"seq",rev:()=>s==="TO"&&!asPts})),
+    ];
+  }
+  drawTable(cols, teamRows(), T, defSort);
+}
+function drawLines(){
+  const L=D.lines, labs={G:"G",F:"F",C:"C",ALL:"All"};
+  let h=`<details class="lines"><summary>Replacement lines (top ${D.meta.pool_size} free agents by PPG, GP-weighted)</summary><table class="lt"><tr><th class="l">Window</th><th>Min GP</th>`+
+    Object.values(labs).map(x=>`<th>${x}</th>`).join("")+"</tr>";
+  ["season","l30","l14"].forEach(w=>{
+    const any=L[w].ALL;
+    h+=`<tr><td class="l">${LLAB[w]}</td><td>${any.min_gp} <span class="note">(max ${any.max_gp})</span></td>`+
+      Object.keys(labs).map(k=>{const x=L[w][k]; const short=x.n<D.meta.pool_size?` <span class="note">(${x.n})</span>`:"";
+        return `<td title="${esc(x.members.join(", "))}">${f1(x.ppg)}${short}</td>`;}).join("")+"</tr>";
+  });
+  h+=`</table><div class="note" style="margin-top:4px">Hover a number to see the players in that line. Min GP = ${Math.round(D.meta.min_gp_pct*100)}% of the most games played by any free agent in that window, rounded up.</div></details>`;
+  $("linesbox").innerHTML=h;
+}
+
+/* ---------- Waiver Wire ---------- */
+function drawWire(){
+  const Wv=S.wire, w=Wv.win, L=Wv.pos;
+  drawControls([
+    chips("Position",[["G","G"],["F","F"],["C","C"],["ALL","All"]],v=>Wv.pos===v,v=>Wv.pos=v),
+    chips("Window",[["season","Season"],["l30","L30"],["l14","L14"]],v=>Wv.win===v,v=>Wv.win=v),
+    chips("Show",[["pg","Per game"],["tot","Totals"]],v=>Wv.show===v,v=>Wv.show=v),
+    chips("Stats as",[["raw","Raw"],["pts","Fantasy pts"]],v=>Wv.as===v,v=>Wv.as=v),
+    chips("Show my team",[["1","On"]],()=>Wv.mine,()=>Wv.mine=!Wv.mine),
+    chips("Show disqualified",[["1","On"]],()=>Wv.disq,()=>Wv.disq=!Wv.disq),
+  ]);
+  $("linesbox").innerHTML="";
+  const line=D.lines[w][L], lp=line.ppg, weak=D.weakest[w][L];
+  let rows=D.fa[w].filter(r=>(L==="ALL"||r.pos.includes(L)) && (Wv.disq||r.q)).map(r=>Object.assign({},r));
+  if (Wv.mine){
+    D.players.forEach(p=>{
+      const d=p.w[w];
+      if (p.status==="Cut" || !d || !d.gp) return;
+      if (L!=="ALL" && !p.pos.includes(L)) return;
+      rows.push({name:p.name,team:p.team,pos:p.pos,tag:p.tag,own:d.own,gp:d.gp,fp:d.fp,
+                 ppg:d.fp/d.gp,mpg:d.mpg,st:d.st,q:true,why:"",pool:[],_mine:true});
+    });
+  }
+  rows.forEach(r=>{
+    r.gap = (r.ppg!=null && lp!=null) ? r.ppg-lp : null;
+    r.upg = (!r._mine && weak && r.ppg!=null && r.ppg>weak.ppg) ? r.ppg-weak.ppg : null;
+  });
+  const per=Wv.show==="pg", asPts=Wv.as==="pts";
+  const cols=[
+    {k:"star",h:"★",v:r=>r.pool.includes(L)?1:0,f:v=>v?'<span class="star" title="In the replacement pool">★</span>':""},
+    {k:"name",h:"Player",l:1,sticky:1,v:r=>r.name,f:(v,r)=>esc(v)+tagHtml(r.tag)+(r._mine?'<span class="tag mine">Mine</span>':"")+(r.wv?'<span class="tag wv">Waivers</span>':"")+(r.q?"":`<span class="why">${esc(r.why)}</span>`)},
+    {k:"pos",h:"Pos",l:1,v:r=>r.pos.join(",")},
+    {k:"team",h:"Team",l:1,v:r=>r.team},
+    {k:"own",h:"Own %",v:r=>r.own,f:pct},
+    {k:"gp",h:"GP",v:r=>r.gp,f:f0},
+    {k:"mpg",h:"MPG",v:r=>r.mpg,f:f1,scale:"seq"},
+    {k:"ppg",h:"PPG",v:r=>r.ppg,f:f1,scale:"seq"},
+    {k:"fp",h:"Total FP",v:r=>r.fp,f:f1},
+    {k:"gap",h:"+/- Line",v:r=>r.gap,f:sg1,scale:"div",tip:`PPG minus the ${LLAB[w]} ${L==="ALL"?"All":L} line (${f1(lp)})`},
+    ...STATS.map(s=>({k:s,h:s+(per?"/G":""),v:r=>statVal(r.st,s,r.gp,per,asPts),f:f1,scale:"seq",rev:()=>s==="TO"&&!asPts})),
+    {k:"upg",h:"Upgrade over",l:1,sv:r=>r.upg,v:r=>r.upg,f:v=>v==null?"":`+${f1(v)} vs ${esc(weak.name)}`,tip:"PPG gain over your weakest Active player at this position, same window"},
+  ];
+  drawTable(cols, rows, Wv, null);
+}
+
+/* ---------- page ---------- */
+function render(){
+  $("pg-team").classList.toggle("on", S.page==="team");
+  $("pg-wire").classList.toggle("on", S.page==="wire");
+  S.page==="team" ? drawTeam() : drawWire();
+}
+$("pg-team").onclick=()=>{S.page="team";render();};
+$("pg-wire").onclick=()=>{S.page="wire";render();};
+$("mast").textContent=D.meta.masthead;
+$("sub").textContent=`${D.meta.team} · ${D.meta.season_label}`;
+if (D.warnings.length){
+  $("warn").innerHTML=`<div class="warnbar"><b>Data check</b><ul>${D.warnings.map(w=>`<li>${esc(w)}</li>`).join("")}</ul></div>`;
+}
+$("foot").textContent=`Updated ${D.meta.updated}` + (D.meta.pull_date?` · Sheet pulled ${D.meta.pull_date}`:"") +
+  ` · Flags use ${LLAB[D.meta.flag_window]} · Replace? below ${D.meta.replace_threshold} pts`;
+render();
+</script>
+</body>
+</html>
+"""
+
+
+def main():
+    with open(DATA_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    payload = payload.replace("</", "<\\/")  # never close the script tag early
+    page = (PAGE.replace("__TITLE__", html.escape(data["meta"]["masthead"]))
+                .replace("__DATA__", payload))
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
+        f.write(page)
+    print(f"Wrote {OUT_PATH} ({len(page):,} bytes)")
+
+
+if __name__ == "__main__":
+    main()
