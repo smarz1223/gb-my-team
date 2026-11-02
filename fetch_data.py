@@ -169,6 +169,17 @@ def fold(s):
     return s
 
 
+NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
+
+
+def last_name(name):
+    """Last name for the mismatch check, ignoring suffixes like Jr. or III."""
+    parts = fold(name).split()
+    while len(parts) > 1 and parts[-1] in NAME_SUFFIXES:
+        parts.pop()
+    return parts[-1] if parts else ""
+
+
 def r1(x):
     return None if x is None else round(x, 1)
 
@@ -537,9 +548,10 @@ def main():
                 roster_keys.append(k)
     keys = roster_keys + [k for k in log if k not in roster_keys]
 
-    roster_last = {r["name"].split()[-1].lower(): r["name"]
-                   for k in roster_keys for r in [mine["season"].get(k) or
-                                                  mine["l30"].get(k) or mine["l14"].get(k)]}
+    roster_last = {}
+    for k in roster_keys:
+        r = mine["season"].get(k) or mine["l30"].get(k) or mine["l14"].get(k)
+        roster_last.setdefault(last_name(r["name"]), []).append(r["name"])
 
     players = []
     for k in keys:
@@ -550,10 +562,9 @@ def main():
              "tag": (base or {}).get("tag", "")}
         if base is None:
             p["status"] = "Cut"
-            last = p["name"].split()[-1].lower()
-            if last in roster_last:
+            for other in roster_last.get(last_name(p["name"]), []):
                 warn(f"Possible name mismatch: '{p['name']}' (team log, Cut) vs "
-                     f"'{roster_last[last]}' (roster). Add a Name Fixes row if same player.")
+                     f"'{other}' (roster). Add a Name Fixes row if same player.")
         elif p["tag"] in INJURED_TAGS:
             p["status"] = "Injured"
         else:
