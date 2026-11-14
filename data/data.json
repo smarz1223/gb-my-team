@@ -3,8 +3,8 @@
   "masthead": "Marion Hall of Fame",
   "team": "Marion HoF 2027",
   "season_label": "2026-27",
-  "updated": "Fri Nov 13, 2:58 PM ET",
-  "pull_date": "Fri Nov 13",
+  "updated": "Sat Nov 14, 1:26 PM ET",
+  "pull_date": "Sat Nov 14",
   "weights": {
    "PTS": 1.0,
    "REB": 1.2,
@@ -24,168 +24,236 @@
  "lines": {
   "season": {
    "G": {
-    "ppg": 32.69,
+    "ppg": 32.61,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
      "Davion Mitchell",
-     "Brandin Podziemski",
      "Immanuel Quickley",
-     "Andrew Nembhard",
-     "Zach LaVine"
+     "Brandin Podziemski",
+     "Zach LaVine",
+     "Ajay Mitchell"
     ]
    },
    "F": {
-    "ppg": 32.44,
+    "ppg": 31.04,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
      "Caleb Wilson",
-     "Jabari Smith Jr.",
      "Miles Bridges",
      "Zach LaVine",
-     "Cedric Coward"
+     "Jalen Smith",
+     "Ace Bailey"
     ]
    },
    "C": {
-    "ppg": 30.39,
+    "ppg": 30.06,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
-     "Jabari Smith Jr.",
      "Donovan Clingan",
      "Wendell Carter Jr.",
      "Isaiah Hartenstein",
-     "Jalen Smith"
+     "Jalen Smith",
+     "Moussa Diabaté"
     ]
    },
    "ALL": {
-    "ppg": 33.72,
+    "ppg": 33.86,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
-     "Caleb Wilson",
      "Davion Mitchell",
-     "Brandin Podziemski",
+     "Caleb Wilson",
      "Immanuel Quickley",
-     "Jabari Smith Jr."
+     "Miles Bridges",
+     "Donovan Clingan"
     ]
    }
   },
   "l30": {
    "G": {
-    "ppg": 32.7,
+    "ppg": 32.66,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
      "Davion Mitchell",
-     "Brandin Podziemski",
      "Immanuel Quickley",
-     "Andrew Nembhard",
-     "Ajay Mitchell"
+     "Brandin Podziemski",
+     "Ajay Mitchell",
+     "Zach LaVine"
     ]
    },
    "F": {
-    "ppg": 32.44,
+    "ppg": 31.04,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
      "Caleb Wilson",
-     "Jabari Smith Jr.",
      "Miles Bridges",
      "Zach LaVine",
-     "Cedric Coward"
+     "Jalen Smith",
+     "Ace Bailey"
     ]
    },
    "C": {
-    "ppg": 30.39,
+    "ppg": 30.06,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
-     "Jabari Smith Jr.",
      "Donovan Clingan",
      "Wendell Carter Jr.",
      "Isaiah Hartenstein",
-     "Jalen Smith"
+     "Jalen Smith",
+     "Moussa Diabaté"
     ]
    },
    "ALL": {
-    "ppg": 33.72,
+    "ppg": 33.86,
     "n": 5,
     "min_gp": 7,
     "max_gp": 13,
     "members": [
-     "Caleb Wilson",
      "Davion Mitchell",
-     "Brandin Podziemski",
+     "Caleb Wilson",
      "Immanuel Quickley",
-     "Jabari Smith Jr."
+     "Miles Bridges",
+     "Donovan Clingan"
     ]
    }
   },
   "l14": {
    "G": {
-    "ppg": 33.96,
+    "ppg": 33.23,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
      "Davion Mitchell",
-     "Brandin Podziemski",
-     "Immanuel Quickley",
      "Jeremiah Fears",
+     "Immanuel Quickley",
+     "Brandin Podziemski",
      "Andrew Nembhard"
     ]
    },
    "F": {
-    "ppg": 31.37,
+    "ppg": 29.31,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
      "Miles Bridges",
-     "Jabari Smith Jr.",
-     "Cedric Coward",
-     "Duncan Robinson",
-     "Klay Thompson"
+     "Saddiq Bey",
+     "Jonathan Kuminga",
+     "Grayson Allen",
+     "Ace Bailey"
     ]
    },
    "C": {
-    "ppg": 31.64,
+    "ppg": 31.55,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
-     "Jabari Smith Jr.",
      "Donovan Clingan",
-     "Day'Ron Sharpe",
      "Isaiah Hartenstein",
-     "Wendell Carter Jr."
+     "Day'Ron Sharpe",
+     "Wendell Carter Jr.",
+     "Brook Lopez"
     ]
    },
    "ALL": {
-    "ppg": 34.86,
+    "ppg": 34.52,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
      "Davion Mitchell",
-     "Brandin Podziemski",
-     "Miles Bridges",
+     "Donovan Clingan",
+     "Jeremiah Fears",
      "Immanuel Quickley",
-     "Jabari Smith Jr."
+     "Isaiah Hartenstein"
     ]
    }
   }
  },
  "players": [
+  {
+   "name": "Alperen Şengün",
+   "team": "HOU",
+   "pos": [
+    "F",
+    "C"
+   ],
+   "tag": "",
+   "status": "Active",
+   "nostarts": false,
+   "w": {
+    "forme": {
+     "gp": 11,
+     "fp": 548.2,
+     "mpg": null,
+     "st": {
+      "PTS": 254.0,
+      "REB": 106.0,
+      "AST": 84.0,
+      "ST": 12.0,
+      "BLK": 12.0,
+      "TO": 31.0
+     }
+    },
+    "season": {
+     "gp": 11,
+     "fp": 548.2,
+     "mpg": 35.2,
+     "st": {
+      "PTS": 254.0,
+      "REB": 106.0,
+      "AST": 84.0,
+      "ST": 12.0,
+      "BLK": 12.0,
+      "TO": 31.0
+     },
+     "own": 100.0
+    },
+    "l30": {
+     "gp": 11,
+     "fp": 548.2,
+     "mpg": 35.2,
+     "st": {
+      "PTS": 254.0,
+      "REB": 106.0,
+      "AST": 84.0,
+      "ST": 12.0,
+      "BLK": 12.0,
+      "TO": 31.0
+     },
+     "own": 100.0
+    },
+    "l14": {
+     "gp": 7,
+     "fp": 354.0,
+     "mpg": 35.9,
+     "st": {
+      "PTS": 156.0,
+      "REB": 70.0,
+      "AST": 56.0,
+      "ST": 5.0,
+      "BLK": 10.0,
+      "TO": 15.0
+     },
+     "own": 100.0
+    }
+   }
+  },
   {
    "name": "Cade Cunningham",
    "team": "DET",
@@ -238,84 +306,16 @@
      "own": 100.0
     },
     "l14": {
-     "gp": 6,
-     "fp": 295.8,
-     "mpg": 34.7,
+     "gp": 5,
+     "fp": 264.8,
+     "mpg": 36.0,
      "st": {
-      "PTS": 162.0,
-      "REB": 29.0,
-      "AST": 48.0,
+      "PTS": 142.0,
+      "REB": 24.0,
+      "AST": 44.0,
       "ST": 11.0,
-      "BLK": 3.0,
-      "TO": 15.0
-     },
-     "own": 100.0
-    }
-   }
-  },
-  {
-   "name": "Alperen Şengün",
-   "team": "HOU",
-   "pos": [
-    "F",
-    "C"
-   ],
-   "tag": "",
-   "status": "Active",
-   "nostarts": false,
-   "w": {
-    "forme": {
-     "gp": 10,
-     "fp": 478.3,
-     "mpg": null,
-     "st": {
-      "PTS": 211.0,
-      "REB": 94.0,
-      "AST": 79.0,
-      "ST": 11.0,
-      "BLK": 11.0,
-      "TO": 30.0
-     }
-    },
-    "season": {
-     "gp": 10,
-     "fp": 478.3,
-     "mpg": 35.0,
-     "st": {
-      "PTS": 211.0,
-      "REB": 94.0,
-      "AST": 79.0,
-      "ST": 11.0,
-      "BLK": 11.0,
-      "TO": 30.0
-     },
-     "own": 100.0
-    },
-    "l30": {
-     "gp": 10,
-     "fp": 478.3,
-     "mpg": 35.0,
-     "st": {
-      "PTS": 211.0,
-      "REB": 94.0,
-      "AST": 79.0,
-      "ST": 11.0,
-      "BLK": 11.0,
-      "TO": 30.0
-     },
-     "own": 100.0
-    },
-    "l14": {
-     "gp": 6,
-     "fp": 284.1,
-     "mpg": 35.7,
-     "st": {
-      "PTS": 113.0,
-      "REB": 58.0,
-      "AST": 51.0,
-      "ST": 4.0,
-      "BLK": 9.0,
-      "TO": 14.0
+      "BLK": 2.0,
+      "TO": 11.0
      },
      "own": 100.0
     }
@@ -333,57 +333,57 @@
    "nostarts": false,
    "w": {
     "forme": {
-     "gp": 11,
-     "fp": 452.9,
+     "gp": 12,
+     "fp": 500.1,
      "mpg": null,
      "st": {
-      "PTS": 253.0,
-      "REB": 67.0,
-      "AST": 71.0,
+      "PTS": 287.0,
+      "REB": 73.0,
+      "AST": 75.0,
       "ST": 13.0,
-      "BLK": 3.0,
-      "TO": 35.0
+      "BLK": 4.0,
+      "TO": 38.0
      }
     },
     "season": {
-     "gp": 11,
-     "fp": 452.9,
-     "mpg": 32.5,
+     "gp": 12,
+     "fp": 500.1,
+     "mpg": 32.7,
      "st": {
-      "PTS": 253.0,
-      "REB": 67.0,
-      "AST": 71.0,
+      "PTS": 287.0,
+      "REB": 73.0,
+      "AST": 75.0,
       "ST": 13.0,
-      "BLK": 3.0,
-      "TO": 35.0
+      "BLK": 4.0,
+      "TO": 38.0
      },
      "own": 99.0
     },
     "l30": {
-     "gp": 11,
-     "fp": 452.9,
-     "mpg": 32.5,
+     "gp": 12,
+     "fp": 500.1,
+     "mpg": 32.8,
      "st": {
-      "PTS": 253.0,
-      "REB": 67.0,
-      "AST": 71.0,
+      "PTS": 287.0,
+      "REB": 73.0,
+      "AST": 75.0,
       "ST": 13.0,
-      "BLK": 3.0,
-      "TO": 35.0
+      "BLK": 4.0,
+      "TO": 38.0
      },
      "own": 99.0
     },
     "l14": {
-     "gp": 7,
-     "fp": 279.9,
-     "mpg": 33.1,
+     "gp": 8,
+     "fp": 327.1,
+     "mpg": 33.4,
      "st": {
-      "PTS": 162.0,
-      "REB": 37.0,
-      "AST": 45.0,
+      "PTS": 196.0,
+      "REB": 43.0,
+      "AST": 49.0,
       "ST": 9.0,
-      "BLK": 2.0,
-      "TO": 27.0
+      "BLK": 3.0,
+      "TO": 30.0
      },
      "own": 99.0
     }
@@ -441,16 +441,16 @@
      "own": 100.0
     },
     "l14": {
-     "gp": 6,
-     "fp": 279.0,
-     "mpg": 34.8,
+     "gp": 5,
+     "fp": 221.9,
+     "mpg": 34.4,
      "st": {
-      "PTS": 172.0,
-      "REB": 30.0,
-      "AST": 36.0,
-      "ST": 4.0,
-      "BLK": 6.0,
-      "TO": 13.0
+      "PTS": 133.0,
+      "REB": 22.0,
+      "AST": 31.0,
+      "ST": 3.0,
+      "BLK": 5.0,
+      "TO": 8.0
      },
      "own": 100.0
     }
@@ -508,16 +508,16 @@
      "own": 85.0
     },
     "l14": {
-     "gp": 7,
-     "fp": 255.9,
-     "mpg": 33.6,
+     "gp": 6,
+     "fp": 229.5,
+     "mpg": 34.2,
      "st": {
-      "PTS": 152.0,
-      "REB": 37.0,
-      "AST": 25.0,
+      "PTS": 137.0,
+      "REB": 30.0,
+      "AST": 23.0,
       "ST": 9.0,
-      "BLK": 4.0,
-      "TO": 17.0
+      "BLK": 3.0,
+      "TO": 14.0
      },
      "own": 85.0
     }
@@ -575,16 +575,16 @@
      "own": 95.0
     },
     "l14": {
-     "gp": 7,
-     "fp": 216.2,
-     "mpg": 31.7,
+     "gp": 6,
+     "fp": 192.1,
+     "mpg": 32.8,
      "st": {
-      "PTS": 127.0,
-      "REB": 41.0,
-      "AST": 32.0,
+      "PTS": 112.0,
+      "REB": 33.0,
+      "AST": 29.0,
       "ST": 5.0,
       "BLK": 1.0,
-      "TO": 26.0
+      "TO": 21.0
      },
      "own": 95.0
     }
@@ -599,49 +599,62 @@
    ],
    "tag": "",
    "status": "Active",
-   "nostarts": true,
+   "nostarts": false,
    "w": {
-    "season": {
-     "gp": 8,
-     "fp": 302.6,
-     "mpg": 31.5,
+    "forme": {
+     "gp": 1,
+     "fp": 18.9,
+     "mpg": null,
      "st": {
-      "PTS": 142.0,
-      "REB": 48.0,
-      "AST": 44.0,
-      "ST": 15.0,
-      "BLK": 5.0,
-      "TO": 23.0
+      "PTS": 5.0,
+      "REB": 2.0,
+      "AST": 5.0,
+      "ST": 1.0,
+      "BLK": 2.0,
+      "TO": 5.0
+     }
+    },
+    "season": {
+     "gp": 9,
+     "fp": 321.5,
+     "mpg": 32.1,
+     "st": {
+      "PTS": 147.0,
+      "REB": 50.0,
+      "AST": 49.0,
+      "ST": 16.0,
+      "BLK": 7.0,
+      "TO": 28.0
      },
-     "own": 82.0
+     "own": 81.0
     },
     "l30": {
-     "gp": 8,
-     "fp": 302.6,
-     "mpg": 31.5,
+     "gp": 9,
+     "fp": 321.5,
+     "mpg": 32.1,
      "st": {
-      "PTS": 142.0,
-      "REB": 48.0,
-      "AST": 44.0,
-      "ST": 15.0,
-      "BLK": 5.0,
-      "TO": 23.0
+      "PTS": 147.0,
+      "REB": 50.0,
+      "AST": 49.0,
+      "ST": 16.0,
+      "BLK": 7.0,
+      "TO": 28.0
      },
-     "own": 82.0
+     "own": 81.0
     },
     "l14": {
      "gp": 6,
-     "fp": 253.6,
-     "mpg": 34.0,
+     "fp": 231.3,
+     "mpg": 35.0,
      "st": {
-      "PTS": 116.0,
-      "REB": 43.0,
-      "AST": 38.0,
-      "ST": 12.0,
-      "BLK": 4.0,
-      "TO": 19.0
+      "PTS": 104.0,
+      "REB": 39.0,
+      "AST": 33.0,
+      "ST": 13.0,
+      "BLK": 5.0,
+      "TO": 23.0
      },
-     "own": 82.0
+     "own": 81.0
     }
    }
   },
@@ -825,76 +838,36 @@
   "pos": [
    {
     "p": 0,
-    "pos": "G",
-    "line": "G",
-    "c": {
-     "forme": {
-      "gp": 11,
-      "ppg": 47.26,
-      "fp": 519.9,
-      "gap": 14.57,
-      "pts": 160.3
-     },
-     "season": {
-      "gp": 11,
-      "ppg": 47.26,
-      "fp": 519.9,
-      "gap": 14.57,
-      "pts": 160.3
-     },
-     "l30": {
-      "gp": 11,
-      "ppg": 47.26,
-      "fp": 519.9,
-      "gap": 14.56,
-      "pts": 160.2
-     },
-     "l14": {
-      "gp": 6,
-      "ppg": 49.3,
-      "fp": 295.8,
-      "gap": 15.34,
-      "pts": 92.0
-     }
-    },
-    "flags": [],
-    "notes": [],
-    "small": false,
-    "pt": 0.0,
-    "mt": 0.01
-   },
-   {
-    "p": 1,
     "pos": "F",
     "line": "F",
     "c": {
      "forme": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 15.39,
-      "pts": 153.9
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 18.8,
+      "pts": 206.8
      },
      "season": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 15.39,
-      "pts": 153.9
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 18.8,
+      "pts": 206.8
      },
      "l30": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 15.39,
-      "pts": 153.9
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 18.8,
+      "pts": 206.8
      },
      "l14": {
-      "gp": 6,
-      "ppg": 47.35,
-      "fp": 284.1,
-      "gap": 15.98,
-      "pts": 95.9
+      "gp": 7,
+      "ppg": 50.57,
+      "fp": 354.0,
+      "gap": 21.26,
+      "pts": 148.8
      }
     },
     "flags": [],
@@ -904,37 +877,37 @@
     "mt": 0.02
    },
    {
-    "p": 1,
+    "p": 0,
     "pos": "C",
     "line": "C",
     "c": {
      "forme": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 17.44,
-      "pts": 174.4
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 19.78,
+      "pts": 217.5
      },
      "season": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 17.44,
-      "pts": 174.4
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 19.78,
+      "pts": 217.5
      },
      "l30": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 17.44,
-      "pts": 174.4
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 19.78,
+      "pts": 217.5
      },
      "l14": {
-      "gp": 6,
-      "ppg": 47.35,
-      "fp": 284.1,
-      "gap": 15.71,
-      "pts": 94.3
+      "gp": 7,
+      "ppg": 50.57,
+      "fp": 354.0,
+      "gap": 19.02,
+      "pts": 133.1
      }
     },
     "flags": [],
@@ -944,37 +917,77 @@
     "mt": 0.02
    },
    {
-    "p": 2,
+    "p": 1,
     "pos": "G",
     "line": "G",
     "c": {
      "forme": {
       "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 8.48,
-      "pts": 93.3
+      "ppg": 47.26,
+      "fp": 519.9,
+      "gap": 14.65,
+      "pts": 161.2
      },
      "season": {
       "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 8.48,
-      "pts": 93.3
+      "ppg": 47.26,
+      "fp": 519.9,
+      "gap": 14.65,
+      "pts": 161.2
      },
      "l30": {
       "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 8.47,
-      "pts": 93.2
+      "ppg": 47.26,
+      "fp": 519.9,
+      "gap": 14.6,
+      "pts": 160.6
      },
      "l14": {
-      "gp": 7,
-      "ppg": 39.99,
-      "fp": 279.9,
-      "gap": 6.03,
-      "pts": 42.2
+      "gp": 5,
+      "ppg": 52.96,
+      "fp": 264.8,
+      "gap": 19.73,
+      "pts": 98.7
+     }
+    },
+    "flags": [],
+    "notes": [],
+    "small": false,
+    "pt": 0.0,
+    "mt": 0.04
+   },
+   {
+    "p": 2,
+    "pos": "G",
+    "line": "G",
+    "c": {
+     "forme": {
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 9.07,
+      "pts": 108.8
+     },
+     "season": {
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 9.07,
+      "pts": 108.8
+     },
+     "l30": {
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 9.02,
+      "pts": 108.2
+     },
+     "l14": {
+      "gp": 8,
+      "ppg": 40.89,
+      "fp": 327.1,
+      "gap": 7.66,
+      "pts": 61.3
      }
     },
     "flags": [],
@@ -989,32 +1002,32 @@
     "line": "F",
     "c": {
      "forme": {
-      "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 8.73,
-      "pts": 96.1
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 10.64,
+      "pts": 127.6
      },
      "season": {
-      "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 8.73,
-      "pts": 96.1
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 10.64,
+      "pts": 127.6
      },
      "l30": {
-      "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 8.73,
-      "pts": 96.1
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 10.64,
+      "pts": 127.6
      },
      "l14": {
-      "gp": 7,
-      "ppg": 39.99,
-      "fp": 279.9,
-      "gap": 8.62,
-      "pts": 60.3
+      "gp": 8,
+      "ppg": 40.89,
+      "fp": 327.1,
+      "gap": 11.58,
+      "pts": 92.6
      }
     },
     "flags": [],
@@ -1032,36 +1045,36 @@
       "gp": 10,
       "ppg": 44.15,
       "fp": 441.5,
-      "gap": 11.46,
-      "pts": 114.6
+      "gap": 11.54,
+      "pts": 115.4
      },
      "season": {
       "gp": 10,
       "ppg": 44.15,
       "fp": 441.5,
-      "gap": 11.46,
-      "pts": 114.6
+      "gap": 11.54,
+      "pts": 115.4
      },
      "l30": {
       "gp": 10,
       "ppg": 44.15,
       "fp": 441.5,
-      "gap": 11.45,
-      "pts": 114.5
+      "gap": 11.49,
+      "pts": 114.9
      },
      "l14": {
-      "gp": 6,
-      "ppg": 46.5,
-      "fp": 279.0,
-      "gap": 12.54,
-      "pts": 75.2
+      "gp": 5,
+      "ppg": 44.38,
+      "fp": 221.9,
+      "gap": 11.15,
+      "pts": 55.8
      }
     },
     "flags": [],
     "notes": [],
     "small": false,
     "pt": 0.0,
-    "mt": -0.04
+    "mt": -0.05
    },
    {
     "p": 4,
@@ -1072,29 +1085,29 @@
       "gp": 1,
       "ppg": 26.9,
       "fp": 26.9,
-      "gap": -5.79,
-      "pts": -5.8
+      "gap": -5.71,
+      "pts": -5.7
      },
      "season": {
       "gp": 12,
       "ppg": 32.39,
       "fp": 388.7,
-      "gap": -0.3,
-      "pts": -3.6
+      "gap": -0.22,
+      "pts": -2.6
      },
      "l30": {
       "gp": 12,
       "ppg": 32.39,
       "fp": 388.7,
-      "gap": -0.31,
-      "pts": -3.7
+      "gap": -0.27,
+      "pts": -3.2
      },
      "l14": {
-      "gp": 7,
-      "ppg": 36.56,
-      "fp": 255.9,
-      "gap": 2.6,
-      "pts": 18.2
+      "gp": 6,
+      "ppg": 38.25,
+      "fp": 229.5,
+      "gap": 5.02,
+      "pts": 30.1
      }
     },
     "flags": [
@@ -1106,7 +1119,7 @@
     ],
     "small": true,
     "pt": 0.0,
-    "mt": 0.08
+    "mt": 0.1
    },
    {
     "p": 5,
@@ -1117,108 +1130,120 @@
       "gp": 11,
       "ppg": 33.88,
       "fp": 372.7,
-      "gap": 1.44,
-      "pts": 15.9
+      "gap": 2.84,
+      "pts": 31.3
      },
      "season": {
       "gp": 11,
       "ppg": 33.88,
       "fp": 372.7,
-      "gap": 1.44,
-      "pts": 15.9
+      "gap": 2.84,
+      "pts": 31.3
      },
      "l30": {
       "gp": 11,
       "ppg": 33.88,
       "fp": 372.7,
-      "gap": 1.44,
-      "pts": 15.9
+      "gap": 2.84,
+      "pts": 31.3
      },
      "l14": {
-      "gp": 7,
-      "ppg": 30.89,
-      "fp": 216.2,
-      "gap": -0.48,
-      "pts": -3.4
+      "gp": 6,
+      "ppg": 32.02,
+      "fp": 192.1,
+      "gap": 2.71,
+      "pts": 16.2
      }
     },
     "flags": [],
     "notes": [],
     "small": false,
     "pt": 0.0,
-    "mt": -0.04
+    "mt": -0.01
    },
    {
     "p": 6,
     "pos": "G",
     "line": "G",
     "c": {
-     "forme": null,
+     "forme": {
+      "gp": 1,
+      "ppg": 18.9,
+      "fp": 18.9,
+      "gap": -13.71,
+      "pts": -13.7
+     },
      "season": {
-      "gp": 8,
-      "ppg": 37.83,
-      "fp": 302.6,
-      "gap": 5.14,
-      "pts": 41.1
+      "gp": 9,
+      "ppg": 35.72,
+      "fp": 321.5,
+      "gap": 3.11,
+      "pts": 28.0
      },
      "l30": {
-      "gp": 8,
-      "ppg": 37.83,
-      "fp": 302.6,
-      "gap": 5.12,
-      "pts": 41.0
+      "gp": 9,
+      "ppg": 35.72,
+      "fp": 321.5,
+      "gap": 3.06,
+      "pts": 27.6
      },
      "l14": {
       "gp": 6,
-      "ppg": 42.27,
-      "fp": 253.6,
-      "gap": 8.31,
-      "pts": 49.8
+      "ppg": 38.55,
+      "fp": 231.3,
+      "gap": 5.32,
+      "pts": 31.9
      }
     },
     "flags": [],
     "notes": [
-     "No starts yet"
+     "Small sample"
     ],
-    "small": false,
+    "small": true,
     "pt": 0.0,
-    "mt": 0.08
+    "mt": 0.09
    },
    {
     "p": 6,
     "pos": "F",
     "line": "F",
     "c": {
-     "forme": null,
+     "forme": {
+      "gp": 1,
+      "ppg": 18.9,
+      "fp": 18.9,
+      "gap": -12.14,
+      "pts": -12.1
+     },
      "season": {
-      "gp": 8,
-      "ppg": 37.83,
-      "fp": 302.6,
-      "gap": 5.39,
-      "pts": 43.1
+      "gp": 9,
+      "ppg": 35.72,
+      "fp": 321.5,
+      "gap": 4.68,
+      "pts": 42.1
      },
      "l30": {
-      "gp": 8,
-      "ppg": 37.83,
-      "fp": 302.6,
-      "gap": 5.39,
-      "pts": 43.1
+      "gp": 9,
+      "ppg": 35.72,
+      "fp": 321.5,
+      "gap": 4.68,
+      "pts": 42.1
      },
      "l14": {
       "gp": 6,
-      "ppg": 42.27,
-      "fp": 253.6,
-      "gap": 10.9,
-      "pts": 65.4
+      "ppg": 38.55,
+      "fp": 231.3,
+      "gap": 9.24,
+      "pts": 55.4
      }
     },
     "flags": [],
     "notes": [
-     "No starts yet"
+     "Small sample"
     ],
-    "small": false,
+    "small": true,
     "pt": 0.0,
-    "mt": 0.08
+    "mt": 0.09
    },
    {
     "p": 7,
@@ -1283,8 +1308,8 @@
       "gp": 3,
       "ppg": 20.67,
       "fp": 62.0,
-      "gap": -9.72,
-      "pts": -29.2
+      "gap": -9.39,
+      "pts": -28.2
      },
      "season": null,
      "l30": null,
@@ -1307,8 +1332,8 @@
       "gp": 5,
       "ppg": 24.28,
       "fp": 121.4,
-      "gap": -8.16,
-      "pts": -40.8
+      "gap": -6.76,
+      "pts": -33.8
      },
      "season": null,
      "l30": null,
@@ -1329,8 +1354,8 @@
       "gp": 3,
       "ppg": 27.47,
       "fp": 82.4,
-      "gap": -2.92,
-      "pts": -8.8
+      "gap": -2.59,
+      "pts": -7.8
      },
      "season": null,
      "l30": null,
@@ -1353,8 +1378,8 @@
       "gp": 5,
       "ppg": 34.2,
       "fp": 171.0,
-      "gap": 1.76,
-      "pts": 8.8
+      "gap": 3.16,
+      "pts": 15.8
      },
      "season": null,
      "l30": null,
@@ -1375,8 +1400,8 @@
       "gp": 5,
       "ppg": 34.2,
       "fp": 171.0,
-      "gap": 3.81,
-      "pts": 19.1
+      "gap": 4.14,
+      "pts": 20.7
      },
      "season": null,
      "l30": null,
@@ -1397,8 +1422,8 @@
       "gp": 1,
       "ppg": 10.5,
       "fp": 10.5,
-      "gap": -22.19,
-      "pts": -22.2
+      "gap": -22.11,
+      "pts": -22.1
      },
      "season": null,
      "l30": null,
@@ -1421,8 +1446,8 @@
       "gp": 1,
       "ppg": 10.5,
       "fp": 10.5,
-      "gap": -21.94,
-      "pts": -21.9
+      "gap": -20.54,
+      "pts": -20.5
      },
      "season": null,
      "l30": null,
@@ -1445,8 +1470,8 @@
       "gp": 4,
       "ppg": 27.1,
       "fp": 108.4,
-      "gap": -5.34,
-      "pts": -21.4
+      "gap": -3.94,
+      "pts": -15.8
      },
      "season": null,
      "l30": null,
@@ -1464,76 +1489,36 @@
   "all": [
    {
     "p": 0,
-    "pos": "G",
-    "line": "ALL",
-    "c": {
-     "forme": {
-      "gp": 11,
-      "ppg": 47.26,
-      "fp": 519.9,
-      "gap": 13.54,
-      "pts": 149.0
-     },
-     "season": {
-      "gp": 11,
-      "ppg": 47.26,
-      "fp": 519.9,
-      "gap": 13.54,
-      "pts": 149.0
-     },
-     "l30": {
-      "gp": 11,
-      "ppg": 47.26,
-      "fp": 519.9,
-      "gap": 13.54,
-      "pts": 149.0
-     },
-     "l14": {
-      "gp": 6,
-      "ppg": 49.3,
-      "fp": 295.8,
-      "gap": 14.44,
-      "pts": 86.6
-     }
-    },
-    "flags": [],
-    "notes": [],
-    "small": false,
-    "pt": 0.0,
-    "mt": 0.01
-   },
-   {
-    "p": 1,
     "pos": "F,C",
     "line": "ALL",
     "c": {
      "forme": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 14.11,
-      "pts": 141.1
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 15.98,
+      "pts": 175.7
      },
      "season": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 14.11,
-      "pts": 141.1
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 15.98,
+      "pts": 175.7
      },
      "l30": {
-      "gp": 10,
-      "ppg": 47.83,
-      "fp": 478.3,
-      "gap": 14.11,
-      "pts": 141.1
+      "gp": 11,
+      "ppg": 49.84,
+      "fp": 548.2,
+      "gap": 15.98,
+      "pts": 175.7
      },
      "l14": {
-      "gp": 6,
-      "ppg": 47.35,
-      "fp": 284.1,
-      "gap": 12.49,
-      "pts": 74.9
+      "gp": 7,
+      "ppg": 50.57,
+      "fp": 354.0,
+      "gap": 16.05,
+      "pts": 112.4
      }
     },
     "flags": [],
@@ -1543,37 +1528,77 @@
     "mt": 0.02
    },
    {
+    "p": 1,
+    "pos": "G",
+    "line": "ALL",
+    "c": {
+     "forme": {
+      "gp": 11,
+      "ppg": 47.26,
+      "fp": 519.9,
+      "gap": 13.4,
+      "pts": 147.4
+     },
+     "season": {
+      "gp": 11,
+      "ppg": 47.26,
+      "fp": 519.9,
+      "gap": 13.4,
+      "pts": 147.4
+     },
+     "l30": {
+      "gp": 11,
+      "ppg": 47.26,
+      "fp": 519.9,
+      "gap": 13.4,
+      "pts": 147.4
+     },
+     "l14": {
+      "gp": 5,
+      "ppg": 52.96,
+      "fp": 264.8,
+      "gap": 18.44,
+      "pts": 92.2
+     }
+    },
+    "flags": [],
+    "notes": [],
+    "small": false,
+    "pt": 0.0,
+    "mt": 0.04
+   },
+   {
     "p": 2,
     "pos": "G,F",
     "line": "ALL",
     "c": {
      "forme": {
-      "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 7.45,
-      "pts": 82.0
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 7.82,
+      "pts": 93.8
      },
      "season": {
-      "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 7.45,
-      "pts": 82.0
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 7.82,
+      "pts": 93.8
      },
      "l30": {
-      "gp": 11,
-      "ppg": 41.17,
-      "fp": 452.9,
-      "gap": 7.45,
-      "pts": 82.0
+      "gp": 12,
+      "ppg": 41.68,
+      "fp": 500.1,
+      "gap": 7.82,
+      "pts": 93.8
      },
      "l14": {
-      "gp": 7,
-      "ppg": 39.99,
-      "fp": 279.9,
-      "gap": 5.13,
-      "pts": 35.9
+      "gp": 8,
+      "ppg": 40.89,
+      "fp": 327.1,
+      "gap": 6.37,
+      "pts": 50.9
      }
     },
     "flags": [],
@@ -1591,36 +1616,36 @@
       "gp": 10,
       "ppg": 44.15,
       "fp": 441.5,
-      "gap": 10.43,
-      "pts": 104.3
+      "gap": 10.29,
+      "pts": 102.9
      },
      "season": {
       "gp": 10,
       "ppg": 44.15,
       "fp": 441.5,
-      "gap": 10.43,
-      "pts": 104.3
+      "gap": 10.29,
+      "pts": 102.9
      },
      "l30": {
       "gp": 10,
       "ppg": 44.15,
       "fp": 441.5,
-      "gap": 10.43,
-      "pts": 104.3
+      "gap": 10.29,
+      "pts": 102.9
      },
      "l14": {
-      "gp": 6,
-      "ppg": 46.5,
-      "fp": 279.0,
-      "gap": 11.64,
-      "pts": 69.8
+      "gp": 5,
+      "ppg": 44.38,
+      "fp": 221.9,
+      "gap": 9.86,
+      "pts": 49.3
      }
     },
     "flags": [],
     "notes": [],
     "small": false,
     "pt": 0.0,
-    "mt": -0.04
+    "mt": -0.05
    },
    {
     "p": 4,
@@ -1631,29 +1656,29 @@
       "gp": 1,
       "ppg": 26.9,
       "fp": 26.9,
-      "gap": -6.82,
-      "pts": -6.8
+      "gap": -6.96,
+      "pts": -7.0
      },
      "season": {
       "gp": 12,
       "ppg": 32.39,
       "fp": 388.7,
-      "gap": -1.33,
-      "pts": -15.9
+      "gap": -1.47,
+      "pts": -17.6
      },
      "l30": {
       "gp": 12,
       "ppg": 32.39,
       "fp": 388.7,
-      "gap": -1.33,
-      "pts": -15.9
+      "gap": -1.47,
+      "pts": -17.6
      },
      "l14": {
-      "gp": 7,
-      "ppg": 36.56,
-      "fp": 255.9,
-      "gap": 1.7,
-      "pts": 11.9
+      "gp": 6,
+      "ppg": 38.25,
+      "fp": 229.5,
+      "gap": 3.73,
+      "pts": 22.4
      }
     },
     "flags": [
@@ -1665,7 +1690,7 @@
     ],
     "small": true,
     "pt": 0.0,
-    "mt": 0.08
+    "mt": 0.1
    },
    {
     "p": 5,
@@ -1676,72 +1701,78 @@
       "gp": 11,
       "ppg": 33.88,
       "fp": 372.7,
-      "gap": 0.16,
-      "pts": 1.8
+      "gap": 0.02,
+      "pts": 0.2
      },
      "season": {
       "gp": 11,
       "ppg": 33.88,
       "fp": 372.7,
-      "gap": 0.16,
-      "pts": 1.8
+      "gap": 0.02,
+      "pts": 0.2
      },
      "l30": {
       "gp": 11,
       "ppg": 33.88,
       "fp": 372.7,
-      "gap": 0.16,
-      "pts": 1.8
+      "gap": 0.02,
+      "pts": 0.2
      },
      "l14": {
-      "gp": 7,
-      "ppg": 30.89,
-      "fp": 216.2,
-      "gap": -3.97,
-      "pts": -27.8
+      "gp": 6,
+      "ppg": 32.02,
+      "fp": 192.1,
+      "gap": -2.5,
+      "pts": -15.0
      }
     },
     "flags": [],
     "notes": [],
     "small": false,
     "pt": 0.0,
-    "mt": -0.04
+    "mt": -0.01
    },
    {
     "p": 6,
     "pos": "G,F",
     "line": "ALL",
     "c": {
-     "forme": null,
+     "forme": {
+      "gp": 1,
+      "ppg": 18.9,
+      "fp": 18.9,
+      "gap": -14.96,
+      "pts": -15.0
+     },
      "season": {
-      "gp": 8,
-      "ppg": 37.83,
-      "fp": 302.6,
-      "gap": 4.11,
-      "pts": 32.8
+      "gp": 9,
+      "ppg": 35.72,
+      "fp": 321.5,
+      "gap": 1.86,
+      "pts": 16.8
      },
      "l30": {
-      "gp": 8,
-      "ppg": 37.83,
-      "fp": 302.6,
-      "gap": 4.11,
-      "pts": 32.8
+      "gp": 9,
+      "ppg": 35.72,
+      "fp": 321.5,
+      "gap": 1.86,
+      "pts": 16.8
      },
      "l14": {
       "gp": 6,
-      "ppg": 42.27,
-      "fp": 253.6,
-      "gap": 7.41,
-      "pts": 44.4
+      "ppg": 38.55,
+      "fp": 231.3,
+      "gap": 4.03,
+      "pts": 24.2
      }
     },
     "flags": [],
     "notes": [
-     "No starts yet"
+     "Small sample"
     ],
-    "small": false,
+    "small": true,
     "pt": 0.0,
-    "mt": 0.08
+    "mt": 0.09
    },
    {
     "p": 7,
@@ -1788,8 +1819,8 @@
       "gp": 3,
       "ppg": 20.67,
       "fp": 62.0,
-      "gap": -13.05,
-      "pts": -39.2
+      "gap": -13.19,
+      "pts": -39.6
      },
      "season": null,
      "l30": null,
@@ -1812,8 +1843,8 @@
       "gp": 5,
       "ppg": 24.28,
       "fp": 121.4,
-      "gap": -9.44,
-      "pts": -47.2
+      "gap": -9.58,
+      "pts": -47.9
      },
      "season": null,
      "l30": null,
@@ -1834,8 +1865,8 @@
       "gp": 3,
       "ppg": 27.47,
       "fp": 82.4,
-      "gap": -6.25,
-      "pts": -18.8
+      "gap": -6.39,
+      "pts": -19.2
      },
      "season": null,
      "l30": null,
@@ -1858,8 +1889,8 @@
       "gp": 5,
       "ppg": 34.2,
       "fp": 171.0,
-      "gap": 0.48,
-      "pts": 2.4
+      "gap": 0.34,
+      "pts": 1.7
      },
      "season": null,
      "l30": null,
@@ -1880,8 +1911,8 @@
       "gp": 1,
       "ppg": 10.5,
       "fp": 10.5,
-      "gap": -23.22,
-      "pts": -23.2
+      "gap": -23.36,
+      "pts": -23.4
      },
      "season": null,
      "l30": null,
@@ -1904,8 +1935,8 @@
       "gp": 4,
       "ppg": 27.1,
       "fp": 108.4,
-      "gap": -6.62,
-      "pts": -26.5
+      "gap": -6.76,
+      "pts": -27.0
      },
      "season": null,
      "l30": null,
@@ -1924,36 +1955,6 @@
  "fa": {
   "season": [
    {
-    "name": "Jabari Smith Jr.",
-    "team": "HOU",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 89.0,
-    "gp": 12,
-    "fp": 394.8,
-    "ppg": 32.9,
-    "mpg": 35.3,
-    "st": {
-     "PTS": 201.0,
-     "REB": 79.0,
-     "AST": 26.0,
-     "ST": 11.0,
-     "BLK": 13.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F",
-     "C",
-     "ALL"
-    ]
-   },
-   {
     "name": "Davion Mitchell",
     "team": "MIA",
     "pos": [
@@ -1961,18 +1962,18 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 84.0,
-    "gp": 11,
-    "fp": 378.9,
-    "ppg": 34.45,
-    "mpg": 35.8,
+    "own": 85.0,
+    "gp": 12,
+    "fp": 434.4,
+    "ppg": 36.2,
+    "mpg": 36.0,
     "st": {
-     "PTS": 181.0,
-     "REB": 22.0,
-     "AST": 93.0,
+     "PTS": 203.0,
+     "REB": 27.0,
+     "AST": 110.0,
      "ST": 14.0,
-     "BLK": 6.0,
-     "TO": 28.0
+     "BLK": 7.0,
+     "TO": 29.0
     },
     "q": true,
     "why": "",
@@ -1980,6 +1981,193 @@
      "G",
      "ALL"
     ]
+   },
+   {
+    "name": "De'Aaron Fox",
+    "team": "SAS",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": true,
+    "own": 92.0,
+    "gp": 13,
+    "fp": 396.9,
+    "ppg": 30.53,
+    "mpg": 28.5,
+    "st": {
+     "PTS": 177.0,
+     "REB": 57.0,
+     "AST": 75.0,
+     "ST": 17.0,
+     "BLK": 6.0,
+     "TO": 30.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jeremiah Fears",
+    "team": "NOP",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 77.0,
+    "gp": 13,
+    "fp": 393.8,
+    "ppg": 30.29,
+    "mpg": 29.2,
+    "st": {
+     "PTS": 201.0,
+     "REB": 59.0,
+     "AST": 66.0,
+     "ST": 13.0,
+     "BLK": 7.0,
+     "TO": 37.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Donovan Clingan",
+    "team": "POR",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 98.0,
+    "gp": 12,
+    "fp": 391.7,
+    "ppg": 32.64,
+    "mpg": 25.3,
+    "st": {
+     "PTS": 132.0,
+     "REB": 126.0,
+     "AST": 19.0,
+     "ST": 6.0,
+     "BLK": 26.0,
+     "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C",
+     "ALL"
+    ]
+   },
+   {
+    "name": "Isaiah Hartenstein",
+    "team": "OKC",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 84.0,
+    "gp": 13,
+    "fp": 390.4,
+    "ppg": 30.03,
+    "mpg": 25.4,
+    "st": {
+     "PTS": 117.0,
+     "REB": 137.0,
+     "AST": 50.0,
+     "ST": 15.0,
+     "BLK": 4.0,
+     "TO": 23.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Ace Bailey",
+    "team": "UTA",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 71.0,
+    "gp": 13,
+    "fp": 371.6,
+    "ppg": 28.58,
+    "mpg": 31.3,
+    "st": {
+     "PTS": 181.0,
+     "REB": 83.0,
+     "AST": 24.0,
+     "ST": 9.0,
+     "BLK": 17.0,
+     "TO": 23.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F"
+    ]
+   },
+   {
+    "name": "Zach LaVine",
+    "team": "SAC",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 87.0,
+    "gp": 12,
+    "fp": 370.8,
+    "ppg": 30.9,
+    "mpg": 33.0,
+    "st": {
+     "PTS": 257.0,
+     "REB": 39.0,
+     "AST": 34.0,
+     "ST": 12.0,
+     "BLK": 5.0,
+     "TO": 35.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "F"
+    ]
+   },
+   {
+    "name": "Jaime Jaquez Jr.",
+    "team": "MIL",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 74.0,
+    "gp": 13,
+    "fp": 361.3,
+    "ppg": 27.79,
+    "mpg": 27.9,
+    "st": {
+     "PTS": 215.0,
+     "REB": 74.0,
+     "AST": 37.0,
+     "ST": 8.0,
+     "BLK": 1.0,
+     "TO": 25.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
    },
    {
     "name": "Miles Bridges",
@@ -2005,59 +2193,62 @@
     "q": true,
     "why": "",
     "pool": [
-     "F"
+     "F",
+     "ALL"
     ]
    },
    {
-    "name": "Jeremiah Fears",
-    "team": "NOP",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 76.0,
-    "gp": 12,
-    "fp": 352.3,
-    "ppg": 29.36,
-    "mpg": 28.8,
-    "st": {
-     "PTS": 183.0,
-     "REB": 54.0,
-     "AST": 59.0,
-     "ST": 12.0,
-     "BLK": 5.0,
-     "TO": 35.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Donovan Clingan",
-    "team": "POR",
+    "name": "Wendell Carter Jr.",
+    "team": "ORL",
     "pos": [
      "C"
     ],
     "tag": "",
-    "wv": true,
-    "own": 98.0,
-    "gp": 11,
-    "fp": 350.5,
-    "ppg": 31.86,
-    "mpg": 25.3,
+    "wv": false,
+    "own": 78.0,
+    "gp": 12,
+    "fp": 360.9,
+    "ppg": 30.07,
+    "mpg": 32.7,
     "st": {
-     "PTS": 119.0,
-     "REB": 115.0,
-     "AST": 17.0,
-     "ST": 4.0,
-     "BLK": 24.0,
-     "TO": 16.0
+     "PTS": 162.0,
+     "REB": 112.0,
+     "AST": 13.0,
+     "ST": 12.0,
+     "BLK": 10.0,
+     "TO": 21.0
     },
     "q": true,
     "why": "",
     "pool": [
      "C"
+    ]
+   },
+   {
+    "name": "Brandin Podziemski",
+    "team": "GSW",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 83.0,
+    "gp": 11,
+    "fp": 352.8,
+    "ppg": 32.07,
+    "mpg": 32.4,
+    "st": {
+     "PTS": 181.0,
+     "REB": 54.0,
+     "AST": 42.0,
+     "ST": 13.0,
+     "BLK": 6.0,
+     "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G"
     ]
    },
    {
@@ -2067,7 +2258,7 @@
      "F"
     ],
     "tag": "O",
-    "wv": true,
+    "wv": false,
     "own": 91.0,
     "gp": 10,
     "fp": 345.9,
@@ -2089,85 +2280,29 @@
     ]
    },
    {
-    "name": "Ace Bailey",
-    "team": "UTA",
+    "name": "Saddiq Bey",
+    "team": "NOP",
     "pos": [
      "F"
     ],
     "tag": "",
     "wv": false,
-    "own": 70.0,
-    "gp": 12,
-    "fp": 345.5,
-    "ppg": 28.79,
-    "mpg": 31.0,
+    "own": 54.0,
+    "gp": 13,
+    "fp": 345.2,
+    "ppg": 26.55,
+    "mpg": 27.4,
     "st": {
-     "PTS": 160.0,
-     "REB": 80.0,
-     "AST": 23.0,
-     "ST": 9.0,
-     "BLK": 17.0,
-     "TO": 23.0
+     "PTS": 215.0,
+     "REB": 51.0,
+     "AST": 28.0,
+     "ST": 10.0,
+     "BLK": 3.0,
+     "TO": 12.0
     },
     "q": true,
     "why": "",
     "pool": []
-   },
-   {
-    "name": "Zach LaVine",
-    "team": "SAC",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 87.0,
-    "gp": 11,
-    "fp": 341.2,
-    "ppg": 31.02,
-    "mpg": 32.7,
-    "st": {
-     "PTS": 245.0,
-     "REB": 36.0,
-     "AST": 28.0,
-     "ST": 11.0,
-     "BLK": 4.0,
-     "TO": 34.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G",
-     "F"
-    ]
-   },
-   {
-    "name": "Isaiah Hartenstein",
-    "team": "OKC",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 84.0,
-    "gp": 12,
-    "fp": 340.2,
-    "ppg": 28.35,
-    "mpg": 24.9,
-    "st": {
-     "PTS": 96.0,
-     "REB": 121.0,
-     "AST": 44.0,
-     "ST": 14.0,
-     "BLK": 4.0,
-     "TO": 21.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C"
-    ]
    },
    {
     "name": "Ajay Mitchell",
@@ -2192,35 +2327,34 @@
     },
     "q": true,
     "why": "",
-    "pool": []
+    "pool": [
+     "G"
+    ]
    },
    {
-    "name": "Brandin Podziemski",
-    "team": "GSW",
+    "name": "CJ McCollum",
+    "team": "ATL",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 83.0,
-    "gp": 10,
-    "fp": 338.2,
-    "ppg": 33.82,
-    "mpg": 33.4,
+    "own": 74.0,
+    "gp": 13,
+    "fp": 338.8,
+    "ppg": 26.06,
+    "mpg": 26.1,
     "st": {
-     "PTS": 173.0,
-     "REB": 51.0,
-     "AST": 42.0,
-     "ST": 13.0,
-     "BLK": 5.0,
-     "TO": 13.0
+     "PTS": 183.0,
+     "REB": 39.0,
+     "AST": 52.0,
+     "ST": 12.0,
+     "BLK": 7.0,
+     "TO": 26.0
     },
     "q": true,
     "why": "",
-    "pool": [
-     "G",
-     "ALL"
-    ]
+    "pool": []
    },
    {
     "name": "Jonathan Kuminga",
@@ -2230,7 +2364,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 71.0,
+    "own": 72.0,
     "gp": 12,
     "fp": 337.1,
     "ppg": 28.09,
@@ -2248,31 +2382,55 @@
     "pool": []
    },
    {
-    "name": "Wendell Carter Jr.",
-    "team": "ORL",
+    "name": "Derik Queen",
+    "team": "NOP",
     "pos": [
+     "F",
      "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 78.0,
-    "gp": 11,
-    "fp": 335.3,
-    "ppg": 30.48,
-    "mpg": 32.9,
+    "own": 83.0,
+    "gp": 13,
+    "fp": 335.4,
+    "ppg": 25.8,
+    "mpg": 21.7,
     "st": {
-     "PTS": 150.0,
-     "REB": 104.0,
-     "AST": 13.0,
-     "ST": 11.0,
-     "BLK": 9.0,
-     "TO": 19.0
+     "PTS": 156.0,
+     "REB": 82.0,
+     "AST": 30.0,
+     "ST": 12.0,
+     "BLK": 11.0,
+     "TO": 33.0
     },
     "q": true,
     "why": "",
-    "pool": [
-     "C"
-    ]
+    "pool": []
+   },
+   {
+    "name": "Andrew Nembhard",
+    "team": "IND",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 79.0,
+    "gp": 11,
+    "fp": 332.0,
+    "ppg": 30.18,
+    "mpg": 33.4,
+    "st": {
+     "PTS": 183.0,
+     "REB": 25.0,
+     "AST": 84.0,
+     "ST": 5.0,
+     "BLK": 2.0,
+     "TO": 28.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
    },
    {
     "name": "Immanuel Quickley",
@@ -2303,113 +2461,6 @@
     ]
    },
    {
-    "name": "Jaime Jaquez Jr.",
-    "team": "MIL",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 74.0,
-    "gp": 12,
-    "fp": 328.1,
-    "ppg": 27.34,
-    "mpg": 27.8,
-    "st": {
-     "PTS": 193.0,
-     "REB": 68.0,
-     "AST": 33.0,
-     "ST": 8.0,
-     "BLK": 1.0,
-     "TO": 23.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Andrew Nembhard",
-    "team": "IND",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 79.0,
-    "gp": 10,
-    "fp": 312.2,
-    "ppg": 31.22,
-    "mpg": 33.3,
-    "st": {
-     "PTS": 171.0,
-     "REB": 21.0,
-     "AST": 78.0,
-     "ST": 5.0,
-     "BLK": 2.0,
-     "TO": 22.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G"
-    ]
-   },
-   {
-    "name": "Derik Queen",
-    "team": "NOP",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 84.0,
-    "gp": 12,
-    "fp": 311.2,
-    "ppg": 25.93,
-    "mpg": 21.6,
-    "st": {
-     "PTS": 146.0,
-     "REB": 76.0,
-     "AST": 28.0,
-     "ST": 11.0,
-     "BLK": 9.0,
-     "TO": 28.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Cedric Coward",
-    "team": "MEM",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 90.0,
-    "gp": 10,
-    "fp": 308.9,
-    "ppg": 30.89,
-    "mpg": 28.3,
-    "st": {
-     "PTS": 128.0,
-     "REB": 87.0,
-     "AST": 27.0,
-     "ST": 15.0,
-     "BLK": 2.0,
-     "TO": 15.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F"
-    ]
-   },
-   {
     "name": "Aaron Wiggins",
     "team": "ATL",
     "pos": [
@@ -2419,17 +2470,122 @@
     "tag": "",
     "wv": false,
     "own": 44.0,
-    "gp": 12,
-    "fp": 304.3,
-    "ppg": 25.36,
+    "gp": 13,
+    "fp": 321.6,
+    "ppg": 24.74,
     "mpg": 25.8,
     "st": {
-     "PTS": 179.0,
-     "REB": 44.0,
-     "AST": 29.0,
+     "PTS": 188.0,
+     "REB": 48.0,
+     "AST": 32.0,
      "ST": 11.0,
      "BLK": 4.0,
+     "TO": 17.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jalen Smith",
+    "team": "CHI",
+    "pos": [
+     "F",
+     "C"
+    ],
+    "tag": "Q",
+    "wv": false,
+    "own": 59.0,
+    "gp": 11,
+    "fp": 320.2,
+    "ppg": 29.11,
+    "mpg": 24.7,
+    "st": {
+     "PTS": 143.0,
+     "REB": 86.0,
+     "AST": 22.0,
+     "ST": 6.0,
+     "BLK": 11.0,
+     "TO": 10.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F",
+     "C"
+    ]
+   },
+   {
+    "name": "Fred VanVleet",
+    "team": "HOU",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 73.0,
+    "gp": 11,
+    "fp": 317.9,
+    "ppg": 28.9,
+    "mpg": 30.4,
+    "st": {
+     "PTS": 154.0,
+     "REB": 32.0,
+     "AST": 59.0,
+     "ST": 13.0,
+     "BLK": 3.0,
+     "TO": 11.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Tari Eason",
+    "team": "HOU",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 36.0,
+    "gp": 13,
+    "fp": 312.5,
+    "ppg": 24.04,
+    "mpg": 24.4,
+    "st": {
+     "PTS": 126.0,
+     "REB": 80.0,
+     "AST": 17.0,
+     "ST": 13.0,
+     "BLK": 14.0,
      "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Kyle Kuzma",
+    "team": "MIL",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 27.0,
+    "gp": 13,
+    "fp": 305.1,
+    "ppg": 23.47,
+    "mpg": 27.2,
+    "st": {
+     "PTS": 144.0,
+     "REB": 68.0,
+     "AST": 33.0,
+     "ST": 14.0,
+     "BLK": 4.0,
+     "TO": 24.0
     },
     "q": true,
     "why": "",
@@ -2444,7 +2600,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 55.0,
+    "own": 56.0,
     "gp": 11,
     "fp": 304.0,
     "ppg": 27.64,
@@ -2456,6 +2612,31 @@
      "ST": 11.0,
      "BLK": 9.0,
      "TO": 21.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Ryan Rollins",
+    "team": "MIL",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 82.0,
+    "gp": 13,
+    "fp": 303.5,
+    "ppg": 23.35,
+    "mpg": 23.8,
+    "st": {
+     "PTS": 137.0,
+     "REB": 65.0,
+     "AST": 51.0,
+     "ST": 10.0,
+     "BLK": 4.0,
+     "TO": 30.0
     },
     "q": true,
     "why": "",
@@ -2488,50 +2669,25 @@
     "pool": []
    },
    {
-    "name": "CJ McCollum",
-    "team": "ATL",
+    "name": "Myles Turner",
+    "team": "MIL",
     "pos": [
-     "G"
+     "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 74.0,
+    "own": 70.0,
     "gp": 12,
-    "fp": 302.3,
-    "ppg": 25.19,
-    "mpg": 25.6,
+    "fp": 299.9,
+    "ppg": 24.99,
+    "mpg": 27.4,
     "st": {
-     "PTS": 163.0,
-     "REB": 34.0,
-     "AST": 47.0,
-     "ST": 12.0,
-     "BLK": 6.0,
+     "PTS": 88.0,
+     "REB": 72.0,
+     "AST": 33.0,
+     "ST": 8.0,
+     "BLK": 26.0,
      "TO": 26.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Saddiq Bey",
-    "team": "NOP",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 51.0,
-    "gp": 12,
-    "fp": 300.2,
-    "ppg": 25.02,
-    "mpg": 26.9,
-    "st": {
-     "PTS": 185.0,
-     "REB": 41.0,
-     "AST": 28.0,
-     "ST": 10.0,
-     "BLK": 2.0,
-     "TO": 12.0
     },
     "q": true,
     "why": "",
@@ -2545,7 +2701,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 80.0,
+    "own": 81.0,
     "gp": 11,
     "fp": 296.5,
     "ppg": 26.95,
@@ -2570,7 +2726,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 51.0,
+    "own": 50.0,
     "gp": 12,
     "fp": 294.3,
     "ppg": 24.53,
@@ -2582,6 +2738,31 @@
      "ST": 8.0,
      "BLK": 22.0,
      "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jrue Holiday",
+    "team": "POR",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 58.0,
+    "gp": 12,
+    "fp": 294.2,
+    "ppg": 24.52,
+    "mpg": 26.2,
+    "st": {
+     "PTS": 153.0,
+     "REB": 41.0,
+     "AST": 48.0,
+     "ST": 12.0,
+     "BLK": 2.0,
+     "TO": 22.0
     },
     "q": true,
     "why": "",
@@ -2607,6 +2788,31 @@
      "ST": 4.0,
      "BLK": 11.0,
      "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "De'Anthony Melton",
+    "team": "GSW",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 37.0,
+    "gp": 13,
+    "fp": 293.5,
+    "ppg": 22.58,
+    "mpg": 22.1,
+    "st": {
+     "PTS": 129.0,
+     "REB": 55.0,
+     "AST": 31.0,
+     "ST": 17.0,
+     "BLK": 6.0,
+     "TO": 17.0
     },
     "q": true,
     "why": "",
@@ -2639,24 +2845,49 @@
     "pool": []
    },
    {
-    "name": "Fred VanVleet",
-    "team": "HOU",
+    "name": "Jared McCain",
+    "team": "OKC",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 73.0,
-    "gp": 10,
-    "fp": 291.0,
-    "ppg": 29.1,
-    "mpg": 30.0,
+    "own": 51.0,
+    "gp": 13,
+    "fp": 288.9,
+    "ppg": 22.22,
+    "mpg": 26.4,
     "st": {
-     "PTS": 137.0,
-     "REB": 30.0,
-     "AST": 56.0,
-     "ST": 13.0,
-     "BLK": 2.0,
+     "PTS": 175.0,
+     "REB": 47.0,
+     "AST": 25.0,
+     "ST": 11.0,
+     "BLK": 3.0,
+     "TO": 22.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Brook Lopez",
+    "team": "LAC",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 37.0,
+    "gp": 11,
+    "fp": 287.8,
+    "ppg": 26.16,
+    "mpg": 24.1,
+    "st": {
+     "PTS": 162.0,
+     "REB": 59.0,
+     "AST": 14.0,
+     "ST": 5.0,
+     "BLK": 10.0,
      "TO": 11.0
     },
     "q": true,
@@ -2696,7 +2927,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 55.0,
+    "own": 58.0,
     "gp": 11,
     "fp": 285.9,
     "ppg": 25.99,
@@ -2714,26 +2945,50 @@
     "pool": []
    },
    {
-    "name": "Tari Eason",
-    "team": "HOU",
+    "name": "Jaxson Hayes",
+    "team": "UTA",
     "pos": [
-     "G",
-     "F"
+     "C"
+    ],
+    "tag": "Q",
+    "wv": false,
+    "own": 24.0,
+    "gp": 12,
+    "fp": 285.9,
+    "ppg": 23.82,
+    "mpg": 24.2,
+    "st": {
+     "PTS": 106.0,
+     "REB": 72.0,
+     "AST": 19.0,
+     "ST": 11.0,
+     "BLK": 16.0,
+     "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Aday Mara",
+    "team": "OKC",
+    "pos": [
+     "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 36.0,
-    "gp": 12,
-    "fp": 283.3,
-    "ppg": 23.61,
-    "mpg": 23.7,
+    "own": 50.0,
+    "gp": 13,
+    "fp": 285.1,
+    "ppg": 21.93,
+    "mpg": 21.3,
     "st": {
      "PTS": 112.0,
-     "REB": 69.0,
-     "AST": 15.0,
-     "ST": 13.0,
-     "BLK": 14.0,
-     "TO": 15.0
+     "REB": 78.0,
+     "AST": 17.0,
+     "ST": 1.0,
+     "BLK": 24.0,
+     "TO": 21.0
     },
     "q": true,
     "why": "",
@@ -2748,7 +3003,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 39.0,
+    "own": 40.0,
     "gp": 13,
     "fp": 282.1,
     "ppg": 21.7,
@@ -2766,34 +3021,6 @@
     "pool": []
    },
    {
-    "name": "Jalen Smith",
-    "team": "CHI",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 57.0,
-    "gp": 10,
-    "fp": 281.3,
-    "ppg": 28.13,
-    "mpg": 24.0,
-    "st": {
-     "PTS": 128.0,
-     "REB": 74.0,
-     "AST": 19.0,
-     "ST": 3.0,
-     "BLK": 11.0,
-     "TO": 6.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C"
-    ]
-   },
-   {
     "name": "Precious Achiuwa",
     "team": "SAC",
     "pos": [
@@ -2802,7 +3029,7 @@
     ],
     "tag": "Q",
     "wv": false,
-    "own": 27.0,
+    "own": 25.0,
     "gp": 11,
     "fp": 281.0,
     "ppg": 25.55,
@@ -2814,56 +3041,6 @@
      "ST": 14.0,
      "BLK": 12.0,
      "TO": 13.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Ryan Rollins",
-    "team": "MIL",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 83.0,
-    "gp": 12,
-    "fp": 280.5,
-    "ppg": 23.38,
-    "mpg": 23.3,
-    "st": {
-     "PTS": 129.0,
-     "REB": 55.0,
-     "AST": 49.0,
-     "ST": 9.0,
-     "BLK": 4.0,
-     "TO": 27.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Moussa Diabaté",
-    "team": "CHA",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 55.0,
-    "gp": 10,
-    "fp": 280.0,
-    "ppg": 28.0,
-    "mpg": 29.0,
-    "st": {
-     "PTS": 87.0,
-     "REB": 95.0,
-     "AST": 20.0,
-     "ST": 14.0,
-     "BLK": 9.0,
-     "TO": 20.0
     },
     "q": true,
     "why": "",
@@ -2895,50 +3072,128 @@
     "pool": []
    },
    {
-    "name": "Jrue Holiday",
-    "team": "POR",
+    "name": "Moussa Diabaté",
+    "team": "CHA",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 54.0,
+    "gp": 10,
+    "fp": 280.0,
+    "ppg": 28.0,
+    "mpg": 29.0,
+    "st": {
+     "PTS": 87.0,
+     "REB": 95.0,
+     "AST": 20.0,
+     "ST": 14.0,
+     "BLK": 9.0,
+     "TO": 20.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Kris Dunn",
+    "team": "LAC",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 58.0,
+    "own": 38.0,
     "gp": 11,
-    "fp": 277.7,
-    "ppg": 25.25,
-    "mpg": 26.2,
+    "fp": 277.9,
+    "ppg": 25.26,
+    "mpg": 27.7,
     "st": {
-     "PTS": 147.0,
-     "REB": 36.0,
-     "AST": 43.0,
-     "ST": 11.0,
-     "BLK": 2.0,
-     "TO": 16.0
+     "PTS": 87.0,
+     "REB": 42.0,
+     "AST": 49.0,
+     "ST": 23.0,
+     "BLK": 5.0,
+     "TO": 17.0
     },
     "q": true,
     "why": "",
     "pool": []
    },
    {
-    "name": "Kyle Kuzma",
-    "team": "MIL",
+    "name": "Peyton Watson",
+    "team": "CLE",
     "pos": [
      "F"
     ],
     "tag": "",
     "wv": false,
-    "own": 28.0,
-    "gp": 12,
-    "fp": 277.3,
-    "ppg": 23.11,
-    "mpg": 27.0,
+    "own": 60.0,
+    "gp": 11,
+    "fp": 276.0,
+    "ppg": 25.09,
+    "mpg": 28.2,
+    "st": {
+     "PTS": 114.0,
+     "REB": 50.0,
+     "AST": 30.0,
+     "ST": 8.0,
+     "BLK": 17.0,
+     "TO": 18.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Julian Champagnie",
+    "team": "SAS",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 29.0,
+    "gp": 13,
+    "fp": 275.4,
+    "ppg": 21.18,
+    "mpg": 26.3,
     "st": {
      "PTS": 130.0,
-     "REB": 64.0,
-     "AST": 31.0,
+     "REB": 52.0,
+     "AST": 20.0,
      "ST": 12.0,
+     "BLK": 8.0,
+     "TO": 7.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Devin Vassell",
+    "team": "SAS",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 47.0,
+    "gp": 11,
+    "fp": 273.5,
+    "ppg": 24.86,
+    "mpg": 29.4,
+    "st": {
+     "PTS": 126.0,
+     "REB": 40.0,
+     "AST": 33.0,
+     "ST": 17.0,
      "BLK": 3.0,
-     "TO": 21.0
+     "TO": 10.0
     },
     "q": true,
     "why": "",
@@ -2952,7 +3207,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 26.0,
+    "own": 23.0,
     "gp": 12,
     "fp": 273.5,
     "ppg": 22.79,
@@ -2977,7 +3232,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 15.0,
+    "own": 20.0,
     "gp": 12,
     "fp": 273.0,
     "ppg": 22.75,
@@ -2993,265 +3248,9 @@
     "q": true,
     "why": "",
     "pool": []
-   },
-   {
-    "name": "De'Anthony Melton",
-    "team": "GSW",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 35.0,
-    "gp": 12,
-    "fp": 270.2,
-    "ppg": 22.52,
-    "mpg": 22.4,
-    "st": {
-     "PTS": 121.0,
-     "REB": 51.0,
-     "AST": 28.0,
-     "ST": 16.0,
-     "BLK": 5.0,
-     "TO": 17.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jamal Shead",
-    "team": "TOR",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 27.0,
-    "gp": 12,
-    "fp": 266.7,
-    "ppg": 22.22,
-    "mpg": 23.9,
-    "st": {
-     "PTS": 82.0,
-     "REB": 26.0,
-     "AST": 81.0,
-     "ST": 17.0,
-     "BLK": 2.0,
-     "TO": 25.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jaxson Hayes",
-    "team": "UTA",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 25.0,
-    "gp": 11,
-    "fp": 266.4,
-    "ppg": 24.22,
-    "mpg": 25.2,
-    "st": {
-     "PTS": 94.0,
-     "REB": 67.0,
-     "AST": 18.0,
-     "ST": 11.0,
-     "BLK": 16.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Peyton Watson",
-    "team": "CLE",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 60.0,
-    "gp": 10,
-    "fp": 266.2,
-    "ppg": 26.62,
-    "mpg": 28.0,
-    "st": {
-     "PTS": 110.0,
-     "REB": 46.0,
-     "AST": 28.0,
-     "ST": 8.0,
-     "BLK": 17.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Myles Turner",
-    "team": "MIL",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 70.0,
-    "gp": 11,
-    "fp": 266.2,
-    "ppg": 24.2,
-    "mpg": 27.1,
-    "st": {
-     "PTS": 74.0,
-     "REB": 61.0,
-     "AST": 30.0,
-     "ST": 6.0,
-     "BLK": 26.0,
-     "TO": 22.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Dillon Brooks",
-    "team": "PHX",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 50.0,
-    "gp": 11,
-    "fp": 265.9,
-    "ppg": 24.17,
-    "mpg": 29.8,
-    "st": {
-     "PTS": 164.0,
-     "REB": 42.0,
-     "AST": 23.0,
-     "ST": 9.0,
-     "BLK": 2.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Aday Mara",
-    "team": "OKC",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 51.0,
-    "gp": 12,
-    "fp": 264.5,
-    "ppg": 22.04,
-    "mpg": 21.2,
-    "st": {
-     "PTS": 102.0,
-     "REB": 75.0,
-     "AST": 17.0,
-     "ST": 1.0,
-     "BLK": 21.0,
-     "TO": 19.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Kris Dunn",
-    "team": "LAC",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 40.0,
-    "gp": 10,
-    "fp": 263.3,
-    "ppg": 26.33,
-    "mpg": 28.5,
-    "st": {
-     "PTS": 85.0,
-     "REB": 39.0,
-     "AST": 43.0,
-     "ST": 23.0,
-     "BLK": 5.0,
-     "TO": 17.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Christian Braun",
-    "team": "DEN",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 51.0,
-    "gp": 10,
-    "fp": 263.2,
-    "ppg": 26.32,
-    "mpg": 34.4,
-    "st": {
-     "PTS": 124.0,
-     "REB": 41.0,
-     "AST": 24.0,
-     "ST": 20.0,
-     "BLK": 2.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
    }
   ],
   "l30": [
-   {
-    "name": "Jabari Smith Jr.",
-    "team": "HOU",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 89.0,
-    "gp": 12,
-    "fp": 394.8,
-    "ppg": 32.9,
-    "mpg": 35.2,
-    "st": {
-     "PTS": 201.0,
-     "REB": 79.0,
-     "AST": 26.0,
-     "ST": 11.0,
-     "BLK": 13.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F",
-     "C",
-     "ALL"
-    ]
-   },
    {
     "name": "Davion Mitchell",
     "team": "MIA",
@@ -3260,18 +3259,18 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 84.0,
-    "gp": 11,
-    "fp": 378.9,
-    "ppg": 34.45,
-    "mpg": 35.7,
+    "own": 85.0,
+    "gp": 12,
+    "fp": 434.4,
+    "ppg": 36.2,
+    "mpg": 36.0,
     "st": {
-     "PTS": 181.0,
-     "REB": 22.0,
-     "AST": 93.0,
+     "PTS": 203.0,
+     "REB": 27.0,
+     "AST": 110.0,
      "ST": 14.0,
-     "BLK": 6.0,
-     "TO": 28.0
+     "BLK": 7.0,
+     "TO": 29.0
     },
     "q": true,
     "why": "",
@@ -3279,6 +3278,193 @@
      "G",
      "ALL"
     ]
+   },
+   {
+    "name": "De'Aaron Fox",
+    "team": "SAS",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": true,
+    "own": 92.0,
+    "gp": 13,
+    "fp": 396.9,
+    "ppg": 30.53,
+    "mpg": 28.6,
+    "st": {
+     "PTS": 177.0,
+     "REB": 57.0,
+     "AST": 75.0,
+     "ST": 17.0,
+     "BLK": 6.0,
+     "TO": 30.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jeremiah Fears",
+    "team": "NOP",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 77.0,
+    "gp": 13,
+    "fp": 393.8,
+    "ppg": 30.29,
+    "mpg": 29.2,
+    "st": {
+     "PTS": 201.0,
+     "REB": 59.0,
+     "AST": 66.0,
+     "ST": 13.0,
+     "BLK": 7.0,
+     "TO": 37.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Donovan Clingan",
+    "team": "POR",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 98.0,
+    "gp": 12,
+    "fp": 391.7,
+    "ppg": 32.64,
+    "mpg": 25.5,
+    "st": {
+     "PTS": 132.0,
+     "REB": 126.0,
+     "AST": 19.0,
+     "ST": 6.0,
+     "BLK": 26.0,
+     "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C",
+     "ALL"
+    ]
+   },
+   {
+    "name": "Isaiah Hartenstein",
+    "team": "OKC",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 84.0,
+    "gp": 13,
+    "fp": 390.4,
+    "ppg": 30.03,
+    "mpg": 25.4,
+    "st": {
+     "PTS": 117.0,
+     "REB": 137.0,
+     "AST": 50.0,
+     "ST": 15.0,
+     "BLK": 4.0,
+     "TO": 23.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Ace Bailey",
+    "team": "UTA",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 71.0,
+    "gp": 13,
+    "fp": 371.6,
+    "ppg": 28.58,
+    "mpg": 31.2,
+    "st": {
+     "PTS": 181.0,
+     "REB": 83.0,
+     "AST": 24.0,
+     "ST": 9.0,
+     "BLK": 17.0,
+     "TO": 23.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F"
+    ]
+   },
+   {
+    "name": "Zach LaVine",
+    "team": "SAC",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 87.0,
+    "gp": 12,
+    "fp": 370.8,
+    "ppg": 30.9,
+    "mpg": 33.0,
+    "st": {
+     "PTS": 257.0,
+     "REB": 39.0,
+     "AST": 34.0,
+     "ST": 12.0,
+     "BLK": 5.0,
+     "TO": 35.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "F"
+    ]
+   },
+   {
+    "name": "Jaime Jaquez Jr.",
+    "team": "MIL",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 74.0,
+    "gp": 13,
+    "fp": 361.3,
+    "ppg": 27.79,
+    "mpg": 27.7,
+    "st": {
+     "PTS": 215.0,
+     "REB": 74.0,
+     "AST": 37.0,
+     "ST": 8.0,
+     "BLK": 1.0,
+     "TO": 25.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
    },
    {
     "name": "Miles Bridges",
@@ -3304,59 +3490,62 @@
     "q": true,
     "why": "",
     "pool": [
-     "F"
+     "F",
+     "ALL"
     ]
    },
    {
-    "name": "Jeremiah Fears",
-    "team": "NOP",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 76.0,
-    "gp": 12,
-    "fp": 352.3,
-    "ppg": 29.36,
-    "mpg": 28.8,
-    "st": {
-     "PTS": 183.0,
-     "REB": 54.0,
-     "AST": 59.0,
-     "ST": 12.0,
-     "BLK": 5.0,
-     "TO": 35.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Donovan Clingan",
-    "team": "POR",
+    "name": "Wendell Carter Jr.",
+    "team": "ORL",
     "pos": [
      "C"
     ],
     "tag": "",
-    "wv": true,
-    "own": 98.0,
-    "gp": 11,
-    "fp": 350.5,
-    "ppg": 31.86,
-    "mpg": 25.4,
+    "wv": false,
+    "own": 78.0,
+    "gp": 12,
+    "fp": 360.9,
+    "ppg": 30.07,
+    "mpg": 32.7,
     "st": {
-     "PTS": 119.0,
-     "REB": 115.0,
-     "AST": 17.0,
-     "ST": 4.0,
-     "BLK": 24.0,
-     "TO": 16.0
+     "PTS": 162.0,
+     "REB": 112.0,
+     "AST": 13.0,
+     "ST": 12.0,
+     "BLK": 10.0,
+     "TO": 21.0
     },
     "q": true,
     "why": "",
     "pool": [
      "C"
+    ]
+   },
+   {
+    "name": "Brandin Podziemski",
+    "team": "GSW",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 83.0,
+    "gp": 11,
+    "fp": 352.8,
+    "ppg": 32.07,
+    "mpg": 32.5,
+    "st": {
+     "PTS": 181.0,
+     "REB": 54.0,
+     "AST": 42.0,
+     "ST": 13.0,
+     "BLK": 6.0,
+     "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G"
     ]
    },
    {
@@ -3366,7 +3555,7 @@
      "F"
     ],
     "tag": "O",
-    "wv": true,
+    "wv": false,
     "own": 91.0,
     "gp": 10,
     "fp": 345.9,
@@ -3388,25 +3577,25 @@
     ]
    },
    {
-    "name": "Ace Bailey",
-    "team": "UTA",
+    "name": "Saddiq Bey",
+    "team": "NOP",
     "pos": [
      "F"
     ],
     "tag": "",
     "wv": false,
-    "own": 70.0,
-    "gp": 12,
-    "fp": 345.5,
-    "ppg": 28.79,
-    "mpg": 30.9,
+    "own": 54.0,
+    "gp": 13,
+    "fp": 345.2,
+    "ppg": 26.55,
+    "mpg": 27.4,
     "st": {
-     "PTS": 160.0,
-     "REB": 80.0,
-     "AST": 23.0,
-     "ST": 9.0,
-     "BLK": 17.0,
-     "TO": 23.0
+     "PTS": 215.0,
+     "REB": 51.0,
+     "AST": 28.0,
+     "ST": 10.0,
+     "BLK": 3.0,
+     "TO": 12.0
     },
     "q": true,
     "why": "",
@@ -3440,87 +3629,29 @@
     ]
    },
    {
-    "name": "Zach LaVine",
-    "team": "SAC",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 87.0,
-    "gp": 11,
-    "fp": 341.2,
-    "ppg": 31.02,
-    "mpg": 32.7,
-    "st": {
-     "PTS": 245.0,
-     "REB": 36.0,
-     "AST": 28.0,
-     "ST": 11.0,
-     "BLK": 4.0,
-     "TO": 34.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F"
-    ]
-   },
-   {
-    "name": "Isaiah Hartenstein",
-    "team": "OKC",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 84.0,
-    "gp": 12,
-    "fp": 340.2,
-    "ppg": 28.35,
-    "mpg": 25.0,
-    "st": {
-     "PTS": 96.0,
-     "REB": 121.0,
-     "AST": 44.0,
-     "ST": 14.0,
-     "BLK": 4.0,
-     "TO": 21.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C"
-    ]
-   },
-   {
-    "name": "Brandin Podziemski",
-    "team": "GSW",
+    "name": "CJ McCollum",
+    "team": "ATL",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 83.0,
-    "gp": 10,
-    "fp": 338.2,
-    "ppg": 33.82,
-    "mpg": 33.5,
+    "own": 74.0,
+    "gp": 13,
+    "fp": 338.8,
+    "ppg": 26.06,
+    "mpg": 26.1,
     "st": {
-     "PTS": 173.0,
-     "REB": 51.0,
-     "AST": 42.0,
-     "ST": 13.0,
-     "BLK": 5.0,
-     "TO": 13.0
+     "PTS": 183.0,
+     "REB": 39.0,
+     "AST": 52.0,
+     "ST": 12.0,
+     "BLK": 7.0,
+     "TO": 26.0
     },
     "q": true,
     "why": "",
-    "pool": [
-     "G",
-     "ALL"
-    ]
+    "pool": []
    },
    {
     "name": "Jonathan Kuminga",
@@ -3530,7 +3661,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 71.0,
+    "own": 72.0,
     "gp": 12,
     "fp": 337.1,
     "ppg": 28.09,
@@ -3548,31 +3679,55 @@
     "pool": []
    },
    {
-    "name": "Wendell Carter Jr.",
-    "team": "ORL",
+    "name": "Derik Queen",
+    "team": "NOP",
     "pos": [
+     "F",
      "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 78.0,
-    "gp": 11,
-    "fp": 335.3,
-    "ppg": 30.48,
-    "mpg": 32.9,
+    "own": 83.0,
+    "gp": 13,
+    "fp": 335.4,
+    "ppg": 25.8,
+    "mpg": 21.7,
     "st": {
-     "PTS": 150.0,
-     "REB": 104.0,
-     "AST": 13.0,
-     "ST": 11.0,
-     "BLK": 9.0,
-     "TO": 19.0
+     "PTS": 156.0,
+     "REB": 82.0,
+     "AST": 30.0,
+     "ST": 12.0,
+     "BLK": 11.0,
+     "TO": 33.0
     },
     "q": true,
     "why": "",
-    "pool": [
-     "C"
-    ]
+    "pool": []
+   },
+   {
+    "name": "Andrew Nembhard",
+    "team": "IND",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 79.0,
+    "gp": 11,
+    "fp": 332.0,
+    "ppg": 30.18,
+    "mpg": 33.4,
+    "st": {
+     "PTS": 183.0,
+     "REB": 25.0,
+     "AST": 84.0,
+     "ST": 5.0,
+     "BLK": 2.0,
+     "TO": 28.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
    },
    {
     "name": "Immanuel Quickley",
@@ -3603,113 +3758,6 @@
     ]
    },
    {
-    "name": "Jaime Jaquez Jr.",
-    "team": "MIL",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 74.0,
-    "gp": 12,
-    "fp": 328.1,
-    "ppg": 27.34,
-    "mpg": 27.7,
-    "st": {
-     "PTS": 193.0,
-     "REB": 68.0,
-     "AST": 33.0,
-     "ST": 8.0,
-     "BLK": 1.0,
-     "TO": 23.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Andrew Nembhard",
-    "team": "IND",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 79.0,
-    "gp": 10,
-    "fp": 312.2,
-    "ppg": 31.22,
-    "mpg": 33.3,
-    "st": {
-     "PTS": 171.0,
-     "REB": 21.0,
-     "AST": 78.0,
-     "ST": 5.0,
-     "BLK": 2.0,
-     "TO": 22.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G"
-    ]
-   },
-   {
-    "name": "Derik Queen",
-    "team": "NOP",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 84.0,
-    "gp": 12,
-    "fp": 311.2,
-    "ppg": 25.93,
-    "mpg": 21.6,
-    "st": {
-     "PTS": 146.0,
-     "REB": 76.0,
-     "AST": 28.0,
-     "ST": 11.0,
-     "BLK": 9.0,
-     "TO": 28.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Cedric Coward",
-    "team": "MEM",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 90.0,
-    "gp": 10,
-    "fp": 308.9,
-    "ppg": 30.89,
-    "mpg": 28.3,
-    "st": {
-     "PTS": 128.0,
-     "REB": 87.0,
-     "AST": 27.0,
-     "ST": 15.0,
-     "BLK": 2.0,
-     "TO": 15.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F"
-    ]
-   },
-   {
     "name": "Aaron Wiggins",
     "team": "ATL",
     "pos": [
@@ -3719,17 +3767,122 @@
     "tag": "",
     "wv": false,
     "own": 44.0,
-    "gp": 12,
-    "fp": 304.3,
-    "ppg": 25.36,
+    "gp": 13,
+    "fp": 321.6,
+    "ppg": 24.74,
     "mpg": 25.8,
     "st": {
-     "PTS": 179.0,
-     "REB": 44.0,
-     "AST": 29.0,
+     "PTS": 188.0,
+     "REB": 48.0,
+     "AST": 32.0,
      "ST": 11.0,
      "BLK": 4.0,
+     "TO": 17.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jalen Smith",
+    "team": "CHI",
+    "pos": [
+     "F",
+     "C"
+    ],
+    "tag": "Q",
+    "wv": false,
+    "own": 59.0,
+    "gp": 11,
+    "fp": 320.2,
+    "ppg": 29.11,
+    "mpg": 24.6,
+    "st": {
+     "PTS": 143.0,
+     "REB": 86.0,
+     "AST": 22.0,
+     "ST": 6.0,
+     "BLK": 11.0,
+     "TO": 10.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F",
+     "C"
+    ]
+   },
+   {
+    "name": "Fred VanVleet",
+    "team": "HOU",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 73.0,
+    "gp": 11,
+    "fp": 317.9,
+    "ppg": 28.9,
+    "mpg": 30.4,
+    "st": {
+     "PTS": 154.0,
+     "REB": 32.0,
+     "AST": 59.0,
+     "ST": 13.0,
+     "BLK": 3.0,
+     "TO": 11.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Tari Eason",
+    "team": "HOU",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 36.0,
+    "gp": 13,
+    "fp": 312.5,
+    "ppg": 24.04,
+    "mpg": 24.4,
+    "st": {
+     "PTS": 126.0,
+     "REB": 80.0,
+     "AST": 17.0,
+     "ST": 13.0,
+     "BLK": 14.0,
      "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Kyle Kuzma",
+    "team": "MIL",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 27.0,
+    "gp": 13,
+    "fp": 305.1,
+    "ppg": 23.47,
+    "mpg": 27.3,
+    "st": {
+     "PTS": 144.0,
+     "REB": 68.0,
+     "AST": 33.0,
+     "ST": 14.0,
+     "BLK": 4.0,
+     "TO": 24.0
     },
     "q": true,
     "why": "",
@@ -3744,7 +3897,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 55.0,
+    "own": 56.0,
     "gp": 11,
     "fp": 304.0,
     "ppg": 27.64,
@@ -3756,6 +3909,31 @@
      "ST": 11.0,
      "BLK": 9.0,
      "TO": 21.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Ryan Rollins",
+    "team": "MIL",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 82.0,
+    "gp": 13,
+    "fp": 303.5,
+    "ppg": 23.35,
+    "mpg": 23.9,
+    "st": {
+     "PTS": 137.0,
+     "REB": 65.0,
+     "AST": 51.0,
+     "ST": 10.0,
+     "BLK": 4.0,
+     "TO": 30.0
     },
     "q": true,
     "why": "",
@@ -3788,50 +3966,25 @@
     "pool": []
    },
    {
-    "name": "CJ McCollum",
-    "team": "ATL",
+    "name": "Myles Turner",
+    "team": "MIL",
     "pos": [
-     "G"
+     "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 74.0,
+    "own": 70.0,
     "gp": 12,
-    "fp": 302.3,
-    "ppg": 25.19,
-    "mpg": 25.6,
+    "fp": 299.9,
+    "ppg": 24.99,
+    "mpg": 27.4,
     "st": {
-     "PTS": 163.0,
-     "REB": 34.0,
-     "AST": 47.0,
-     "ST": 12.0,
-     "BLK": 6.0,
+     "PTS": 88.0,
+     "REB": 72.0,
+     "AST": 33.0,
+     "ST": 8.0,
+     "BLK": 26.0,
      "TO": 26.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Saddiq Bey",
-    "team": "NOP",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 51.0,
-    "gp": 12,
-    "fp": 300.2,
-    "ppg": 25.02,
-    "mpg": 26.8,
-    "st": {
-     "PTS": 185.0,
-     "REB": 41.0,
-     "AST": 28.0,
-     "ST": 10.0,
-     "BLK": 2.0,
-     "TO": 12.0
     },
     "q": true,
     "why": "",
@@ -3845,7 +3998,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 80.0,
+    "own": 81.0,
     "gp": 11,
     "fp": 296.5,
     "ppg": 26.95,
@@ -3870,7 +4023,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 51.0,
+    "own": 50.0,
     "gp": 12,
     "fp": 294.3,
     "ppg": 24.53,
@@ -3882,6 +4035,31 @@
      "ST": 8.0,
      "BLK": 22.0,
      "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jrue Holiday",
+    "team": "POR",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 58.0,
+    "gp": 12,
+    "fp": 294.2,
+    "ppg": 24.52,
+    "mpg": 26.2,
+    "st": {
+     "PTS": 153.0,
+     "REB": 41.0,
+     "AST": 48.0,
+     "ST": 12.0,
+     "BLK": 2.0,
+     "TO": 22.0
     },
     "q": true,
     "why": "",
@@ -3907,6 +4085,31 @@
      "ST": 4.0,
      "BLK": 11.0,
      "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "De'Anthony Melton",
+    "team": "GSW",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 37.0,
+    "gp": 13,
+    "fp": 293.5,
+    "ppg": 22.58,
+    "mpg": 22.1,
+    "st": {
+     "PTS": 129.0,
+     "REB": 55.0,
+     "AST": 31.0,
+     "ST": 17.0,
+     "BLK": 6.0,
+     "TO": 17.0
     },
     "q": true,
     "why": "",
@@ -3939,24 +4142,49 @@
     "pool": []
    },
    {
-    "name": "Fred VanVleet",
-    "team": "HOU",
+    "name": "Jared McCain",
+    "team": "OKC",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 73.0,
-    "gp": 10,
-    "fp": 291.0,
-    "ppg": 29.1,
-    "mpg": 30.1,
+    "own": 51.0,
+    "gp": 13,
+    "fp": 288.9,
+    "ppg": 22.22,
+    "mpg": 26.5,
     "st": {
-     "PTS": 137.0,
-     "REB": 30.0,
-     "AST": 56.0,
-     "ST": 13.0,
-     "BLK": 2.0,
+     "PTS": 175.0,
+     "REB": 47.0,
+     "AST": 25.0,
+     "ST": 11.0,
+     "BLK": 3.0,
+     "TO": 22.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Brook Lopez",
+    "team": "LAC",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 37.0,
+    "gp": 11,
+    "fp": 287.8,
+    "ppg": 26.16,
+    "mpg": 24.1,
+    "st": {
+     "PTS": 162.0,
+     "REB": 59.0,
+     "AST": 14.0,
+     "ST": 5.0,
+     "BLK": 10.0,
      "TO": 11.0
     },
     "q": true,
@@ -3996,7 +4224,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 55.0,
+    "own": 58.0,
     "gp": 11,
     "fp": 285.9,
     "ppg": 25.99,
@@ -4014,26 +4242,50 @@
     "pool": []
    },
    {
-    "name": "Tari Eason",
-    "team": "HOU",
+    "name": "Jaxson Hayes",
+    "team": "UTA",
     "pos": [
-     "G",
-     "F"
+     "C"
+    ],
+    "tag": "Q",
+    "wv": false,
+    "own": 24.0,
+    "gp": 12,
+    "fp": 285.9,
+    "ppg": 23.82,
+    "mpg": 24.0,
+    "st": {
+     "PTS": 106.0,
+     "REB": 72.0,
+     "AST": 19.0,
+     "ST": 11.0,
+     "BLK": 16.0,
+     "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Aday Mara",
+    "team": "OKC",
+    "pos": [
+     "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 36.0,
-    "gp": 12,
-    "fp": 283.3,
-    "ppg": 23.61,
-    "mpg": 23.8,
+    "own": 50.0,
+    "gp": 13,
+    "fp": 285.1,
+    "ppg": 21.93,
+    "mpg": 21.3,
     "st": {
      "PTS": 112.0,
-     "REB": 69.0,
-     "AST": 15.0,
-     "ST": 13.0,
-     "BLK": 14.0,
-     "TO": 15.0
+     "REB": 78.0,
+     "AST": 17.0,
+     "ST": 1.0,
+     "BLK": 24.0,
+     "TO": 21.0
     },
     "q": true,
     "why": "",
@@ -4048,7 +4300,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 39.0,
+    "own": 40.0,
     "gp": 13,
     "fp": 282.1,
     "ppg": 21.7,
@@ -4066,34 +4318,6 @@
     "pool": []
    },
    {
-    "name": "Jalen Smith",
-    "team": "CHI",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 57.0,
-    "gp": 10,
-    "fp": 281.3,
-    "ppg": 28.13,
-    "mpg": 23.9,
-    "st": {
-     "PTS": 128.0,
-     "REB": 74.0,
-     "AST": 19.0,
-     "ST": 3.0,
-     "BLK": 11.0,
-     "TO": 6.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C"
-    ]
-   },
-   {
     "name": "Precious Achiuwa",
     "team": "SAC",
     "pos": [
@@ -4102,7 +4326,7 @@
     ],
     "tag": "Q",
     "wv": false,
-    "own": 27.0,
+    "own": 25.0,
     "gp": 11,
     "fp": 281.0,
     "ppg": 25.55,
@@ -4114,56 +4338,6 @@
      "ST": 14.0,
      "BLK": 12.0,
      "TO": 13.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Ryan Rollins",
-    "team": "MIL",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 83.0,
-    "gp": 12,
-    "fp": 280.5,
-    "ppg": 23.38,
-    "mpg": 23.4,
-    "st": {
-     "PTS": 129.0,
-     "REB": 55.0,
-     "AST": 49.0,
-     "ST": 9.0,
-     "BLK": 4.0,
-     "TO": 27.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Moussa Diabaté",
-    "team": "CHA",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 55.0,
-    "gp": 10,
-    "fp": 280.0,
-    "ppg": 28.0,
-    "mpg": 29.1,
-    "st": {
-     "PTS": 87.0,
-     "REB": 95.0,
-     "AST": 20.0,
-     "ST": 14.0,
-     "BLK": 9.0,
-     "TO": 20.0
     },
     "q": true,
     "why": "",
@@ -4195,50 +4369,128 @@
     "pool": []
    },
    {
-    "name": "Jrue Holiday",
-    "team": "POR",
+    "name": "Moussa Diabaté",
+    "team": "CHA",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 54.0,
+    "gp": 10,
+    "fp": 280.0,
+    "ppg": 28.0,
+    "mpg": 29.1,
+    "st": {
+     "PTS": 87.0,
+     "REB": 95.0,
+     "AST": 20.0,
+     "ST": 14.0,
+     "BLK": 9.0,
+     "TO": 20.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Kris Dunn",
+    "team": "LAC",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 58.0,
+    "own": 38.0,
     "gp": 11,
-    "fp": 277.7,
-    "ppg": 25.25,
-    "mpg": 26.1,
+    "fp": 277.9,
+    "ppg": 25.26,
+    "mpg": 27.8,
     "st": {
-     "PTS": 147.0,
-     "REB": 36.0,
-     "AST": 43.0,
-     "ST": 11.0,
-     "BLK": 2.0,
-     "TO": 16.0
+     "PTS": 87.0,
+     "REB": 42.0,
+     "AST": 49.0,
+     "ST": 23.0,
+     "BLK": 5.0,
+     "TO": 17.0
     },
     "q": true,
     "why": "",
     "pool": []
    },
    {
-    "name": "Kyle Kuzma",
-    "team": "MIL",
+    "name": "Peyton Watson",
+    "team": "CLE",
     "pos": [
      "F"
     ],
     "tag": "",
     "wv": false,
-    "own": 28.0,
-    "gp": 12,
-    "fp": 277.3,
-    "ppg": 23.11,
-    "mpg": 27.0,
+    "own": 60.0,
+    "gp": 11,
+    "fp": 276.0,
+    "ppg": 25.09,
+    "mpg": 28.0,
+    "st": {
+     "PTS": 114.0,
+     "REB": 50.0,
+     "AST": 30.0,
+     "ST": 8.0,
+     "BLK": 17.0,
+     "TO": 18.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Julian Champagnie",
+    "team": "SAS",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 29.0,
+    "gp": 13,
+    "fp": 275.4,
+    "ppg": 21.18,
+    "mpg": 26.1,
     "st": {
      "PTS": 130.0,
-     "REB": 64.0,
-     "AST": 31.0,
+     "REB": 52.0,
+     "AST": 20.0,
      "ST": 12.0,
+     "BLK": 8.0,
+     "TO": 7.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Devin Vassell",
+    "team": "SAS",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 47.0,
+    "gp": 11,
+    "fp": 273.5,
+    "ppg": 24.86,
+    "mpg": 29.4,
+    "st": {
+     "PTS": 126.0,
+     "REB": 40.0,
+     "AST": 33.0,
+     "ST": 17.0,
      "BLK": 3.0,
-     "TO": 21.0
+     "TO": 10.0
     },
     "q": true,
     "why": "",
@@ -4252,7 +4504,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 26.0,
+    "own": 23.0,
     "gp": 12,
     "fp": 273.5,
     "ppg": 22.79,
@@ -4277,7 +4529,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 15.0,
+    "own": 20.0,
     "gp": 12,
     "fp": 273.0,
     "ppg": 22.75,
@@ -4293,321 +4545,9 @@
     "q": true,
     "why": "",
     "pool": []
-   },
-   {
-    "name": "De'Anthony Melton",
-    "team": "GSW",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 35.0,
-    "gp": 12,
-    "fp": 270.2,
-    "ppg": 22.52,
-    "mpg": 22.4,
-    "st": {
-     "PTS": 121.0,
-     "REB": 51.0,
-     "AST": 28.0,
-     "ST": 16.0,
-     "BLK": 5.0,
-     "TO": 17.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jamal Shead",
-    "team": "TOR",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 27.0,
-    "gp": 12,
-    "fp": 266.7,
-    "ppg": 22.22,
-    "mpg": 23.8,
-    "st": {
-     "PTS": 82.0,
-     "REB": 26.0,
-     "AST": 81.0,
-     "ST": 17.0,
-     "BLK": 2.0,
-     "TO": 25.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jaxson Hayes",
-    "team": "UTA",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 25.0,
-    "gp": 11,
-    "fp": 266.4,
-    "ppg": 24.22,
-    "mpg": 25.0,
-    "st": {
-     "PTS": 94.0,
-     "REB": 67.0,
-     "AST": 18.0,
-     "ST": 11.0,
-     "BLK": 16.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Peyton Watson",
-    "team": "CLE",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 60.0,
-    "gp": 10,
-    "fp": 266.2,
-    "ppg": 26.62,
-    "mpg": 27.8,
-    "st": {
-     "PTS": 110.0,
-     "REB": 46.0,
-     "AST": 28.0,
-     "ST": 8.0,
-     "BLK": 17.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Myles Turner",
-    "team": "MIL",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 70.0,
-    "gp": 11,
-    "fp": 266.2,
-    "ppg": 24.2,
-    "mpg": 27.1,
-    "st": {
-     "PTS": 74.0,
-     "REB": 61.0,
-     "AST": 30.0,
-     "ST": 6.0,
-     "BLK": 26.0,
-     "TO": 22.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Dillon Brooks",
-    "team": "PHX",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 50.0,
-    "gp": 11,
-    "fp": 265.9,
-    "ppg": 24.17,
-    "mpg": 29.8,
-    "st": {
-     "PTS": 164.0,
-     "REB": 42.0,
-     "AST": 23.0,
-     "ST": 9.0,
-     "BLK": 2.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Aday Mara",
-    "team": "OKC",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 51.0,
-    "gp": 12,
-    "fp": 264.5,
-    "ppg": 22.04,
-    "mpg": 21.3,
-    "st": {
-     "PTS": 102.0,
-     "REB": 75.0,
-     "AST": 17.0,
-     "ST": 1.0,
-     "BLK": 21.0,
-     "TO": 19.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Kris Dunn",
-    "team": "LAC",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 40.0,
-    "gp": 10,
-    "fp": 263.3,
-    "ppg": 26.33,
-    "mpg": 28.6,
-    "st": {
-     "PTS": 85.0,
-     "REB": 39.0,
-     "AST": 43.0,
-     "ST": 23.0,
-     "BLK": 5.0,
-     "TO": 17.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Christian Braun",
-    "team": "DEN",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 51.0,
-    "gp": 10,
-    "fp": 263.2,
-    "ppg": 26.32,
-    "mpg": 34.2,
-    "st": {
-     "PTS": 124.0,
-     "REB": 41.0,
-     "AST": 24.0,
-     "ST": 20.0,
-     "BLK": 2.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
    }
   ],
   "l14": [
-   {
-    "name": "Miles Bridges",
-    "team": "PHX",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 88.0,
-    "gp": 8,
-    "fp": 281.7,
-    "ppg": 35.21,
-    "mpg": 29.2,
-    "st": {
-     "PTS": 120.0,
-     "REB": 61.0,
-     "AST": 27.0,
-     "ST": 10.0,
-     "BLK": 7.0,
-     "TO": 3.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F",
-     "ALL"
-    ]
-   },
-   {
-    "name": "Brandin Podziemski",
-    "team": "GSW",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 83.0,
-    "gp": 7,
-    "fp": 247.4,
-    "ppg": 35.34,
-    "mpg": 33.9,
-    "st": {
-     "PTS": 129.0,
-     "REB": 37.0,
-     "AST": 28.0,
-     "ST": 9.0,
-     "BLK": 4.0,
-     "TO": 7.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G",
-     "ALL"
-    ]
-   },
-   {
-    "name": "Jabari Smith Jr.",
-    "team": "HOU",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 89.0,
-    "gp": 7,
-    "fp": 232.0,
-    "ppg": 33.14,
-    "mpg": 35.9,
-    "st": {
-     "PTS": 120.0,
-     "REB": 50.0,
-     "AST": 14.0,
-     "ST": 5.0,
-     "BLK": 8.0,
-     "TO": 8.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F",
-     "C",
-     "ALL"
-    ]
-   },
    {
     "name": "Donovan Clingan",
     "team": "POR",
@@ -4615,24 +4555,25 @@
      "C"
     ],
     "tag": "",
-    "wv": true,
+    "wv": false,
     "own": 98.0,
-    "gp": 7,
-    "fp": 231.8,
-    "ppg": 33.11,
-    "mpg": 26.0,
+    "gp": 8,
+    "fp": 273.0,
+    "ppg": 34.12,
+    "mpg": 26.1,
     "st": {
-     "PTS": 80.0,
-     "REB": 79.0,
-     "AST": 10.0,
-     "ST": 3.0,
-     "BLK": 15.0,
+     "PTS": 93.0,
+     "REB": 90.0,
+     "AST": 12.0,
+     "ST": 5.0,
+     "BLK": 17.0,
      "TO": 12.0
     },
     "q": true,
     "why": "",
     "pool": [
-     "C"
+     "C",
+     "ALL"
     ]
    },
    {
@@ -4643,78 +4584,24 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 76.0,
-    "gp": 7,
-    "fp": 224.1,
-    "ppg": 32.01,
-    "mpg": 32.1,
+    "own": 77.0,
+    "gp": 8,
+    "fp": 265.6,
+    "ppg": 33.2,
+    "mpg": 32.4,
     "st": {
-     "PTS": 125.0,
-     "REB": 33.0,
-     "AST": 39.0,
-     "ST": 7.0,
-     "BLK": 1.0,
-     "TO": 23.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G"
-    ]
-   },
-   {
-    "name": "Davion Mitchell",
-    "team": "MIA",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 84.0,
-    "gp": 6,
-    "fp": 222.1,
-    "ppg": 37.02,
-    "mpg": 37.2,
-    "st": {
-     "PTS": 99.0,
-     "REB": 18.0,
-     "AST": 55.0,
+     "PTS": 143.0,
+     "REB": 38.0,
+     "AST": 46.0,
      "ST": 8.0,
      "BLK": 3.0,
-     "TO": 14.0
+     "TO": 25.0
     },
     "q": true,
     "why": "",
     "pool": [
      "G",
      "ALL"
-    ]
-   },
-   {
-    "name": "Day'Ron Sharpe",
-    "team": "BKN",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 80.0,
-    "gp": 7,
-    "fp": 214.8,
-    "ppg": 30.69,
-    "mpg": 24.3,
-    "st": {
-     "PTS": 60.0,
-     "REB": 49.0,
-     "AST": 40.0,
-     "ST": 5.0,
-     "BLK": 12.0,
-     "TO": 15.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C"
     ]
    },
    {
@@ -4726,153 +4613,24 @@
     "tag": "",
     "wv": false,
     "own": 84.0,
-    "gp": 7,
-    "fp": 214.6,
-    "ppg": 30.66,
-    "mpg": 25.9,
+    "gp": 8,
+    "fp": 264.8,
+    "ppg": 33.1,
+    "mpg": 26.4,
     "st": {
-     "PTS": 49.0,
-     "REB": 73.0,
-     "AST": 32.0,
-     "ST": 12.0,
+     "PTS": 70.0,
+     "REB": 89.0,
+     "AST": 38.0,
+     "ST": 13.0,
      "BLK": 2.0,
-     "TO": 12.0
+     "TO": 14.0
     },
     "q": true,
     "why": "",
     "pool": [
-     "C"
-    ]
-   },
-   {
-    "name": "Wendell Carter Jr.",
-    "team": "ORL",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 78.0,
-    "gp": 7,
-    "fp": 214.1,
-    "ppg": 30.59,
-    "mpg": 34.7,
-    "st": {
-     "PTS": 96.0,
-     "REB": 68.0,
-     "AST": 7.0,
-     "ST": 7.0,
-     "BLK": 6.0,
-     "TO": 13.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C"
-    ]
-   },
-   {
-    "name": "Immanuel Quickley",
-    "team": "TOR",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 87.0,
-    "gp": 6,
-    "fp": 202.0,
-    "ppg": 33.67,
-    "mpg": 32.7,
-    "st": {
-     "PTS": 106.0,
-     "REB": 25.0,
-     "AST": 34.0,
-     "ST": 6.0,
-     "BLK": 1.0,
-     "TO": 6.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G",
+     "C",
      "ALL"
     ]
-   },
-   {
-    "name": "Neemias Queta",
-    "team": "BOS",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 63.0,
-    "gp": 8,
-    "fp": 198.4,
-    "ppg": 24.8,
-    "mpg": 24.0,
-    "st": {
-     "PTS": 78.0,
-     "REB": 62.0,
-     "AST": 16.0,
-     "ST": 2.0,
-     "BLK": 9.0,
-     "TO": 11.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jamal Shead",
-    "team": "TOR",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 27.0,
-    "gp": 8,
-    "fp": 198.4,
-    "ppg": 24.8,
-    "mpg": 25.2,
-    "st": {
-     "PTS": 58.0,
-     "REB": 17.0,
-     "AST": 64.0,
-     "ST": 12.0,
-     "BLK": 1.0,
-     "TO": 15.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Payton Pritchard",
-    "team": "BOS",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 86.0,
-    "gp": 8,
-    "fp": 197.9,
-    "ppg": 24.74,
-    "mpg": 27.9,
-    "st": {
-     "PTS": 107.0,
-     "REB": 32.0,
-     "AST": 29.0,
-     "ST": 6.0,
-     "BLK": 1.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
    },
    {
     "name": "Saddiq Bey",
@@ -4882,18 +4640,100 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 51.0,
-    "gp": 7,
-    "fp": 194.0,
-    "ppg": 27.71,
-    "mpg": 28.7,
+    "own": 54.0,
+    "gp": 8,
+    "fp": 239.0,
+    "ppg": 29.88,
+    "mpg": 29.5,
     "st": {
-     "PTS": 119.0,
-     "REB": 25.0,
+     "PTS": 149.0,
+     "REB": 35.0,
      "AST": 18.0,
      "ST": 7.0,
-     "BLK": 1.0,
+     "BLK": 2.0,
      "TO": 6.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F"
+    ]
+   },
+   {
+    "name": "Davion Mitchell",
+    "team": "MIA",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 85.0,
+    "gp": 6,
+    "fp": 238.9,
+    "ppg": 39.82,
+    "mpg": 37.8,
+    "st": {
+     "PTS": 106.0,
+     "REB": 17.0,
+     "AST": 61.0,
+     "ST": 7.0,
+     "BLK": 4.0,
+     "TO": 12.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "ALL"
+    ]
+   },
+   {
+    "name": "Miles Bridges",
+    "team": "PHX",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 88.0,
+    "gp": 7,
+    "fp": 230.7,
+    "ppg": 32.96,
+    "mpg": 28.1,
+    "st": {
+     "PTS": 96.0,
+     "REB": 51.0,
+     "AST": 25.0,
+     "ST": 9.0,
+     "BLK": 4.0,
+     "TO": 3.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F"
+    ]
+   },
+   {
+    "name": "De'Aaron Fox",
+    "team": "SAS",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": true,
+    "own": 92.0,
+    "gp": 8,
+    "fp": 224.2,
+    "ppg": 28.02,
+    "mpg": 26.9,
+    "st": {
+     "PTS": 100.0,
+     "REB": 36.0,
+     "AST": 40.0,
+     "ST": 8.0,
+     "BLK": 4.0,
+     "TO": 15.0
     },
     "q": true,
     "why": "",
@@ -4907,18 +4747,429 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 70.0,
-    "gp": 7,
-    "fp": 192.5,
-    "ppg": 27.5,
-    "mpg": 31.9,
+    "own": 71.0,
+    "gp": 8,
+    "fp": 218.6,
+    "ppg": 27.32,
+    "mpg": 32.2,
     "st": {
-     "PTS": 89.0,
-     "REB": 40.0,
-     "AST": 11.0,
+     "PTS": 110.0,
+     "REB": 43.0,
+     "AST": 12.0,
      "ST": 9.0,
      "BLK": 9.0,
      "TO": 15.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "F"
+    ]
+   },
+   {
+    "name": "Brandin Podziemski",
+    "team": "GSW",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 83.0,
+    "gp": 7,
+    "fp": 218.0,
+    "ppg": 31.14,
+    "mpg": 32.3,
+    "st": {
+     "PTS": 116.0,
+     "REB": 35.0,
+     "AST": 22.0,
+     "ST": 7.0,
+     "BLK": 4.0,
+     "TO": 6.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G"
+    ]
+   },
+   {
+    "name": "Jaime Jaquez Jr.",
+    "team": "MIL",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 74.0,
+    "gp": 8,
+    "fp": 214.6,
+    "ppg": 26.82,
+    "mpg": 26.9,
+    "st": {
+     "PTS": 126.0,
+     "REB": 38.0,
+     "AST": 24.0,
+     "ST": 6.0,
+     "BLK": 1.0,
+     "TO": 14.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Aday Mara",
+    "team": "OKC",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 50.0,
+    "gp": 8,
+    "fp": 211.4,
+    "ppg": 26.43,
+    "mpg": 24.6,
+    "st": {
+     "PTS": 84.0,
+     "REB": 57.0,
+     "AST": 12.0,
+     "ST": 0.0,
+     "BLK": 17.0,
+     "TO": 10.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Wendell Carter Jr.",
+    "team": "ORL",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 78.0,
+    "gp": 7,
+    "fp": 205.8,
+    "ppg": 29.4,
+    "mpg": 33.4,
+    "st": {
+     "PTS": 88.0,
+     "REB": 69.0,
+     "AST": 6.0,
+     "ST": 6.0,
+     "BLK": 7.0,
+     "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Derik Queen",
+    "team": "NOP",
+    "pos": [
+     "F",
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 83.0,
+    "gp": 8,
+    "fp": 204.1,
+    "ppg": 25.51,
+    "mpg": 20.4,
+    "st": {
+     "PTS": 97.0,
+     "REB": 43.0,
+     "AST": 21.0,
+     "ST": 7.0,
+     "BLK": 8.0,
+     "TO": 21.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jared McCain",
+    "team": "OKC",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 51.0,
+    "gp": 8,
+    "fp": 203.4,
+    "ppg": 25.43,
+    "mpg": 28.1,
+    "st": {
+     "PTS": 120.0,
+     "REB": 37.0,
+     "AST": 14.0,
+     "ST": 8.0,
+     "BLK": 2.0,
+     "TO": 12.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "CJ McCollum",
+    "team": "ATL",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 74.0,
+    "gp": 7,
+    "fp": 202.1,
+    "ppg": 28.87,
+    "mpg": 25.9,
+    "st": {
+     "PTS": 96.0,
+     "REB": 28.0,
+     "AST": 35.0,
+     "ST": 6.0,
+     "BLK": 6.0,
+     "TO": 16.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Day'Ron Sharpe",
+    "team": "BKN",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 81.0,
+    "gp": 6,
+    "fp": 194.9,
+    "ppg": 32.48,
+    "mpg": 24.3,
+    "st": {
+     "PTS": 57.0,
+     "REB": 42.0,
+     "AST": 39.0,
+     "ST": 4.0,
+     "BLK": 10.0,
+     "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Myles Turner",
+    "team": "MIL",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 70.0,
+    "gp": 7,
+    "fp": 190.6,
+    "ppg": 27.23,
+    "mpg": 28.1,
+    "st": {
+     "PTS": 55.0,
+     "REB": 48.0,
+     "AST": 22.0,
+     "ST": 6.0,
+     "BLK": 13.0,
+     "TO": 12.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jrue Holiday",
+    "team": "POR",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 58.0,
+    "gp": 8,
+    "fp": 189.2,
+    "ppg": 23.65,
+    "mpg": 26.8,
+    "st": {
+     "PTS": 105.0,
+     "REB": 26.0,
+     "AST": 32.0,
+     "ST": 7.0,
+     "BLK": 1.0,
+     "TO": 19.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Zach LaVine",
+    "team": "SAC",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 87.0,
+    "gp": 7,
+    "fp": 182.4,
+    "ppg": 26.06,
+    "mpg": 30.4,
+    "st": {
+     "PTS": 127.0,
+     "REB": 22.0,
+     "AST": 16.0,
+     "ST": 5.0,
+     "BLK": 3.0,
+     "TO": 19.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Brayden Burries",
+    "team": "MIL",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 28.0,
+    "gp": 8,
+    "fp": 180.6,
+    "ppg": 22.57,
+    "mpg": 25.5,
+    "st": {
+     "PTS": 80.0,
+     "REB": 48.0,
+     "AST": 22.0,
+     "ST": 4.0,
+     "BLK": 2.0,
+     "TO": 8.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Kyle Kuzma",
+    "team": "MIL",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 27.0,
+    "gp": 8,
+    "fp": 179.1,
+    "ppg": 22.39,
+    "mpg": 27.0,
+    "st": {
+     "PTS": 90.0,
+     "REB": 28.0,
+     "AST": 19.0,
+     "ST": 10.0,
+     "BLK": 4.0,
+     "TO": 15.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Meleek Thomas",
+    "team": "CLE",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 23.0,
+    "gp": 8,
+    "fp": 178.3,
+    "ppg": 22.29,
+    "mpg": 23.1,
+    "st": {
+     "PTS": 104.0,
+     "REB": 19.0,
+     "AST": 13.0,
+     "ST": 10.0,
+     "BLK": 3.0,
+     "TO": 7.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Jamal Shead",
+    "team": "TOR",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 22.0,
+    "gp": 7,
+    "fp": 178.2,
+    "ppg": 25.46,
+    "mpg": 25.6,
+    "st": {
+     "PTS": 56.0,
+     "REB": 16.0,
+     "AST": 56.0,
+     "ST": 11.0,
+     "BLK": 0.0,
+     "TO": 14.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Ryan Rollins",
+    "team": "MIL",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 82.0,
+    "gp": 8,
+    "fp": 177.9,
+    "ppg": 22.24,
+    "mpg": 22.2,
+    "st": {
+     "PTS": 79.0,
+     "REB": 42.0,
+     "AST": 29.0,
+     "ST": 7.0,
+     "BLK": 2.0,
+     "TO": 22.0
     },
     "q": true,
     "why": "",
@@ -4934,16 +5185,16 @@
     "wv": false,
     "own": 79.0,
     "gp": 6,
-    "fp": 191.1,
-    "ppg": 31.85,
-    "mpg": 33.7,
+    "fp": 175.0,
+    "ppg": 29.17,
+    "mpg": 34.3,
     "st": {
-     "PTS": 105.0,
-     "REB": 13.0,
-     "AST": 47.0,
+     "PTS": 95.0,
+     "REB": 15.0,
+     "AST": 44.0,
      "ST": 2.0,
      "BLK": 2.0,
-     "TO": 12.0
+     "TO": 16.0
     },
     "q": true,
     "why": "",
@@ -4952,130 +5203,25 @@
     ]
    },
    {
-    "name": "Aday Mara",
-    "team": "OKC",
+    "name": "Neemias Queta",
+    "team": "BOS",
     "pos": [
      "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 51.0,
+    "own": 63.0,
     "gp": 7,
-    "fp": 190.8,
-    "ppg": 27.26,
-    "mpg": 25.1,
+    "fp": 173.2,
+    "ppg": 24.74,
+    "mpg": 24.6,
     "st": {
-     "PTS": 74.0,
-     "REB": 54.0,
-     "AST": 12.0,
-     "ST": 0.0,
-     "BLK": 14.0,
-     "TO": 8.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Dillon Brooks",
-    "team": "PHX",
-    "pos": [
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 50.0,
-    "gp": 8,
-    "fp": 185.7,
-    "ppg": 23.21,
-    "mpg": 29.2,
-    "st": {
-     "PTS": 120.0,
-     "REB": 31.0,
-     "AST": 13.0,
-     "ST": 6.0,
-     "BLK": 1.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Cedric Coward",
-    "team": "MEM",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 90.0,
-    "gp": 6,
-    "fp": 181.7,
-    "ppg": 30.28,
-    "mpg": 27.5,
-    "st": {
-     "PTS": 71.0,
-     "REB": 51.0,
-     "AST": 17.0,
-     "ST": 10.0,
-     "BLK": 1.0,
-     "TO": 9.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F"
-    ]
-   },
-   {
-    "name": "Jaime Jaquez Jr.",
-    "team": "MIL",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 74.0,
-    "gp": 7,
-    "fp": 181.4,
-    "ppg": 25.91,
-    "mpg": 26.7,
-    "st": {
-     "PTS": 104.0,
-     "REB": 32.0,
-     "AST": 20.0,
-     "ST": 6.0,
-     "BLK": 1.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Collin Murray-Boyles",
-    "team": "TOR",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 71.0,
-    "gp": 7,
-    "fp": 181.3,
-    "ppg": 25.9,
-    "mpg": 25.7,
-    "st": {
-     "PTS": 88.0,
-     "REB": 29.0,
-     "AST": 13.0,
-     "ST": 8.0,
-     "BLK": 9.0,
-     "TO": 12.0
+     "PTS": 65.0,
+     "REB": 56.0,
+     "AST": 16.0,
+     "ST": 1.0,
+     "BLK": 8.0,
+     "TO": 10.0
     },
     "q": true,
     "why": "",
@@ -5089,224 +5235,24 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 71.0,
-    "gp": 7,
-    "fp": 181.2,
-    "ppg": 25.89,
-    "mpg": 30.0,
+    "own": 72.0,
+    "gp": 6,
+    "fp": 173.0,
+    "ppg": 28.83,
+    "mpg": 31.3,
     "st": {
-     "PTS": 83.0,
-     "REB": 41.0,
+     "PTS": 78.0,
+     "REB": 40.0,
      "AST": 20.0,
      "ST": 4.0,
-     "BLK": 7.0,
-     "TO": 14.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Derik Queen",
-    "team": "NOP",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 84.0,
-    "gp": 7,
-    "fp": 179.9,
-    "ppg": 25.7,
-    "mpg": 20.0,
-    "st": {
-     "PTS": 87.0,
-     "REB": 37.0,
-     "AST": 19.0,
-     "ST": 6.0,
      "BLK": 6.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Quenton Jackson",
-    "team": "IND",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 8.0,
-    "gp": 7,
-    "fp": 176.9,
-    "ppg": 25.27,
-    "mpg": 23.9,
-    "st": {
-     "PTS": 89.0,
-     "REB": 32.0,
-     "AST": 15.0,
-     "ST": 11.0,
-     "BLK": 2.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Rudy Gobert",
-    "team": "MIN",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 90.0,
-    "gp": 6,
-    "fp": 176.2,
-    "ppg": 29.37,
-    "mpg": 28.8,
-    "st": {
-     "PTS": 54.0,
-     "REB": 66.0,
-     "AST": 10.0,
-     "ST": 2.0,
-     "BLK": 9.0,
-     "TO": 5.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jakob Poeltl",
-    "team": "TOR",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 55.0,
-    "gp": 6,
-    "fp": 175.6,
-    "ppg": 29.27,
-    "mpg": 26.8,
-    "st": {
-     "PTS": 72.0,
-     "REB": 48.0,
-     "AST": 12.0,
-     "ST": 6.0,
-     "BLK": 6.0,
-     "TO": 8.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Grayson Allen",
-    "team": "CHA",
-    "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 45.0,
-    "gp": 7,
-    "fp": 175.0,
-    "ppg": 25.0,
-    "mpg": 26.7,
-    "st": {
-     "PTS": 106.0,
-     "REB": 20.0,
-     "AST": 24.0,
-     "ST": 6.0,
-     "BLK": 2.0,
-     "TO": 15.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Bones Hyland",
-    "team": "MIN",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 6.0,
-    "gp": 7,
-    "fp": 175.0,
-    "ppg": 25.0,
-    "mpg": 15.7,
-    "st": {
-     "PTS": 96.0,
-     "REB": 10.0,
-     "AST": 28.0,
-     "ST": 8.0,
-     "BLK": 2.0,
-     "TO": 5.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jared McCain",
-    "team": "OKC",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 50.0,
-    "gp": 7,
-    "fp": 174.6,
-    "ppg": 24.94,
-    "mpg": 27.7,
-    "st": {
-     "PTS": 97.0,
-     "REB": 33.0,
-     "AST": 12.0,
-     "ST": 8.0,
-     "BLK": 2.0,
-     "TO": 10.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Jrue Holiday",
-    "team": "POR",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 58.0,
-    "gp": 7,
-    "fp": 172.7,
-    "ppg": 24.67,
-    "mpg": 26.7,
-    "st": {
-     "PTS": 99.0,
-     "REB": 21.0,
-     "AST": 27.0,
-     "ST": 6.0,
-     "BLK": 1.0,
      "TO": 13.0
     },
     "q": true,
     "why": "",
-    "pool": []
+    "pool": [
+     "F"
+    ]
    },
    {
     "name": "Ajay Mitchell",
@@ -5334,83 +5280,162 @@
     "pool": []
    },
    {
-    "name": "Duncan Robinson",
-    "team": "DET",
+    "name": "Jaxson Hayes",
+    "team": "UTA",
+    "pos": [
+     "C"
+    ],
+    "tag": "Q",
+    "wv": false,
+    "own": 24.0,
+    "gp": 8,
+    "fp": 170.7,
+    "ppg": 21.34,
+    "mpg": 22.5,
+    "st": {
+     "PTS": 73.0,
+     "REB": 46.0,
+     "AST": 9.0,
+     "ST": 7.0,
+     "BLK": 7.0,
+     "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Brook Lopez",
+    "team": "LAC",
+    "pos": [
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 37.0,
+    "gp": 6,
+    "fp": 165.8,
+    "ppg": 27.63,
+    "mpg": 25.3,
+    "st": {
+     "PTS": 93.0,
+     "REB": 34.0,
+     "AST": 8.0,
+     "ST": 4.0,
+     "BLK": 4.0,
+     "TO": 4.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "C"
+    ]
+   },
+   {
+    "name": "Immanuel Quickley",
+    "team": "TOR",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 87.0,
+    "gp": 5,
+    "fp": 165.8,
+    "ppg": 33.16,
+    "mpg": 31.8,
+    "st": {
+     "PTS": 89.0,
+     "REB": 19.0,
+     "AST": 26.0,
+     "ST": 6.0,
+     "BLK": 1.0,
+     "TO": 6.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "ALL"
+    ]
+   },
+   {
+    "name": "Toumani Camara",
+    "team": "POR",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 67.0,
+    "gp": 8,
+    "fp": 165.1,
+    "ppg": 20.64,
+    "mpg": 31.1,
+    "st": {
+     "PTS": 96.0,
+     "REB": 33.0,
+     "AST": 11.0,
+     "ST": 5.0,
+     "BLK": 3.0,
+     "TO": 11.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Cam Spencer",
+    "team": "MEM",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 20.0,
+    "gp": 7,
+    "fp": 164.5,
+    "ppg": 23.5,
+    "mpg": 21.1,
+    "st": {
+     "PTS": 73.0,
+     "REB": 20.0,
+     "AST": 41.0,
+     "ST": 5.0,
+     "BLK": 1.0,
+     "TO": 12.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Grayson Allen",
+    "team": "CHA",
     "pos": [
      "G",
      "F"
     ],
     "tag": "",
     "wv": false,
-    "own": 63.0,
+    "own": 45.0,
     "gp": 6,
-    "fp": 171.1,
-    "ppg": 28.52,
-    "mpg": 32.8,
+    "fp": 164.4,
+    "ppg": 27.4,
+    "mpg": 27.7,
     "st": {
-     "PTS": 115.0,
-     "REB": 13.0,
-     "AST": 13.0,
-     "ST": 8.0,
-     "BLK": 0.0,
-     "TO": 3.0
+     "PTS": 101.0,
+     "REB": 17.0,
+     "AST": 22.0,
+     "ST": 6.0,
+     "BLK": 2.0,
+     "TO": 14.0
     },
     "q": true,
     "why": "",
     "pool": [
      "F"
     ]
-   },
-   {
-    "name": "Sandro Mamukelashvili",
-    "team": "LAL",
-    "pos": [
-     "F",
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 39.0,
-    "gp": 8,
-    "fp": 170.8,
-    "ppg": 21.35,
-    "mpg": 23.4,
-    "st": {
-     "PTS": 90.0,
-     "REB": 34.0,
-     "AST": 12.0,
-     "ST": 6.0,
-     "BLK": 4.0,
-     "TO": 8.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Collin Gillespie",
-    "team": "PHX",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 40.0,
-    "gp": 8,
-    "fp": 170.6,
-    "ppg": 21.32,
-    "mpg": 24.6,
-    "st": {
-     "PTS": 65.0,
-     "REB": 18.0,
-     "AST": 32.0,
-     "ST": 14.0,
-     "BLK": 1.0,
-     "TO": 9.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
    },
    {
     "name": "Jalen Green",
@@ -5421,18 +5446,44 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
-    "gp": 8,
-    "fp": 169.8,
-    "ppg": 21.23,
-    "mpg": 27.0,
+    "own": 67.0,
+    "gp": 7,
+    "fp": 164.4,
+    "ppg": 23.49,
+    "mpg": 27.4,
     "st": {
-     "PTS": 88.0,
-     "REB": 29.0,
-     "AST": 26.0,
+     "PTS": 86.0,
+     "REB": 27.0,
+     "AST": 24.0,
      "ST": 6.0,
      "BLK": 4.0,
-     "TO": 22.0
+     "TO": 20.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Aaron Wiggins",
+    "team": "ATL",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 44.0,
+    "gp": 7,
+    "fp": 162.8,
+    "ppg": 23.26,
+    "mpg": 25.6,
+    "st": {
+     "PTS": 95.0,
+     "REB": 24.0,
+     "AST": 20.0,
+     "ST": 5.0,
+     "BLK": 2.0,
+     "TO": 12.0
     },
     "q": true,
     "why": "",
@@ -5446,17 +5497,42 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 35.0,
+    "own": 37.0,
     "gp": 7,
-    "fp": 169.6,
-    "ppg": 24.23,
-    "mpg": 23.1,
+    "fp": 161.4,
+    "ppg": 23.06,
+    "mpg": 22.7,
     "st": {
-     "PTS": 75.0,
-     "REB": 33.0,
+     "PTS": 67.0,
+     "REB": 32.0,
      "AST": 18.0,
-     "ST": 10.0,
-     "BLK": 3.0,
+     "ST": 9.0,
+     "BLK": 4.0,
+     "TO": 10.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Keldon Johnson",
+    "team": "SAS",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 9.0,
+    "gp": 8,
+    "fp": 161.2,
+    "ppg": 20.15,
+    "mpg": 25.2,
+    "st": {
+     "PTS": 66.0,
+     "REB": 46.0,
+     "AST": 24.0,
+     "ST": 5.0,
+     "BLK": 0.0,
      "TO": 11.0
     },
     "q": true,
@@ -5464,178 +5540,51 @@
     "pool": []
    },
    {
-    "name": "Klay Thompson",
-    "team": "MIA",
+    "name": "Collin Murray-Boyles",
+    "team": "TOR",
     "pos": [
-     "G",
-     "F"
-    ],
-    "tag": "P",
-    "wv": false,
-    "own": 42.0,
-    "gp": 6,
-    "fp": 168.8,
-    "ppg": 28.13,
-    "mpg": 28.8,
-    "st": {
-     "PTS": 119.0,
-     "REB": 9.0,
-     "AST": 16.0,
-     "ST": 1.0,
-     "BLK": 7.0,
-     "TO": 9.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "F"
-    ]
-   },
-   {
-    "name": "Brayden Burries",
-    "team": "MIL",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 32.0,
-    "gp": 7,
-    "fp": 168.3,
-    "ppg": 24.04,
-    "mpg": 26.4,
-    "st": {
-     "PTS": 77.0,
-     "REB": 44.0,
-     "AST": 19.0,
-     "ST": 4.0,
-     "BLK": 2.0,
-     "TO": 8.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Daniss Jenkins",
-    "team": "DET",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 55.0,
-    "gp": 6,
-    "fp": 167.4,
-    "ppg": 27.9,
-    "mpg": 29.7,
-    "st": {
-     "PTS": 87.0,
-     "REB": 22.0,
-     "AST": 28.0,
-     "ST": 7.0,
-     "BLK": 0.0,
-     "TO": 9.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Nolan Traore",
-    "team": "BKN",
-    "pos": [
-     "G"
-    ],
-    "tag": "Q",
-    "wv": false,
-    "own": 23.0,
-    "gp": 6,
-    "fp": 166.6,
-    "ppg": 27.77,
-    "mpg": 25.0,
-    "st": {
-     "PTS": 91.0,
-     "REB": 13.0,
-     "AST": 18.0,
-     "ST": 11.0,
-     "BLK": 3.0,
-     "TO": 9.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "CJ McCollum",
-    "team": "ATL",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 74.0,
-    "gp": 6,
-    "fp": 165.6,
-    "ppg": 27.6,
-    "mpg": 24.8,
-    "st": {
-     "PTS": 76.0,
-     "REB": 23.0,
-     "AST": 30.0,
-     "ST": 6.0,
-     "BLK": 5.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Fred VanVleet",
-    "team": "HOU",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 73.0,
-    "gp": 6,
-    "fp": 164.2,
-    "ppg": 27.37,
-    "mpg": 30.2,
-    "st": {
-     "PTS": 88.0,
-     "REB": 16.0,
-     "AST": 30.0,
-     "ST": 5.0,
-     "BLK": 1.0,
-     "TO": 6.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Daniel Gafford",
-    "team": "DAL",
-    "pos": [
+     "F",
      "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 51.0,
-    "gp": 7,
-    "fp": 161.8,
-    "ppg": 23.11,
-    "mpg": 20.9,
+    "own": 71.0,
+    "gp": 6,
+    "fp": 159.8,
+    "ppg": 26.63,
+    "mpg": 26.2,
     "st": {
-     "PTS": 76.0,
-     "REB": 29.0,
-     "AST": 10.0,
-     "ST": 3.0,
-     "BLK": 12.0,
-     "TO": 9.0
+     "PTS": 73.0,
+     "REB": 24.0,
+     "AST": 12.0,
+     "ST": 8.0,
+     "BLK": 9.0,
+     "TO": 11.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Quenton Jackson",
+    "team": "IND",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 7.0,
+    "gp": 7,
+    "fp": 158.6,
+    "ppg": 22.66,
+    "mpg": 23.3,
+    "st": {
+     "PTS": 68.0,
+     "REB": 33.0,
+     "AST": 18.0,
+     "ST": 10.0,
+     "BLK": 2.0,
+     "TO": 12.0
     },
     "q": true,
     "why": "",
@@ -5652,15 +5601,90 @@
     "wv": false,
     "own": 36.0,
     "gp": 7,
-    "fp": 161.2,
-    "ppg": 23.03,
-    "mpg": 22.9,
+    "fp": 157.8,
+    "ppg": 22.54,
+    "mpg": 23.9,
     "st": {
-     "PTS": 61.0,
-     "REB": 41.0,
+     "PTS": 64.0,
+     "REB": 39.0,
      "AST": 12.0,
-     "ST": 7.0,
+     "ST": 6.0,
      "BLK": 7.0,
+     "TO": 10.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Dillon Brooks",
+    "team": "PHX",
+    "pos": [
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 49.0,
+    "gp": 7,
+    "fp": 157.5,
+    "ppg": 22.5,
+    "mpg": 30.4,
+    "st": {
+     "PTS": 98.0,
+     "REB": 30.0,
+     "AST": 11.0,
+     "ST": 5.0,
+     "BLK": 1.0,
+     "TO": 11.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Fred VanVleet",
+    "team": "HOU",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 73.0,
+    "gp": 6,
+    "fp": 157.1,
+    "ppg": 26.18,
+    "mpg": 30.3,
+    "st": {
+     "PTS": 89.0,
+     "REB": 13.0,
+     "AST": 27.0,
+     "ST": 4.0,
+     "BLK": 2.0,
+     "TO": 6.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Payton Pritchard",
+    "team": "BOS",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 86.0,
+    "gp": 7,
+    "fp": 156.8,
+    "ppg": 22.4,
+    "mpg": 26.9,
+    "st": {
+     "PTS": 77.0,
+     "REB": 29.0,
+     "AST": 26.0,
+     "ST": 4.0,
+     "BLK": 1.0,
      "TO": 9.0
     },
     "q": true,
@@ -5668,25 +5692,24 @@
     "pool": []
    },
    {
-    "name": "Christian Braun",
-    "team": "DEN",
+    "name": "Tyrese Proctor",
+    "team": "CLE",
     "pos": [
-     "G",
-     "F"
+     "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 51.0,
-    "gp": 6,
-    "fp": 160.1,
-    "ppg": 26.68,
-    "mpg": 33.2,
+    "own": 3.0,
+    "gp": 8,
+    "fp": 156.7,
+    "ppg": 19.59,
+    "mpg": 21.6,
     "st": {
-     "PTS": 78.0,
-     "REB": 23.0,
-     "AST": 15.0,
-     "ST": 11.0,
-     "BLK": 1.0,
+     "PTS": 83.0,
+     "REB": 26.0,
+     "AST": 21.0,
+     "ST": 5.0,
+     "BLK": 0.0,
      "TO": 4.0
     },
     "q": true,
@@ -5694,23 +5717,49 @@
     "pool": []
    },
    {
-    "name": "Meleek Thomas",
-    "team": "CLE",
+    "name": "Charles Bassey",
+    "team": "GSW",
     "pos": [
-     "G"
+     "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 19.0,
+    "own": 5.0,
     "gp": 7,
-    "fp": 158.8,
-    "ppg": 22.69,
+    "fp": 156.0,
+    "ppg": 22.29,
+    "mpg": 17.0,
+    "st": {
+     "PTS": 71.0,
+     "REB": 50.0,
+     "AST": 6.0,
+     "ST": 1.0,
+     "BLK": 7.0,
+     "TO": 8.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Sandro Mamukelashvili",
+    "team": "LAL",
+    "pos": [
+     "F",
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 40.0,
+    "gp": 7,
+    "fp": 153.4,
+    "ppg": 21.91,
     "mpg": 23.9,
     "st": {
-     "PTS": 92.0,
-     "REB": 19.0,
-     "AST": 10.0,
-     "ST": 9.0,
+     "PTS": 86.0,
+     "REB": 27.0,
+     "AST": 12.0,
+     "ST": 5.0,
      "BLK": 3.0,
      "TO": 7.0
     },
@@ -5719,100 +5768,76 @@
     "pool": []
    },
    {
-    "name": "Ja'Kobe Walter",
-    "team": "TOR",
+    "name": "Julian Champagnie",
+    "team": "SAS",
     "pos": [
-     "G"
+     "F"
     ],
     "tag": "",
     "wv": false,
-    "own": 26.0,
+    "own": 29.0,
     "gp": 8,
-    "fp": 158.3,
-    "ppg": 19.79,
-    "mpg": 32.1,
+    "fp": 152.5,
+    "ppg": 19.06,
+    "mpg": 24.8,
     "st": {
-     "PTS": 80.0,
-     "REB": 34.0,
+     "PTS": 72.0,
+     "REB": 35.0,
      "AST": 13.0,
-     "ST": 7.0,
-     "BLK": 2.0,
-     "TO": 9.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Myles Turner",
-    "team": "MIL",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 70.0,
-    "gp": 6,
-    "fp": 156.9,
-    "ppg": 26.15,
-    "mpg": 27.7,
-    "st": {
-     "PTS": 41.0,
-     "REB": 37.0,
-     "AST": 19.0,
-     "ST": 4.0,
-     "BLK": 13.0,
-     "TO": 8.0
-    },
-    "q": true,
-    "why": "",
-    "pool": []
-   },
-   {
-    "name": "Ryan Rollins",
-    "team": "MIL",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 83.0,
-    "gp": 7,
-    "fp": 154.9,
-    "ppg": 22.13,
-    "mpg": 21.3,
-    "st": {
-     "PTS": 71.0,
-     "REB": 32.0,
-     "AST": 27.0,
      "ST": 6.0,
      "BLK": 2.0,
-     "TO": 19.0
+     "TO": 5.0
     },
     "q": true,
     "why": "",
     "pool": []
    },
    {
-    "name": "Khaman Maluach",
-    "team": "PHX",
+    "name": "Kel'el Ware",
+    "team": "MIL",
     "pos": [
      "C"
     ],
     "tag": "",
     "wv": false,
-    "own": 46.0,
+    "own": 77.0,
     "gp": 8,
-    "fp": 153.8,
-    "ppg": 19.23,
-    "mpg": 18.0,
+    "fp": 151.4,
+    "ppg": 18.93,
+    "mpg": 17.0,
     "st": {
-     "PTS": 62.0,
-     "REB": 44.0,
-     "AST": 10.0,
+     "PTS": 53.0,
+     "REB": 42.0,
+     "AST": 8.0,
      "ST": 4.0,
-     "BLK": 6.0,
-     "TO": 6.0
+     "BLK": 12.0,
+     "TO": 12.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
+   },
+   {
+    "name": "Luguentz Dort",
+    "team": "ATL",
+    "pos": [
+     "G",
+     "F"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 4.0,
+    "gp": 7,
+    "fp": 151.2,
+    "ppg": 21.6,
+    "mpg": 25.9,
+    "st": {
+     "PTS": 73.0,
+     "REB": 21.0,
+     "AST": 12.0,
+     "ST": 11.0,
+     "BLK": 2.0,
+     "TO": 4.0
     },
     "q": true,
     "why": "",
@@ -5832,7 +5857,7 @@
    },
    "C": {
     "name": "Alperen Şengün",
-    "ppg": 47.83
+    "ppg": 49.84
    },
    "ALL": {
     "name": "Ayo Dosunmu",
@@ -5850,7 +5875,7 @@
    },
    "C": {
     "name": "Alperen Şengün",
-    "ppg": 47.83
+    "ppg": 49.84
    },
    "ALL": {
     "name": "Ayo Dosunmu",
@@ -5860,19 +5885,19 @@
   "l14": {
    "G": {
     "name": "Ayo Dosunmu",
-    "ppg": 36.56
+    "ppg": 38.25
    },
    "F": {
     "name": "Julius Randle",
-    "ppg": 30.89
+    "ppg": 32.02
    },
    "C": {
     "name": "Alperen Şengün",
-    "ppg": 47.35
+    "ppg": 50.57
    },
    "ALL": {
     "name": "Julius Randle",
-    "ppg": 30.89
+    "ppg": 32.02
    }
   }
  }
