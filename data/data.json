@@ -3,7 +3,7 @@
   "masthead": "Marion Hall of Fame",
   "team": "Marion HoF 2027",
   "season_label": "2026-27",
-  "updated": "Mon Nov 16, 9:01 AM ET",
+  "updated": "Mon Nov 16, 5:27 PM ET",
   "pull_date": "Mon Nov 16",
   "weights": {
    "PTS": 1.0,
@@ -24,13 +24,13 @@
  "lines": {
   "season": {
    "G": {
-    "ppg": 32.79,
+    "ppg": 31.93,
     "n": 5,
     "min_gp": 7,
     "max_gp": 14,
     "members": [
-     "Davion Mitchell",
      "Immanuel Quickley",
+     "Ayo Dosunmu",
      "Brandin Podziemski",
      "Zach LaVine",
      "Ajay Mitchell"
@@ -50,41 +50,41 @@
     ]
    },
    "C": {
-    "ppg": 29.96,
+    "ppg": 29.0,
     "n": 5,
     "min_gp": 7,
     "max_gp": 14,
     "members": [
-     "Donovan Clingan",
      "Wendell Carter Jr.",
      "Isaiah Hartenstein",
      "Jalen Smith",
-     "Moussa Diabaté"
+     "Moussa Diabaté",
+     "Day'Ron Sharpe"
     ]
    },
    "ALL": {
-    "ppg": 33.9,
+    "ppg": 32.85,
     "n": 5,
     "min_gp": 7,
     "max_gp": 14,
     "members": [
-     "Davion Mitchell",
      "Caleb Wilson",
      "Immanuel Quickley",
-     "Donovan Clingan",
-     "Brandin Podziemski"
+     "Ayo Dosunmu",
+     "Brandin Podziemski",
+     "Miles Bridges"
     ]
    }
   },
   "l30": {
    "G": {
-    "ppg": 32.84,
+    "ppg": 31.98,
     "n": 5,
     "min_gp": 7,
     "max_gp": 14,
     "members": [
-     "Davion Mitchell",
      "Immanuel Quickley",
+     "Ayo Dosunmu",
      "Brandin Podziemski",
      "Ajay Mitchell",
      "Zach LaVine"
@@ -104,40 +104,40 @@
     ]
    },
    "C": {
-    "ppg": 29.96,
+    "ppg": 29.0,
     "n": 5,
     "min_gp": 7,
     "max_gp": 14,
     "members": [
-     "Donovan Clingan",
      "Wendell Carter Jr.",
      "Isaiah Hartenstein",
      "Jalen Smith",
-     "Moussa Diabaté"
+     "Moussa Diabaté",
+     "Day'Ron Sharpe"
     ]
    },
    "ALL": {
-    "ppg": 33.9,
+    "ppg": 32.85,
     "n": 5,
     "min_gp": 7,
     "max_gp": 14,
     "members": [
-     "Davion Mitchell",
      "Caleb Wilson",
      "Immanuel Quickley",
-     "Donovan Clingan",
-     "Brandin Podziemski"
+     "Ayo Dosunmu",
+     "Brandin Podziemski",
+     "Miles Bridges"
     ]
    }
   },
   "l14": {
    "G": {
-    "ppg": 33.88,
+    "ppg": 32.96,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
-     "Davion Mitchell",
+     "Ayo Dosunmu",
      "Immanuel Quickley",
      "Jeremiah Fears",
      "CJ McCollum",
@@ -158,29 +158,29 @@
     ]
    },
    "C": {
-    "ppg": 32.64,
+    "ppg": 31.07,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
-     "Donovan Clingan",
      "Day'Ron Sharpe",
      "Isaiah Hartenstein",
      "Wendell Carter Jr.",
-     "Brook Lopez"
+     "Brook Lopez",
+     "Collin Murray-Boyles"
     ]
    },
    "ALL": {
-    "ppg": 35.34,
+    "ppg": 33.49,
     "n": 5,
     "min_gp": 4,
     "max_gp": 8,
     "members": [
-     "Davion Mitchell",
-     "Donovan Clingan",
+     "Ayo Dosunmu",
      "Immanuel Quickley",
      "Day'Ron Sharpe",
-     "Jeremiah Fears"
+     "Jeremiah Fears",
+     "Isaiah Hartenstein"
     ]
    }
   }
@@ -457,69 +457,56 @@
    }
   },
   {
-   "name": "Ayo Dosunmu",
-   "team": "MIN",
+   "name": "Davion Mitchell",
+   "team": "MIA",
    "pos": [
     "G"
    ],
    "tag": "",
    "status": "Active",
-   "nostarts": false,
+   "nostarts": true,
    "w": {
-    "forme": {
-     "gp": 2,
-     "fp": 62.7,
-     "mpg": null,
-     "st": {
-      "PTS": 42.0,
-      "REB": 6.0,
-      "AST": 1.0,
-      "ST": 4.0,
-      "BLK": 1.0,
-      "TO": 3.0
-     }
-    },
     "season": {
      "gp": 13,
-     "fp": 424.5,
-     "mpg": 31.1,
+     "fp": 475.7,
+     "mpg": 35.8,
      "st": {
-      "PTS": 241.0,
-      "REB": 60.0,
-      "AST": 45.0,
-      "ST": 18.0,
-      "BLK": 6.0,
-      "TO": 28.0
+      "PTS": 218.0,
+      "REB": 31.0,
+      "AST": 119.0,
+      "ST": 16.0,
+      "BLK": 9.0,
+      "TO": 33.0
      },
-     "own": 85.0
+     "own": 86.0
     },
     "l30": {
      "gp": 13,
-     "fp": 424.5,
-     "mpg": 31.1,
+     "fp": 475.7,
+     "mpg": 35.7,
      "st": {
-      "PTS": 241.0,
-      "REB": 60.0,
-      "AST": 45.0,
-      "ST": 18.0,
-      "BLK": 6.0,
-      "TO": 28.0
+      "PTS": 218.0,
+      "REB": 31.0,
+      "AST": 119.0,
+      "ST": 16.0,
+      "BLK": 9.0,
+      "TO": 33.0
      },
-     "own": 85.0
+     "own": 86.0
     },
     "l14": {
-     "gp": 6,
-     "fp": 217.0,
-     "mpg": 33.3,
+     "gp": 7,
+     "fp": 280.2,
+     "mpg": 37.0,
      "st": {
-      "PTS": 134.0,
-      "REB": 25.0,
-      "AST": 20.0,
+      "PTS": 121.0,
+      "REB": 21.0,
+      "AST": 70.0,
       "ST": 9.0,
-      "BLK": 3.0,
-      "TO": 13.0
+      "BLK": 6.0,
+      "TO": 16.0
      },
-     "own": 85.0
+     "own": 86.0
     }
    }
   },
@@ -832,6 +819,31 @@
      }
     }
    }
+  },
+  {
+   "name": "Ayo Dosunmu",
+   "team": "MIN",
+   "pos": [
+    "G"
+   ],
+   "tag": "",
+   "status": "Cut",
+   "nostarts": false,
+   "w": {
+    "forme": {
+     "gp": 2,
+     "fp": 62.7,
+     "mpg": null,
+     "st": {
+      "PTS": 42.0,
+      "REB": 6.0,
+      "AST": 1.0,
+      "ST": 4.0,
+      "BLK": 1.0,
+      "TO": 3.0
+     }
+    }
+   }
   }
  ],
  "rows": {
@@ -885,29 +897,29 @@
       "gp": 12,
       "ppg": 49.48,
       "fp": 593.8,
-      "gap": 19.52,
-      "pts": 234.3
+      "gap": 20.48,
+      "pts": 245.8
      },
      "season": {
       "gp": 12,
       "ppg": 49.48,
       "fp": 593.8,
-      "gap": 19.52,
-      "pts": 234.3
+      "gap": 20.48,
+      "pts": 245.8
      },
      "l30": {
       "gp": 12,
       "ppg": 49.48,
       "fp": 593.8,
-      "gap": 19.52,
-      "pts": 234.3
+      "gap": 20.48,
+      "pts": 245.8
      },
      "l14": {
       "gp": 7,
       "ppg": 51.19,
       "fp": 358.3,
-      "gap": 18.55,
-      "pts": 129.8
+      "gap": 20.12,
+      "pts": 140.8
      }
     },
     "flags": [],
@@ -925,29 +937,29 @@
       "gp": 12,
       "ppg": 47.82,
       "fp": 573.9,
-      "gap": 15.03,
-      "pts": 180.4
+      "gap": 15.89,
+      "pts": 190.7
      },
      "season": {
       "gp": 12,
       "ppg": 47.82,
       "fp": 573.9,
-      "gap": 15.03,
-      "pts": 180.4
+      "gap": 15.89,
+      "pts": 190.7
      },
      "l30": {
       "gp": 12,
       "ppg": 47.82,
       "fp": 573.9,
-      "gap": 14.98,
-      "pts": 179.8
+      "gap": 15.84,
+      "pts": 190.1
      },
      "l14": {
       "gp": 6,
       "ppg": 53.13,
       "fp": 318.8,
-      "gap": 19.25,
-      "pts": 115.5
+      "gap": 20.17,
+      "pts": 121.0
      }
     },
     "flags": [],
@@ -965,29 +977,29 @@
       "gp": 12,
       "ppg": 41.68,
       "fp": 500.1,
-      "gap": 8.89,
-      "pts": 106.6
+      "gap": 9.75,
+      "pts": 116.9
      },
      "season": {
       "gp": 12,
       "ppg": 41.68,
       "fp": 500.1,
-      "gap": 8.89,
-      "pts": 106.6
+      "gap": 9.75,
+      "pts": 116.9
      },
      "l30": {
       "gp": 12,
       "ppg": 41.68,
       "fp": 500.1,
-      "gap": 8.84,
-      "pts": 106.0
+      "gap": 9.7,
+      "pts": 116.3
      },
      "l14": {
       "gp": 7,
       "ppg": 42.01,
       "fp": 294.1,
-      "gap": 8.13,
-      "pts": 56.9
+      "gap": 9.05,
+      "pts": 63.4
      }
     },
     "flags": [],
@@ -1045,29 +1057,29 @@
       "gp": 11,
       "ppg": 44.4,
       "fp": 488.4,
-      "gap": 11.61,
-      "pts": 127.7
+      "gap": 12.47,
+      "pts": 137.2
      },
      "season": {
       "gp": 11,
       "ppg": 44.4,
       "fp": 488.4,
-      "gap": 11.61,
-      "pts": 127.7
+      "gap": 12.47,
+      "pts": 137.2
      },
      "l30": {
       "gp": 11,
       "ppg": 44.4,
       "fp": 488.4,
-      "gap": 11.56,
-      "pts": 127.2
+      "gap": 12.42,
+      "pts": 136.6
      },
      "l14": {
       "gp": 6,
       "ppg": 44.8,
       "fp": 268.8,
-      "gap": 10.92,
-      "pts": 65.5
+      "gap": 11.84,
+      "pts": 71.0
      }
     },
     "flags": [],
@@ -1081,45 +1093,36 @@
     "pos": "G",
     "line": "G",
     "c": {
-     "forme": {
-      "gp": 2,
-      "ppg": 31.35,
-      "fp": 62.7,
-      "gap": -1.44,
-      "pts": -2.9
-     },
+     "forme": null,
      "season": {
       "gp": 13,
-      "ppg": 32.65,
-      "fp": 424.5,
-      "gap": -0.14,
-      "pts": -1.8
+      "ppg": 36.59,
+      "fp": 475.7,
+      "gap": 4.66,
+      "pts": 60.6
      },
      "l30": {
       "gp": 13,
-      "ppg": 32.65,
-      "fp": 424.5,
-      "gap": -0.19,
-      "pts": -2.4
+      "ppg": 36.59,
+      "fp": 475.7,
+      "gap": 4.61,
+      "pts": 60.0
      },
      "l14": {
-      "gp": 6,
-      "ppg": 36.17,
-      "fp": 217.0,
-      "gap": 2.29,
-      "pts": 13.7
+      "gp": 7,
+      "ppg": 40.03,
+      "fp": 280.2,
+      "gap": 7.07,
+      "pts": 49.5
      }
     },
-    "flags": [
-     "Poor performer"
-    ],
+    "flags": [],
     "notes": [
-     "Poor performer",
-     "Small sample"
+     "No starts yet"
     ],
-    "small": true,
+    "small": false,
     "pt": 0.0,
-    "mt": 0.07
+    "mt": 0.03
    },
    {
     "p": 5,
@@ -1170,29 +1173,29 @@
       "gp": 1,
       "ppg": 18.9,
       "fp": 18.9,
-      "gap": -13.89,
-      "pts": -13.9
+      "gap": -13.03,
+      "pts": -13.0
      },
      "season": {
       "gp": 9,
       "ppg": 35.72,
       "fp": 321.5,
-      "gap": 2.93,
-      "pts": 26.4
+      "gap": 3.79,
+      "pts": 34.1
      },
      "l30": {
       "gp": 9,
       "ppg": 35.72,
       "fp": 321.5,
-      "gap": 2.88,
-      "pts": 25.9
+      "gap": 3.74,
+      "pts": 33.7
      },
      "l14": {
       "gp": 5,
       "ppg": 38.44,
       "fp": 192.2,
-      "gap": 4.56,
-      "pts": 22.8
+      "gap": 5.48,
+      "pts": 27.4
      }
     },
     "flags": [],
@@ -1308,8 +1311,8 @@
       "gp": 3,
       "ppg": 20.67,
       "fp": 62.0,
-      "gap": -9.29,
-      "pts": -27.9
+      "gap": -8.33,
+      "pts": -25.0
      },
      "season": null,
      "l30": null,
@@ -1354,8 +1357,8 @@
       "gp": 3,
       "ppg": 27.47,
       "fp": 82.4,
-      "gap": -2.49,
-      "pts": -7.5
+      "gap": -1.53,
+      "pts": -4.6
      },
      "season": null,
      "l30": null,
@@ -1400,8 +1403,8 @@
       "gp": 5,
       "ppg": 34.2,
       "fp": 171.0,
-      "gap": 4.24,
-      "pts": 21.2
+      "gap": 5.2,
+      "pts": 26.0
      },
      "season": null,
      "l30": null,
@@ -1422,8 +1425,8 @@
       "gp": 1,
       "ppg": 10.5,
       "fp": 10.5,
-      "gap": -22.29,
-      "pts": -22.3
+      "gap": -21.43,
+      "pts": -21.4
      },
      "season": null,
      "l30": null,
@@ -1484,6 +1487,30 @@
     "small": true,
     "pt": null,
     "mt": null
+   },
+   {
+    "p": 15,
+    "pos": "G",
+    "line": "G",
+    "c": {
+     "forme": {
+      "gp": 2,
+      "ppg": 31.35,
+      "fp": 62.7,
+      "gap": -0.58,
+      "pts": -1.2
+     },
+     "season": null,
+     "l30": null,
+     "l14": null
+    },
+    "flags": [],
+    "notes": [
+     "Small sample"
+    ],
+    "small": true,
+    "pt": null,
+    "mt": null
    }
   ],
   "all": [
@@ -1496,29 +1523,29 @@
       "gp": 12,
       "ppg": 49.48,
       "fp": 593.8,
-      "gap": 15.58,
-      "pts": 187.0
+      "gap": 16.63,
+      "pts": 199.6
      },
      "season": {
       "gp": 12,
       "ppg": 49.48,
       "fp": 593.8,
-      "gap": 15.58,
-      "pts": 187.0
+      "gap": 16.63,
+      "pts": 199.6
      },
      "l30": {
       "gp": 12,
       "ppg": 49.48,
       "fp": 593.8,
-      "gap": 15.58,
-      "pts": 187.0
+      "gap": 16.63,
+      "pts": 199.6
      },
      "l14": {
       "gp": 7,
       "ppg": 51.19,
       "fp": 358.3,
-      "gap": 15.85,
-      "pts": 110.9
+      "gap": 17.7,
+      "pts": 123.9
      }
     },
     "flags": [],
@@ -1536,29 +1563,29 @@
       "gp": 12,
       "ppg": 47.82,
       "fp": 573.9,
-      "gap": 13.92,
-      "pts": 167.1
+      "gap": 14.97,
+      "pts": 179.7
      },
      "season": {
       "gp": 12,
       "ppg": 47.82,
       "fp": 573.9,
-      "gap": 13.92,
-      "pts": 167.1
+      "gap": 14.97,
+      "pts": 179.7
      },
      "l30": {
       "gp": 12,
       "ppg": 47.82,
       "fp": 573.9,
-      "gap": 13.92,
-      "pts": 167.1
+      "gap": 14.97,
+      "pts": 179.7
      },
      "l14": {
       "gp": 6,
       "ppg": 53.13,
       "fp": 318.8,
-      "gap": 17.79,
-      "pts": 106.8
+      "gap": 19.64,
+      "pts": 117.9
      }
     },
     "flags": [],
@@ -1576,29 +1603,29 @@
       "gp": 12,
       "ppg": 41.68,
       "fp": 500.1,
-      "gap": 7.78,
-      "pts": 93.3
+      "gap": 8.83,
+      "pts": 105.9
      },
      "season": {
       "gp": 12,
       "ppg": 41.68,
       "fp": 500.1,
-      "gap": 7.78,
-      "pts": 93.3
+      "gap": 8.83,
+      "pts": 105.9
      },
      "l30": {
       "gp": 12,
       "ppg": 41.68,
       "fp": 500.1,
-      "gap": 7.78,
-      "pts": 93.3
+      "gap": 8.83,
+      "pts": 105.9
      },
      "l14": {
       "gp": 7,
       "ppg": 42.01,
       "fp": 294.1,
-      "gap": 6.67,
-      "pts": 46.7
+      "gap": 8.52,
+      "pts": 59.7
      }
     },
     "flags": [],
@@ -1616,29 +1643,29 @@
       "gp": 11,
       "ppg": 44.4,
       "fp": 488.4,
-      "gap": 10.5,
-      "pts": 115.5
+      "gap": 11.55,
+      "pts": 127.0
      },
      "season": {
       "gp": 11,
       "ppg": 44.4,
       "fp": 488.4,
-      "gap": 10.5,
-      "pts": 115.5
+      "gap": 11.55,
+      "pts": 127.0
      },
      "l30": {
       "gp": 11,
       "ppg": 44.4,
       "fp": 488.4,
-      "gap": 10.5,
-      "pts": 115.5
+      "gap": 11.55,
+      "pts": 127.0
      },
      "l14": {
       "gp": 6,
       "ppg": 44.8,
       "fp": 268.8,
-      "gap": 9.46,
-      "pts": 56.8
+      "gap": 11.31,
+      "pts": 67.9
      }
     },
     "flags": [],
@@ -1652,45 +1679,36 @@
     "pos": "G",
     "line": "ALL",
     "c": {
-     "forme": {
-      "gp": 2,
-      "ppg": 31.35,
-      "fp": 62.7,
-      "gap": -2.55,
-      "pts": -5.1
-     },
+     "forme": null,
      "season": {
       "gp": 13,
-      "ppg": 32.65,
-      "fp": 424.5,
-      "gap": -1.25,
-      "pts": -16.2
+      "ppg": 36.59,
+      "fp": 475.7,
+      "gap": 3.74,
+      "pts": 48.6
      },
      "l30": {
       "gp": 13,
-      "ppg": 32.65,
-      "fp": 424.5,
-      "gap": -1.25,
-      "pts": -16.2
+      "ppg": 36.59,
+      "fp": 475.7,
+      "gap": 3.74,
+      "pts": 48.6
      },
      "l14": {
-      "gp": 6,
-      "ppg": 36.17,
-      "fp": 217.0,
-      "gap": 0.83,
-      "pts": 5.0
+      "gp": 7,
+      "ppg": 40.03,
+      "fp": 280.2,
+      "gap": 6.54,
+      "pts": 45.8
      }
     },
-    "flags": [
-     "Poor performer"
-    ],
+    "flags": [],
     "notes": [
-     "Poor performer",
-     "Small sample"
+     "No starts yet"
     ],
-    "small": true,
+    "small": false,
     "pt": 0.0,
-    "mt": 0.07
+    "mt": 0.03
    },
    {
     "p": 5,
@@ -1701,29 +1719,29 @@
       "gp": 12,
       "ppg": 34.33,
       "fp": 412.0,
-      "gap": 0.43,
-      "pts": 5.2
+      "gap": 1.48,
+      "pts": 17.8
      },
      "season": {
       "gp": 12,
       "ppg": 34.33,
       "fp": 412.0,
-      "gap": 0.43,
-      "pts": 5.2
+      "gap": 1.48,
+      "pts": 17.8
      },
      "l30": {
       "gp": 12,
       "ppg": 34.33,
       "fp": 412.0,
-      "gap": 0.43,
-      "pts": 5.2
+      "gap": 1.48,
+      "pts": 17.8
      },
      "l14": {
       "gp": 6,
       "ppg": 32.4,
       "fp": 194.4,
-      "gap": -2.94,
-      "pts": -17.6
+      "gap": -1.09,
+      "pts": -6.5
      }
     },
     "flags": [],
@@ -1741,29 +1759,29 @@
       "gp": 1,
       "ppg": 18.9,
       "fp": 18.9,
-      "gap": -15.0,
-      "pts": -15.0
+      "gap": -13.95,
+      "pts": -14.0
      },
      "season": {
       "gp": 9,
       "ppg": 35.72,
       "fp": 321.5,
-      "gap": 1.82,
-      "pts": 16.4
+      "gap": 2.87,
+      "pts": 25.8
      },
      "l30": {
       "gp": 9,
       "ppg": 35.72,
       "fp": 321.5,
-      "gap": 1.82,
-      "pts": 16.4
+      "gap": 2.87,
+      "pts": 25.8
      },
      "l14": {
       "gp": 5,
       "ppg": 38.44,
       "fp": 192.2,
-      "gap": 3.1,
-      "pts": 15.5
+      "gap": 4.95,
+      "pts": 24.7
      }
     },
     "flags": [],
@@ -1819,8 +1837,8 @@
       "gp": 3,
       "ppg": 20.67,
       "fp": 62.0,
-      "gap": -13.23,
-      "pts": -39.7
+      "gap": -12.18,
+      "pts": -36.5
      },
      "season": null,
      "l30": null,
@@ -1843,8 +1861,8 @@
       "gp": 5,
       "ppg": 24.28,
       "fp": 121.4,
-      "gap": -9.62,
-      "pts": -48.1
+      "gap": -8.57,
+      "pts": -42.9
      },
      "season": null,
      "l30": null,
@@ -1865,8 +1883,8 @@
       "gp": 3,
       "ppg": 27.47,
       "fp": 82.4,
-      "gap": -6.43,
-      "pts": -19.3
+      "gap": -5.38,
+      "pts": -16.1
      },
      "season": null,
      "l30": null,
@@ -1889,8 +1907,8 @@
       "gp": 5,
       "ppg": 34.2,
       "fp": 171.0,
-      "gap": 0.3,
-      "pts": 1.5
+      "gap": 1.35,
+      "pts": 6.8
      },
      "season": null,
      "l30": null,
@@ -1911,8 +1929,8 @@
       "gp": 1,
       "ppg": 10.5,
       "fp": 10.5,
-      "gap": -23.4,
-      "pts": -23.4
+      "gap": -22.35,
+      "pts": -22.4
      },
      "season": null,
      "l30": null,
@@ -1935,8 +1953,32 @@
       "gp": 4,
       "ppg": 27.1,
       "fp": 108.4,
-      "gap": -6.8,
-      "pts": -27.2
+      "gap": -5.75,
+      "pts": -23.0
+     },
+     "season": null,
+     "l30": null,
+     "l14": null
+    },
+    "flags": [],
+    "notes": [
+     "Small sample"
+    ],
+    "small": true,
+    "pt": null,
+    "mt": null
+   },
+   {
+    "p": 15,
+    "pos": "G",
+    "line": "ALL",
+    "c": {
+     "forme": {
+      "gp": 2,
+      "ppg": 31.35,
+      "fp": 62.7,
+      "gap": -1.5,
+      "pts": -3.0
      },
      "season": null,
      "l30": null,
@@ -1955,34 +1997,6 @@
  "fa": {
   "season": [
    {
-    "name": "Davion Mitchell",
-    "team": "MIA",
-    "pos": [
-     "G"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 86.0,
-    "gp": 13,
-    "fp": 475.7,
-    "ppg": 36.59,
-    "mpg": 35.8,
-    "st": {
-     "PTS": 218.0,
-     "REB": 31.0,
-     "AST": 119.0,
-     "ST": 16.0,
-     "BLK": 9.0,
-     "TO": 33.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "G",
-     "ALL"
-    ]
-   },
-   {
     "name": "Jeremiah Fears",
     "team": "NOP",
     "pos": [
@@ -1990,7 +2004,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 78.0,
+    "own": 79.0,
     "gp": 14,
     "fp": 426.1,
     "ppg": 30.44,
@@ -2006,6 +2020,34 @@
     "q": true,
     "why": "",
     "pool": []
+   },
+   {
+    "name": "Ayo Dosunmu",
+    "team": "MIN",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": true,
+    "own": 85.0,
+    "gp": 13,
+    "fp": 424.5,
+    "ppg": 32.65,
+    "mpg": 31.1,
+    "st": {
+     "PTS": 241.0,
+     "REB": 60.0,
+     "AST": 45.0,
+     "ST": 18.0,
+     "BLK": 6.0,
+     "TO": 28.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "ALL"
+    ]
    },
    {
     "name": "Isaiah Hartenstein",
@@ -2040,7 +2082,7 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "",
     "wv": false,
     "own": 92.0,
     "gp": 13,
@@ -2085,34 +2127,6 @@
     "pool": []
    },
    {
-    "name": "Donovan Clingan",
-    "team": "POR",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 98.0,
-    "gp": 12,
-    "fp": 391.7,
-    "ppg": 32.64,
-    "mpg": 25.3,
-    "st": {
-     "PTS": 132.0,
-     "REB": 126.0,
-     "AST": 19.0,
-     "ST": 6.0,
-     "BLK": 26.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C",
-     "ALL"
-    ]
-   },
-   {
     "name": "Miles Bridges",
     "team": "PHX",
     "pos": [
@@ -2136,7 +2150,8 @@
     "q": true,
     "why": "",
     "pool": [
-     "F"
+     "F",
+     "ALL"
     ]
    },
    {
@@ -2225,7 +2240,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 58.0,
+    "own": 59.0,
     "gp": 14,
     "fp": 377.4,
     "ppg": 26.96,
@@ -2249,7 +2264,7 @@
      "G",
      "F"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
     "own": 87.0,
     "gp": 12,
@@ -2441,7 +2456,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 39.0,
+    "own": 41.0,
     "gp": 14,
     "fp": 346.4,
     "ppg": 24.74,
@@ -2495,7 +2510,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 42.0,
+    "own": 41.0,
     "gp": 14,
     "fp": 335.7,
     "ppg": 23.98,
@@ -2535,7 +2550,9 @@
     },
     "q": true,
     "why": "",
-    "pool": []
+    "pool": [
+     "C"
+    ]
    },
    {
     "name": "Andrew Nembhard",
@@ -2570,7 +2587,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 26.0,
+    "own": 25.0,
     "gp": 14,
     "fp": 327.3,
     "ppg": 23.38,
@@ -2621,7 +2638,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 47.0,
+    "own": 46.0,
     "gp": 14,
     "fp": 326.2,
     "ppg": 23.3,
@@ -2697,9 +2714,9 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "",
     "wv": false,
-    "own": 72.0,
+    "own": 73.0,
     "gp": 11,
     "fp": 317.9,
     "ppg": 28.9,
@@ -2828,7 +2845,7 @@
     ],
     "tag": "Q",
     "wv": false,
-    "own": 59.0,
+    "own": 57.0,
     "gp": 12,
     "fp": 315.9,
     "ppg": 26.32,
@@ -2928,7 +2945,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 53.0,
+    "own": 52.0,
     "gp": 14,
     "fp": 308.6,
     "ppg": 22.04,
@@ -2953,7 +2970,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 22.0,
+    "own": 21.0,
     "gp": 14,
     "fp": 306.4,
     "ppg": 21.89,
@@ -2979,7 +2996,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 57.0,
+    "own": 60.0,
     "gp": 11,
     "fp": 305.1,
     "ppg": 27.74,
@@ -3055,7 +3072,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 86.0,
+    "own": 87.0,
     "gp": 10,
     "fp": 304.0,
     "ppg": 30.4,
@@ -3080,9 +3097,9 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
-    "own": 82.0,
+    "own": 81.0,
     "gp": 13,
     "fp": 303.5,
     "ppg": 23.35,
@@ -3105,7 +3122,7 @@
     "pos": [
      "C"
     ],
-    "tag": "",
+    "tag": "O",
     "wv": false,
     "own": 65.0,
     "gp": 13,
@@ -3159,7 +3176,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 43.0,
+    "own": 41.0,
     "gp": 14,
     "fp": 295.0,
     "ppg": 21.07,
@@ -3184,7 +3201,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 57.0,
+    "own": 58.0,
     "gp": 12,
     "fp": 294.2,
     "ppg": 24.52,
@@ -3209,7 +3226,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 27.0,
+    "own": 30.0,
     "gp": 13,
     "fp": 293.8,
     "ppg": 22.6,
@@ -3234,7 +3251,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 35.0,
+    "own": 36.0,
     "gp": 13,
     "fp": 293.5,
     "ppg": 22.58,
@@ -3250,37 +3267,34 @@
     "q": true,
     "why": "",
     "pool": []
-   }
-  ],
-  "l30": [
+   },
    {
-    "name": "Davion Mitchell",
-    "team": "MIA",
+    "name": "Kris Dunn",
+    "team": "LAC",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 86.0,
-    "gp": 13,
-    "fp": 475.7,
-    "ppg": 36.59,
-    "mpg": 35.7,
+    "own": 32.0,
+    "gp": 12,
+    "fp": 293.2,
+    "ppg": 24.43,
+    "mpg": 26.9,
     "st": {
-     "PTS": 218.0,
-     "REB": 31.0,
-     "AST": 119.0,
-     "ST": 16.0,
-     "BLK": 9.0,
-     "TO": 33.0
+     "PTS": 94.0,
+     "REB": 46.0,
+     "AST": 50.0,
+     "ST": 24.0,
+     "BLK": 5.0,
+     "TO": 18.0
     },
     "q": true,
     "why": "",
-    "pool": [
-     "G",
-     "ALL"
-    ]
-   },
+    "pool": []
+   }
+  ],
+  "l30": [
    {
     "name": "Jeremiah Fears",
     "team": "NOP",
@@ -3289,7 +3303,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 78.0,
+    "own": 79.0,
     "gp": 14,
     "fp": 426.1,
     "ppg": 30.44,
@@ -3305,6 +3319,34 @@
     "q": true,
     "why": "",
     "pool": []
+   },
+   {
+    "name": "Ayo Dosunmu",
+    "team": "MIN",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": true,
+    "own": 85.0,
+    "gp": 13,
+    "fp": 424.5,
+    "ppg": 32.65,
+    "mpg": 31.1,
+    "st": {
+     "PTS": 241.0,
+     "REB": 60.0,
+     "AST": 45.0,
+     "ST": 18.0,
+     "BLK": 6.0,
+     "TO": 28.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "ALL"
+    ]
    },
    {
     "name": "Isaiah Hartenstein",
@@ -3339,7 +3381,7 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "",
     "wv": false,
     "own": 92.0,
     "gp": 13,
@@ -3384,34 +3426,6 @@
     "pool": []
    },
    {
-    "name": "Donovan Clingan",
-    "team": "POR",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 98.0,
-    "gp": 12,
-    "fp": 391.7,
-    "ppg": 32.64,
-    "mpg": 25.5,
-    "st": {
-     "PTS": 132.0,
-     "REB": 126.0,
-     "AST": 19.0,
-     "ST": 6.0,
-     "BLK": 26.0,
-     "TO": 16.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
-     "C",
-     "ALL"
-    ]
-   },
-   {
     "name": "Miles Bridges",
     "team": "PHX",
     "pos": [
@@ -3435,7 +3449,8 @@
     "q": true,
     "why": "",
     "pool": [
-     "F"
+     "F",
+     "ALL"
     ]
    },
    {
@@ -3524,7 +3539,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 58.0,
+    "own": 59.0,
     "gp": 14,
     "fp": 377.4,
     "ppg": 26.96,
@@ -3575,7 +3590,7 @@
      "G",
      "F"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
     "own": 87.0,
     "gp": 12,
@@ -3740,7 +3755,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 39.0,
+    "own": 41.0,
     "gp": 14,
     "fp": 346.4,
     "ppg": 24.74,
@@ -3794,7 +3809,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 42.0,
+    "own": 41.0,
     "gp": 14,
     "fp": 335.7,
     "ppg": 23.98,
@@ -3834,7 +3849,9 @@
     },
     "q": true,
     "why": "",
-    "pool": []
+    "pool": [
+     "C"
+    ]
    },
    {
     "name": "Andrew Nembhard",
@@ -3869,7 +3886,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 26.0,
+    "own": 25.0,
     "gp": 14,
     "fp": 327.3,
     "ppg": 23.38,
@@ -3920,7 +3937,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 47.0,
+    "own": 46.0,
     "gp": 14,
     "fp": 326.2,
     "ppg": 23.3,
@@ -3996,9 +4013,9 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "",
     "wv": false,
-    "own": 72.0,
+    "own": 73.0,
     "gp": 11,
     "fp": 317.9,
     "ppg": 28.9,
@@ -4127,7 +4144,7 @@
     ],
     "tag": "Q",
     "wv": false,
-    "own": 59.0,
+    "own": 57.0,
     "gp": 12,
     "fp": 315.9,
     "ppg": 26.32,
@@ -4227,7 +4244,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 53.0,
+    "own": 52.0,
     "gp": 14,
     "fp": 308.6,
     "ppg": 22.04,
@@ -4252,7 +4269,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 22.0,
+    "own": 21.0,
     "gp": 14,
     "fp": 306.4,
     "ppg": 21.89,
@@ -4278,7 +4295,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 57.0,
+    "own": 60.0,
     "gp": 11,
     "fp": 305.1,
     "ppg": 27.74,
@@ -4354,7 +4371,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 86.0,
+    "own": 87.0,
     "gp": 10,
     "fp": 304.0,
     "ppg": 30.4,
@@ -4379,9 +4396,9 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
-    "own": 82.0,
+    "own": 81.0,
     "gp": 13,
     "fp": 303.5,
     "ppg": 23.35,
@@ -4404,7 +4421,7 @@
     "pos": [
      "C"
     ],
-    "tag": "",
+    "tag": "O",
     "wv": false,
     "own": 65.0,
     "gp": 13,
@@ -4458,7 +4475,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 43.0,
+    "own": 41.0,
     "gp": 14,
     "fp": 295.0,
     "ppg": 21.07,
@@ -4483,7 +4500,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 57.0,
+    "own": 58.0,
     "gp": 12,
     "fp": 294.2,
     "ppg": 24.52,
@@ -4508,7 +4525,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 27.0,
+    "own": 30.0,
     "gp": 13,
     "fp": 293.8,
     "ppg": 22.6,
@@ -4533,7 +4550,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 35.0,
+    "own": 36.0,
     "gp": 13,
     "fp": 293.5,
     "ppg": 22.58,
@@ -4549,37 +4566,34 @@
     "q": true,
     "why": "",
     "pool": []
-   }
-  ],
-  "l14": [
+   },
    {
-    "name": "Davion Mitchell",
-    "team": "MIA",
+    "name": "Kris Dunn",
+    "team": "LAC",
     "pos": [
      "G"
     ],
     "tag": "",
     "wv": false,
-    "own": 86.0,
-    "gp": 7,
-    "fp": 280.2,
-    "ppg": 40.03,
-    "mpg": 37.0,
+    "own": 32.0,
+    "gp": 12,
+    "fp": 293.2,
+    "ppg": 24.43,
+    "mpg": 27.0,
     "st": {
-     "PTS": 121.0,
-     "REB": 21.0,
-     "AST": 70.0,
-     "ST": 9.0,
-     "BLK": 6.0,
-     "TO": 16.0
+     "PTS": 94.0,
+     "REB": 46.0,
+     "AST": 50.0,
+     "ST": 24.0,
+     "BLK": 5.0,
+     "TO": 18.0
     },
     "q": true,
     "why": "",
-    "pool": [
-     "G",
-     "ALL"
-    ]
-   },
+    "pool": []
+   }
+  ],
+  "l14": [
    {
     "name": "Jeremiah Fears",
     "team": "NOP",
@@ -4588,7 +4602,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 78.0,
+    "own": 79.0,
     "gp": 8,
     "fp": 261.4,
     "ppg": 32.67,
@@ -4632,33 +4646,6 @@
     "q": true,
     "why": "",
     "pool": [
-     "C"
-    ]
-   },
-   {
-    "name": "Donovan Clingan",
-    "team": "POR",
-    "pos": [
-     "C"
-    ],
-    "tag": "",
-    "wv": false,
-    "own": 98.0,
-    "gp": 7,
-    "fp": 255.2,
-    "ppg": 36.46,
-    "mpg": 27.7,
-    "st": {
-     "PTS": 89.0,
-     "REB": 81.0,
-     "AST": 12.0,
-     "ST": 5.0,
-     "BLK": 16.0,
-     "TO": 12.0
-    },
-    "q": true,
-    "why": "",
-    "pool": [
      "C",
      "ALL"
     ]
@@ -4698,7 +4685,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 58.0,
+    "own": 59.0,
     "gp": 8,
     "fp": 228.5,
     "ppg": 28.56,
@@ -4740,6 +4727,34 @@
     "why": "",
     "pool": [
      "G"
+    ]
+   },
+   {
+    "name": "Ayo Dosunmu",
+    "team": "MIN",
+    "pos": [
+     "G"
+    ],
+    "tag": "",
+    "wv": true,
+    "own": 85.0,
+    "gp": 6,
+    "fp": 217.0,
+    "ppg": 36.17,
+    "mpg": 33.3,
+    "st": {
+     "PTS": 134.0,
+     "REB": 25.0,
+     "AST": 20.0,
+     "ST": 9.0,
+     "BLK": 3.0,
+     "TO": 13.0
+    },
+    "q": true,
+    "why": "",
+    "pool": [
+     "G",
+     "ALL"
     ]
    },
    {
@@ -4879,7 +4894,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 53.0,
+    "own": 52.0,
     "gp": 8,
     "fp": 204.3,
     "ppg": 25.54,
@@ -4932,7 +4947,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 23.0,
+    "own": 22.0,
     "gp": 8,
     "fp": 191.1,
     "ppg": 23.89,
@@ -4984,7 +4999,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 21.0,
+    "own": 27.0,
     "gp": 8,
     "fp": 183.6,
     "ppg": 22.95,
@@ -5007,7 +5022,7 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "",
     "wv": false,
     "own": 92.0,
     "gp": 7,
@@ -5215,7 +5230,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 43.0,
+    "own": 44.0,
     "gp": 6,
     "fp": 177.5,
     "ppg": 29.58,
@@ -5242,7 +5257,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 26.0,
+    "own": 25.0,
     "gp": 8,
     "fp": 177.2,
     "ppg": 22.15,
@@ -5267,7 +5282,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 20.0,
+    "own": 19.0,
     "gp": 7,
     "fp": 176.2,
     "ppg": 25.17,
@@ -5343,7 +5358,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 16.0,
+    "own": 17.0,
     "gp": 6,
     "fp": 172.8,
     "ppg": 28.8,
@@ -5370,7 +5385,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 18.0,
+    "own": 20.0,
     "gp": 7,
     "fp": 172.6,
     "ppg": 24.66,
@@ -5412,7 +5427,8 @@
     "q": true,
     "why": "",
     "pool": [
-     "F"
+     "F",
+     "C"
     ]
    },
    {
@@ -5422,7 +5438,7 @@
      "G",
      "F"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
     "own": 87.0,
     "gp": 6,
@@ -5478,7 +5494,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 25.0,
+    "own": 23.0,
     "gp": 8,
     "fp": 171.0,
     "ppg": 21.38,
@@ -5501,7 +5517,7 @@
     "pos": [
      "C"
     ],
-    "tag": "",
+    "tag": "O",
     "wv": false,
     "own": 65.0,
     "gp": 7,
@@ -5529,7 +5545,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 39.0,
+    "own": 41.0,
     "gp": 7,
     "fp": 170.1,
     "ppg": 24.3,
@@ -5554,7 +5570,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 50.0,
+    "own": 48.0,
     "gp": 6,
     "fp": 164.4,
     "ppg": 27.4,
@@ -5579,7 +5595,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 57.0,
+    "own": 58.0,
     "gp": 7,
     "fp": 163.9,
     "ppg": 23.41,
@@ -5629,7 +5645,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 47.0,
+    "own": 46.0,
     "gp": 8,
     "fp": 161.3,
     "ppg": 20.16,
@@ -5679,7 +5695,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 27.0,
+    "own": 30.0,
     "gp": 7,
     "fp": 159.2,
     "ppg": 22.74,
@@ -5705,7 +5721,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 42.0,
+    "own": 41.0,
     "gp": 7,
     "fp": 159.0,
     "ppg": 22.71,
@@ -5730,7 +5746,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 43.0,
+    "own": 46.0,
     "gp": 8,
     "fp": 158.8,
     "ppg": 19.85,
@@ -5756,7 +5772,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 57.0,
+    "own": 60.0,
     "gp": 6,
     "fp": 157.9,
     "ppg": 26.32,
@@ -5779,9 +5795,9 @@
     "pos": [
      "G"
     ],
-    "tag": "O",
+    "tag": "",
     "wv": false,
-    "own": 72.0,
+    "own": 73.0,
     "gp": 6,
     "fp": 157.1,
     "ppg": 26.18,
@@ -5806,7 +5822,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 48.0,
+    "own": 47.0,
     "gp": 8,
     "fp": 156.9,
     "ppg": 19.61,
@@ -5847,14 +5863,40 @@
     "q": true,
     "why": "",
     "pool": []
+   },
+   {
+    "name": "Paul Reed",
+    "team": "DET",
+    "pos": [
+     "F",
+     "C"
+    ],
+    "tag": "",
+    "wv": false,
+    "own": 54.0,
+    "gp": 6,
+    "fp": 156.4,
+    "ppg": 26.07,
+    "mpg": 26.7,
+    "st": {
+     "PTS": 53.0,
+     "REB": 52.0,
+     "AST": 14.0,
+     "ST": 5.0,
+     "BLK": 5.0,
+     "TO": 10.0
+    },
+    "q": true,
+    "why": "",
+    "pool": []
    }
   ]
  },
  "weakest": {
   "season": {
    "G": {
-    "name": "Ayo Dosunmu",
-    "ppg": 32.65
+    "name": "Anthony Black",
+    "ppg": 35.72
    },
    "F": {
     "name": "Julius Randle",
@@ -5865,14 +5907,14 @@
     "ppg": 49.48
    },
    "ALL": {
-    "name": "Ayo Dosunmu",
-    "ppg": 32.65
+    "name": "Julius Randle",
+    "ppg": 34.33
    }
   },
   "l30": {
    "G": {
-    "name": "Ayo Dosunmu",
-    "ppg": 32.65
+    "name": "Anthony Black",
+    "ppg": 35.72
    },
    "F": {
     "name": "Julius Randle",
@@ -5883,14 +5925,14 @@
     "ppg": 49.48
    },
    "ALL": {
-    "name": "Ayo Dosunmu",
-    "ppg": 32.65
+    "name": "Julius Randle",
+    "ppg": 34.33
    }
   },
   "l14": {
    "G": {
-    "name": "Ayo Dosunmu",
-    "ppg": 36.17
+    "name": "Anthony Black",
+    "ppg": 38.44
    },
    "F": {
     "name": "Julius Randle",
