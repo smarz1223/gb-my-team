@@ -3,7 +3,7 @@
   "masthead": "Marion Hall of Fame",
   "team": "Marion HoF 2027",
   "season_label": "2026-27",
-  "updated": "Mon Nov 23, 9:09 AM ET",
+  "updated": "Mon Nov 23, 10:10 AM ET",
   "pull_date": "Mon Nov 23",
   "weights": {
    "PTS": 1.0,
@@ -20,9 +20,7 @@
   "pool_size": 5,
   "min_gp_pct": 0.5
  },
- "warnings": [
-  "Possible name mismatch: 'Daniss JenkinsVideo Forecast' (team log, Cut) vs 'Davion MitchellVideo Forecast' (roster). Add a Name Fixes row if same player."
- ],
+ "warnings": [],
  "lines": {
   "season": {
    "G": {
@@ -143,7 +141,7 @@
      "Immanuel Quickley",
      "Jeremiah Fears",
      "Christian Braun",
-     "Daniss JenkinsVideo Forecast"
+     "Daniss Jenkins"
     ]
    },
    "F": {
@@ -459,7 +457,7 @@
    }
   },
   {
-   "name": "Davion MitchellVideo Forecast",
+   "name": "Davion Mitchell",
    "team": "MIA",
    "pos": [
     "G"
@@ -819,7 +817,7 @@
    }
   },
   {
-   "name": "Daniss JenkinsVideo Forecast",
+   "name": "Daniss Jenkins",
    "team": "DET",
    "pos": [
     "G"
@@ -2328,7 +2326,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 82.0,
+    "own": 81.0,
     "gp": 15,
     "fp": 446.1,
     "ppg": 29.74,
@@ -2381,7 +2379,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
+    "own": 70.0,
     "gp": 15,
     "fp": 441.3,
     "ppg": 29.42,
@@ -2433,7 +2431,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
+    "own": 70.0,
     "gp": 16,
     "fp": 438.7,
     "ppg": 27.42,
@@ -2481,7 +2479,7 @@
     ]
    },
    {
-    "name": "Daniss JenkinsVideo Forecast",
+    "name": "Daniss Jenkins",
     "team": "DET",
     "pos": [
      "G"
@@ -2532,7 +2530,7 @@
     "pool": []
    },
    {
-    "name": "Cam SpencerVideo Forecast",
+    "name": "Cam Spencer",
     "team": "MEM",
     "pos": [
      "G"
@@ -2614,7 +2612,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 53.0,
+    "own": 54.0,
     "gp": 15,
     "fp": 415.8,
     "ppg": 27.72,
@@ -2764,7 +2762,7 @@
     "pos": [
      "C"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
     "own": 58.0,
     "gp": 16,
@@ -2791,7 +2789,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 33.0,
+    "own": 34.0,
     "gp": 17,
     "fp": 391.1,
     "ppg": 23.01,
@@ -2866,7 +2864,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 62.0,
+    "own": 63.0,
     "gp": 13,
     "fp": 385.6,
     "ppg": 29.66,
@@ -3095,7 +3093,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 66.0,
+    "own": 67.0,
     "gp": 15,
     "fp": 363.0,
     "ppg": 24.2,
@@ -3143,9 +3141,9 @@
     "pos": [
      "C"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
-    "own": 26.0,
+    "own": 25.0,
     "gp": 15,
     "fp": 359.2,
     "ppg": 23.95,
@@ -3518,7 +3516,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
+    "own": 70.0,
     "gp": 14,
     "fp": 424.6,
     "ppg": 30.33,
@@ -3545,7 +3543,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 82.0,
+    "own": 81.0,
     "gp": 14,
     "fp": 413.2,
     "ppg": 29.51,
@@ -3645,7 +3643,7 @@
     ]
    },
    {
-    "name": "Cam SpencerVideo Forecast",
+    "name": "Cam Spencer",
     "team": "MEM",
     "pos": [
      "G"
@@ -3698,7 +3696,7 @@
     ]
    },
    {
-    "name": "Daniss JenkinsVideo Forecast",
+    "name": "Daniss Jenkins",
     "team": "DET",
     "pos": [
      "G"
@@ -3730,7 +3728,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
+    "own": 70.0,
     "gp": 14,
     "fp": 387.2,
     "ppg": 27.66,
@@ -3878,7 +3876,7 @@
     "pos": [
      "C"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
     "own": 58.0,
     "gp": 14,
@@ -3985,7 +3983,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 33.0,
+    "own": 34.0,
     "gp": 15,
     "fp": 363.4,
     "ppg": 24.23,
@@ -4113,7 +4111,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 53.0,
+    "own": 54.0,
     "gp": 13,
     "fp": 346.3,
     "ppg": 26.64,
@@ -4390,7 +4388,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 66.0,
+    "own": 67.0,
     "gp": 14,
     "fp": 327.3,
     "ppg": 23.38,
@@ -4440,7 +4438,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 62.0,
+    "own": 63.0,
     "gp": 11,
     "fp": 322.4,
     "ppg": 29.31,
@@ -4653,7 +4651,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
+    "own": 70.0,
     "gp": 7,
     "fp": 230.6,
     "ppg": 32.94,
@@ -4675,7 +4673,7 @@
     ]
    },
    {
-    "name": "Daniss JenkinsVideo Forecast",
+    "name": "Daniss Jenkins",
     "team": "DET",
     "pos": [
      "G"
@@ -4754,7 +4752,7 @@
     "pool": []
    },
    {
-    "name": "Cam SpencerVideo Forecast",
+    "name": "Cam Spencer",
     "team": "MEM",
     "pos": [
      "G"
@@ -4841,7 +4839,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 69.0,
+    "own": 70.0,
     "gp": 7,
     "fp": 208.3,
     "ppg": 29.76,
@@ -4996,7 +4994,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 53.0,
+    "own": 54.0,
     "gp": 6,
     "fp": 187.7,
     "ppg": 31.28,
@@ -5023,7 +5021,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 82.0,
+    "own": 81.0,
     "gp": 7,
     "fp": 187.5,
     "ppg": 26.79,
@@ -5126,7 +5124,7 @@
     "pos": [
      "C"
     ],
-    "tag": "O",
+    "tag": "Q",
     "wv": false,
     "own": 58.0,
     "gp": 6,
@@ -5206,7 +5204,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 33.0,
+    "own": 34.0,
     "gp": 7,
     "fp": 177.1,
     "ppg": 25.3,
@@ -5610,7 +5608,7 @@
     ],
     "tag": "",
     "wv": false,
-    "own": 66.0,
+    "own": 67.0,
     "gp": 7,
     "fp": 163.1,
     "ppg": 23.3,
@@ -5888,7 +5886,7 @@
  "weakest": {
   "season": {
    "G": {
-    "name": "Davion MitchellVideo Forecast",
+    "name": "Davion Mitchell",
     "ppg": 36.19
    },
    "F": {
@@ -5906,7 +5904,7 @@
   },
   "l30": {
    "G": {
-    "name": "Davion MitchellVideo Forecast",
+    "name": "Davion Mitchell",
     "ppg": 37.19
    },
    "F": {
@@ -5924,7 +5922,7 @@
   },
   "l14": {
    "G": {
-    "name": "Davion MitchellVideo Forecast",
+    "name": "Davion Mitchell",
     "ppg": 40.18
    },
    "F": {
