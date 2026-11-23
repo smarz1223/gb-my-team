@@ -46,7 +46,7 @@ STATS = ["PTS", "REB", "AST", "ST", "BLK", "TO"]
 
 INJURED_TAGS = {"INJ", "O"}
 TAGS = ["SUSP", "INJ", "GTD", "DTD", "NA", "O", "Q", "P"]  # longest first
-NOTE_TEXT = ["No new player Notes", "New Player Note", "Player Note"]
+NOTE_TEXT = ["No new player Notes", "New Player Note", "Player Note", "Video Forecast"]
 STATUS_ALIASES = {
     "active": "Active", "injured": "Injured", "inj": "Injured", "il": "Injured",
     "cut": "Cut", "dropped": "Cut", "inactive": "Cut",
@@ -196,7 +196,7 @@ def strip_tail(name):
     """Remove trailing note text and injury tag. Runs twice (tag can sit
     before or after the note text)."""
     tag = ""
-    for _ in range(2):
+    for _ in range(4):  # note text, video button and tag can stack in any order
         for note in NOTE_TEXT:
             if name.endswith(note):
                 name = name[: -len(note)].rstrip()
