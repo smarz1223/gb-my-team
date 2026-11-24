@@ -1,10 +1,10 @@
-# gb-my-team SPEC (v1.0, 2026-10-28)
+# gb-my-team SPEC (v1.1, 2026-11-24)
 
 Personal fantasy basketball analysis for Marz's Game...Blouses team ("Marion HoF 2027").
 Masthead: **Marion Hall of Fame**
 Template: `smarz1223/td-my-team` SPEC v1.2 (hockey). Differences are called out below.
 
-Built 2026-10-28 against the workbook with Config and renamed tabs.
+Built 2026-10-28 against the workbook with Config and renamed tabs. v1.1 (2026-11-24) adds the Scatter page and the name-parsing fixes.
 
 ---
 
@@ -101,8 +101,8 @@ Example raw string: `Alperen ŞengünONew Player NoteHOU - F,C`
 1. Keep the first line only (drops game time).
 2. Remove icon characters (Unicode private-use range).
 3. Read `TEAM - POS` from the end. POS is a comma list of G, F, C. TEAM uses a known NBA abbreviation list, longest first (Yahoo uses GSW, not GS).
-4. Strip note text from the end of the name: `Player Note`, `New Player Note`, `No new player Notes`.
-5. Strip injury tag from the end of the name: `INJ`, `GTD`, `DTD`, `O`, `Q`, `P`, `SUSP`, `NA` (Yahoo NBA uses O = out, Q = questionable, P = probable). Counts as a tag only when the character before it is lowercase, a period, or an apostrophe. Loop runs twice (tag before note). Save as tag.
+4. Strip note text from the end of the name: `Player Note`, `New Player Note`, `No new player Notes`, `Video Forecast` (Yahoo's video button, which imports as text).
+5. Strip injury tag from the end of the name: `INJ`, `GTD`, `DTD`, `O`, `Q`, `P`, `SUSP`, `NA` (Yahoo NBA uses O = out, Q = questionable, P = probable). Counts as a tag only when the character before it is lowercase, a period, or an apostrophe. Loop runs 4 times (tag, video button, and note text can stack in any order). Save as tag.
 6. Apply Name Fixes tab if present.
 
 Match key = accent-folded lowercase name, periods and apostrophes removed. **No position group in the key** (basketball has one player table, and multi-position eligibility changes during the season). Team is not in the key (trades do not break matches).
@@ -169,7 +169,7 @@ Trend columns:
 
 ## 10. Pages and controls
 
-Page buttons (My Team, Waiver Wire) in the title bar. Slicers in one panel below. Tables redraw in place.
+Page buttons (My Team, Waiver Wire, Scatter) in the title bar. Slicers in one panel below. Tables redraw in place. `#wire` and `#scatter` in the URL open those pages directly.
 
 **Total FP** column (PPG x GP) next to PPG on every table.
 
@@ -187,6 +187,18 @@ Page buttons (My Team, Waiver Wire) in the title bar. Slicers in one panel below
 - My team rows: Active and Injured players eligible at the selected position with GP in that window, blue rows with a "Mine" tag. Cut players and 0 GP excluded.
 - Columns: pool star, player, pos, team, own %, GP, MPG, PPG, +/- line, per-game stats (PTS, REB, AST, ST, BLK, TO), Upgrade over.
 - Upgrade over = my weakest Active player eligible at the position, same window, PPG gain (positive only).
+
+**Scatter**
+- Same data as the Waiver Wire: free agents at the selected position and window, plus my Active and Injured players (Cut and 0 GP excluded).
+- Slicers: Position (G, F, C, All), Window (Season, L30, L14), Show my team, Show disqualified. Position and Window are shared with the Waiver Wire (switching pages keeps the same view). Per game / Totals and Stats as are hidden (neither changes an axis).
+- Default: All, L30 (the Waiver Wire default).
+- X = total fantasy points in the window (starts at 0). Y = fantasy points per game (zooms to the data, does not force 0).
+- Dots: my players court blue (Injured same dot; status in hover), replacement pool ball orange, other free agents gray, disqualified hollow gray. Turning off Show my team or Show disqualified grays those dots out (faded, no labels) instead of removing them.
+- Lines: dashed orange at the replacement line PPG; dotted blue at my weakest Active player's PPG at that position and window ("Your weakest: Name PPG"). Any free agent above the blue line is an upgrade. Line labels move to avoid dots and each other.
+- Labels: my players (always) plus the top 5 qualified free agents by PPG, by last name (suffixes dropped; first initial added when two labeled players share a last name). Crowded free agent labels are dropped; crowded labels for my players take the least-overlapping spot.
+- Hover (tap on phones; tap elsewhere to close): name, injury tag, Waivers tag, team, pos, type, own %, GP, MPG, PPG, total FP, PPG vs line, Upgrade over.
+- No dot sizing by MPG (decided). No special marking for players I cut who are now free agents (decided).
+- Hand-drawn SVG (no chart library), redrawn at the container width; taller on phones.
 
 **All tables**
 - Click any column header to sort; click again to reverse.
@@ -223,7 +235,7 @@ No snapshots, no This Week or games-remaining view, no "since dropped" tracking,
 
 - If the sheet download fails or the roster tables are empty, the run stops and the live site is left unchanged.
 - Fan Pts on my-team rows are checked against the scoring weights; mismatches over 0.5 are reported.
-- A Cut player sharing a last name with a roster player is flagged as a possible name mismatch.
+- A Cut player sharing a last name (ignoring Jr., Sr., II to V) with a roster player is flagged as a possible name mismatch.
 - Two different players with the same match key on one tab are flagged (see section 5).
 
 ## 15. Season rollover checklist
